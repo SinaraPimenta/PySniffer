@@ -10,7 +10,7 @@ soup = BeautifulSoup(html.text, 'html.parser')
 #Pegando os links dos repos
 links = soup.find_all("a",attrs={"itemprop":"name codeRepository"})
 #Clonando os repos
-for link in links[-4:-3]:
+for link in links:
     print(link)
     resp = link.get("href")
     dir = (resp.split("/"))[-1]
