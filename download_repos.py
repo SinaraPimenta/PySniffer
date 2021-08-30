@@ -1,7 +1,9 @@
-from git import Repo
+import os
+
 import requests
 from bs4 import BeautifulSoup
-import os
+from git import Repo
+
 
 def download_repos(links:list):
     #Clonando os repos
@@ -27,3 +29,4 @@ def get_links_repos():
 if __name__ == "__main__":
     links = get_links_repos()
     download_repos(os.link)
+
