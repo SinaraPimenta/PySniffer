@@ -1,5 +1,5 @@
 import ast
-from getAllPaths import getAllPaths 
+from get_all_paths import get_all_paths 
 
 def findDecorators(node):  #getDecorators inside a function
     res={}
@@ -21,6 +21,6 @@ def get_decorators(path):
     for node in ast.iter_child_nodes(root): #percorre os nós (Import,ImportFrom,ClassDef, FunctionDef, Assign, Expr, etc)
         getFunctionNode(node) #vasculha os nós filhos até encontrar um nó que seja uma função
 
-#res = getAllPaths('C:/Users/mariana.helena/Documents/python projects/mypy-master', "*.py")
+#res = get_all_paths('C:/Users/mariana.helena/Documents/python projects/mypy-master', "*.py")
 #for i in res:
     #get_decorators(i)

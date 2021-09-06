@@ -1,7 +1,7 @@
 import os
 from fnmatch import fnmatch
 
-def getAllPaths(dirName, pattern):
+def get_all_paths(dirName, pattern):
     pathList = []
     for path, subdirs, files in os.walk(dirName):
         for name in files:
