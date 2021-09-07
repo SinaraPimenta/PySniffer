@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: Mari e Sinara
-"""
-
 import socket
 #AF_INET: IPV4
 #SOCK_DGRAM: socket UDP

@@ -1,9 +1,4 @@
-﻿# -*- coding: utf-8 -*-
-"""
-@author: Mari e Sinara
-"""
-
-import socket
+﻿import socket
 #AF_INET: IPV4
 #SOCK_DGRAM: socket UDP
 sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM) 

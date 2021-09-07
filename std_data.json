@@ -1,0 +1,18 @@
+[
+    {
+        "dir": "\\cherry_picker\\cherry_picker.py",
+        "modules": "[{\"name\": \"collections\", \"attributes\": []}, {\"name\": \"enum\", \"attributes\": []}, {\"name\": \"os\", \"attributes\": []}, {\"name\": \"subprocess\", \"attributes\": []}, {\"name\": \"webbrowser\", \"attributes\": []}, {\"name\": \"re\", \"attributes\": []}, {\"name\": \"sys\", \"attributes\": []}]"
+    },
+    {
+        "dir": "\\cherry_picker\\test.py",
+        "modules": "[{\"name\": \"os\", \"attributes\": []}, {\"name\": \"pathlib\", \"attributes\": []}, {\"name\": \"subprocess\", \"attributes\": []}, {\"name\": \"collections\", \"attributes\": [\"ChainMap\"]}, {\"name\": \"unittest\", \"attributes\": [\"mock\"]}]"
+    },
+    {
+        "dir": "\\cherry_picker\\__init__.py",
+        "modules": "[]"
+    },
+    {
+        "dir": "\\cherry_picker\\__main__.py",
+        "modules": "[]"
+    }
+]
