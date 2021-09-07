@@ -1,5 +1,6 @@
 import ast
 import json
+from get_all_paths import get_all_paths 
 
 modules_dict = dict([])
 
@@ -13,19 +14,18 @@ def get_imports(path):
     key_list = list(modules_dict.keys())
     modules_list = []
     for k in key_list:
-        module__json = {"name": k, "attributes": modules_dict[k]}
-        modules_list.append(module__json)
+        module_json = {"name": k, "attributes": modules_dict[k]}
+        modules_list.append(module_json)
 
     modules_json = json.dumps(modules_list)
     #print(json.loads(modules_json)[0]['name']) #module name
     #print(json.loads(modules_json)[14]['attributes'])  #module attributes
 
-    final__json = {"dir": path, "modules": modules_json}
+    final_json = {"dir": path, "modules": modules_json}
     
-    print(final__json)
-    with open('data.json', 'w', encoding='utf-8') as f:
-        json.dump(final__json, f, ensure_ascii=False, indent=4)
-    return final__json
+    print(final_json)
+    
+    return final_json
 
 def get_import_node(node):   
     if isinstance(node, ast.Import):     
@@ -49,5 +49,12 @@ def get_import_node(node):
             get_import_node(n)
 
 
-get_imports("./example/example.py")
-
+#get_imports("./example/example.py")
+res = get_all_paths('C:/Users/mariana.helena/Documents/python projects/cherry-picker-main', "*.py")
+modules = []
+for i in res:
+    modules_dict.clear()
+    modules.append(get_imports(i))
+with open('data.json', 'w', encoding='utf-8') as f:
+    json.dump(modules, f, ensure_ascii=False, indent=4)
+    

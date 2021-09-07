@@ -1,0 +1,18 @@
+[
+    {
+        "dir": "C:/Users/mariana.helena/Documents/python projects/cherry-picker-main\\cherry_picker\\cherry_picker.py",
+        "modules": "[{\"name\": \"click\", \"attributes\": []}, {\"name\": \"collections\", \"attributes\": []}, {\"name\": \"enum\", \"attributes\": []}, {\"name\": \"os\", \"attributes\": []}, {\"name\": \"subprocess\", \"attributes\": []}, {\"name\": \"webbrowser\", \"attributes\": []}, {\"name\": \"re\", \"attributes\": []}, {\"name\": \"sys\", \"attributes\": []}, {\"name\": \"requests\", \"attributes\": []}, {\"name\": \"toml\", \"attributes\": []}, {\"name\": \"gidgethub\", \"attributes\": [\"sansio\"]}, {\"name\": \"None\", \"attributes\": [\"__version__\"]}]"
+    },
+    {
+        "dir": "C:/Users/mariana.helena/Documents/python projects/cherry-picker-main\\cherry_picker\\test.py",
+        "modules": "[{\"name\": \"os\", \"attributes\": []}, {\"name\": \"pathlib\", \"attributes\": []}, {\"name\": \"subprocess\", \"attributes\": []}, {\"name\": \"collections\", \"attributes\": [\"ChainMap\"]}, {\"name\": \"unittest\", \"attributes\": [\"mock\"]}, {\"name\": \"pytest\", \"attributes\": []}, {\"name\": \"click\", \"attributes\": []}, {\"name\": \"cherry_picker\", \"attributes\": [\"get_base_branch\", \"get_current_branch\", \"get_full_sha_from_short\", \"get_author_info_from_short_sha\", \"CherryPicker\", \"InvalidRepoException\", \"CherryPickException\", \"normalize_commit_message\", \"DEFAULT_CONFIG\", \"get_sha1_from\", \"find_config\", \"load_config\", \"validate_sha\", \"from_git_rev_read\", \"reset_state\", \"set_state\", \"get_state\", \"load_val_from_git_cfg\", \"reset_stored_config_ref\", \"WORKFLOW_STATES\"]}]"
+    },
+    {
+        "dir": "C:/Users/mariana.helena/Documents/python projects/cherry-picker-main\\cherry_picker\\__init__.py",
+        "modules": "[]"
+    },
+    {
+        "dir": "C:/Users/mariana.helena/Documents/python projects/cherry-picker-main\\cherry_picker\\__main__.py",
+        "modules": "[{\"name\": \"cherry_picker\", \"attributes\": [\"cherry_pick_cli\"]}]"
+    }
+]
