@@ -4,7 +4,7 @@ from get_all_paths import get_all_paths
 
 modules_dict = dict([])
 
-def get_imports(path):
+def get_imports(path,mainpath):
     print(path)
     with open(path) as fh:        
        root = ast.parse(fh.read(), path) #obtem o código fonte do caminho especificado
@@ -21,7 +21,7 @@ def get_imports(path):
     #print(json.loads(modules_json)[0]['name']) #module name
     #print(json.loads(modules_json)[14]['attributes'])  #module attributes
 
-    final_json = {"dir": path, "modules": modules_json}
+    final_json = {"dir": path.removeprefix(mainpath), "modules": modules_json}
     
     print(final_json)
     
@@ -48,13 +48,13 @@ def get_import_node(node):
         for n in ast.iter_child_nodes(node):  #é necessário verificar os nós dentro 
             get_import_node(n)
 
+def get_modules(mainpath):
+    res = get_all_paths(mainpath, "*.py")
+    modules = []
+    for i in res:
+        modules_dict.clear()
+        modules.append(get_imports(i, mainpath))
+    with open('data.json', 'w', encoding='utf-8') as f:
+        json.dump(modules, f, ensure_ascii=False, indent=4)
 
-#get_imports("./example/example.py")
-res = get_all_paths('C:/Users/mariana.helena/Documents/python projects/cherry-picker-main', "*.py")
-modules = []
-for i in res:
-    modules_dict.clear()
-    modules.append(get_imports(i))
-with open('data.json', 'w', encoding='utf-8') as f:
-    json.dump(modules, f, ensure_ascii=False, indent=4)
-    
+get_modules('C:/Users/mariana.helena/Documents/python projects/cherry-picker-main')
