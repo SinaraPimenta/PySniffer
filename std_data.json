@@ -1,18 +1,58 @@
 [
     {
-        "dir": "\\cherry_picker\\cherry_picker.py",
-        "modules": "[{\"name\": \"collections\", \"attributes\": []}, {\"name\": \"enum\", \"attributes\": []}, {\"name\": \"os\", \"attributes\": []}, {\"name\": \"subprocess\", \"attributes\": []}, {\"name\": \"webbrowser\", \"attributes\": []}, {\"name\": \"re\", \"attributes\": []}, {\"name\": \"sys\", \"attributes\": []}]"
+        "dir": "\\server.py",
+        "modules": "[{\"name\": \"os\", \"attributes\": []}, {\"name\": \"hashlib\", \"attributes\": []}, {\"name\": \"datetime\", \"attributes\": [\"date\"]}]"
     },
     {
-        "dir": "\\cherry_picker\\test.py",
-        "modules": "[{\"name\": \"os\", \"attributes\": []}, {\"name\": \"pathlib\", \"attributes\": []}, {\"name\": \"subprocess\", \"attributes\": []}, {\"name\": \"collections\", \"attributes\": [\"ChainMap\"]}, {\"name\": \"unittest\", \"attributes\": [\"mock\"]}]"
+        "dir": "\\src\\main\\classes\\administrador.py",
+        "modules": "[{\"name\": \"sys\", \"attributes\": []}]"
     },
     {
-        "dir": "\\cherry_picker\\__init__.py",
+        "dir": "\\src\\main\\classes\\cafeicultor.py",
+        "modules": "[{\"name\": \"sys\", \"attributes\": []}]"
+    },
+    {
+        "dir": "\\src\\main\\classes\\sacaCafe.py",
         "modules": "[]"
     },
     {
-        "dir": "\\cherry_picker\\__main__.py",
+        "dir": "\\src\\main\\classes\\usuario.py",
         "modules": "[]"
+    },
+    {
+        "dir": "\\src\\main\\classes\\__init__.py",
+        "modules": "[]"
+    },
+    {
+        "dir": "\\src\\main\\entidades\\bancoDeDados.py",
+        "modules": "[{\"name\": \"sys\", \"attributes\": []}]"
+    },
+    {
+        "dir": "\\src\\main\\entidades\\mediador.py",
+        "modules": "[{\"name\": \"__future__\", \"attributes\": [\"annotations\"]}, {\"name\": \"abc\", \"attributes\": [\"ABC\"]}, {\"name\": \"sys\", \"attributes\": []}]"
+    },
+    {
+        "dir": "\\src\\main\\entidades\\singleton.py",
+        "modules": "[]"
+    },
+    {
+        "dir": "\\src\\main\\entidades\\webScrapping.py",
+        "modules": "[{\"name\": \"sys\", \"attributes\": []}]"
+    },
+    {
+        "dir": "\\src\\main\\entidades\\exception\\exception.py",
+        "modules": "[]"
+    },
+    {
+        "dir": "\\src\\unittest\\classes\\testAdministrador.py",
+        "modules": "[{\"name\": \"sys\", \"attributes\": []}, {\"name\": \"unittest\", \"attributes\": [\"TestCase\"]}]"
+    },
+    {
+        "dir": "\\src\\unittest\\classes\\testCafeicultor.py",
+        "modules": "[{\"name\": \"sys\", \"attributes\": []}, {\"name\": \"unittest\", \"attributes\": [\"TestCase\"]}]"
+    },
+    {
+        "dir": "\\src\\unittest\\entidades\\testWebScrapping.py",
+        "modules": "[{\"name\": \"sys\", \"attributes\": []}, {\"name\": \"unittest\", \"attributes\": [\"TestCase\"]}, {\"name\": \"unittest.mock\", \"attributes\": [\"patch\", \"Mock\"]}]"
     }
 ]

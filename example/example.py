@@ -1,4 +1,4 @@
-#Standard libray
+#Standard library
 import abc #import just one module in one line
 
 import aifc, antigravity, argparse, array, asynchat, asyncio #import some modules in one line
@@ -88,46 +88,3 @@ from django.forms import all_valid, BaseForm, models, __doc__ #from package impo
 
 
 from emoji.core import *
-
-#Own modules
-import mymodule #import just one module in one line
-
-import datetimeExample, cloneRepository, mongoExample #import some modules in one line
-
-from usuario import Usuario #from ... import just one class
-from area import circle #from ... import just one function
-from area import PI #from ... import just one constant
-from mymodule2 import a #from ... import just one variable
-from mymodule2 import area  #from ... import just one module
-from usuario import __builtins__  #from ... import just one __something__
-
-from mediador import MediadorDoAdministrador, MediadorDoCafeicultor, MediadorInterface #from ... import some classes
-from area import triangle, square, rectangle #from ... import some functions
-from constants import PI, G, RAIZ3, RAIZ2 #from ... import some constants
-from mymodule2 import b, c #from ... import some variables
-from mediador import sacaCafe, bancoDeDados #from ... import some modules
-from mediador import  __annotations__, __cached__ #from ... import some __something__ 
-from mediador import  ABC, cafeicultor, annotations, __package__  #from ... import some attributes
-
-from awspubsub import * #from ... import *
-
-import RandomFiles.client #import just one module from a package
-
-import RandomFiles.regexExample, RandomFiles.plotExample, RandomFiles.mysqlExample #import modules from some packages
-
-from RandomFiles.entidades.administrador import Administrador  #from package import just one class
-from RandomFiles.webScrapping import cotacaoCafe #from package import just one function
-from RandomFiles.jsonExample import MYJSON  #from package import just one constant
-from RandomFiles.server import adress  #from package import just one variable
-from RandomFiles.entidades.cafeicultor import usuario #from package import just one module
-from RandomFiles.server import __doc__ #from package import just one __something__
-
-from RandomFiles.exception.exception import SomeException, RequestException #from package import some classes
-from RandomFiles.volume import cubo, esfera, paralelepipedo #from package import some functions
-from RandomFiles.defaultAcess import PASSWORD, USER #from package import some constants
-from RandomFiles.bancoDeDados import listaCafe, listaCafeicultor #from package import some variables
-from RandomFiles.entidades.administrador import bancoDeDados, usuario #from package import some modules
-from RandomFiles.bancoDeDados import __package__, __cached__ #from package import some  __something__
-from RandomFiles.random import Usuario, getNome, MYCONSTANT, myvariable  #from package import some  attributes
-
-from unittest.classes.testAdministrador import *
