@@ -17,7 +17,7 @@ def get_all_own_modules(dirName):
     folderList = []
     for path, subdirs, files in os.walk(dirName):
         for name in files:
-            if fnmatch(name, pattern):      
+            if fnmatch(name, pattern):
 
                 moduleName = os.path.join(path, name).removeprefix(path + "\\")
                 moduleName = moduleName.removesuffix(pattern.removeprefix("*"))
@@ -28,19 +28,17 @@ def get_all_own_modules(dirName):
                 packageName = packageName.removesuffix(pattern.removeprefix("*"))
                 packageName = packageName.replace("\\", ".")
                 if (packageName not in packageList):
-                    packageList.append(packageName)   
+                    packageList.append(packageName)
 
                 folderName = path.removeprefix(dirName + "\\")
                 if (folderName != dirName):
                     folderName = folderName.replace("\\", ".")
                     if (folderName not in folderList):
-                        folderList.append(folderName)   
-                           
+                        folderList.append(folderName)
+
 
     return moduleList, packageList, folderList
 
 
-#get_all_own_modules('C:/Users/mariana.helena/Documents/python projects/bedevere-master') 
-#get_all_own_modules('C:/Users/mariana.helena/Documents/python projects/Projeto_C214_Armazem_MS-main') 
-
-
+#get_all_own_modules('C:/Users/mariana.helena/Documents/python projects/bedevere-master')
+#get_all_own_modules('C:/Users/mariana.helena/Documents/python projects/Projeto_C214_Armazem_MS-main')

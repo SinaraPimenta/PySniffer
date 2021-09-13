@@ -1,12 +1,13 @@
 import ast
 import json
-from get_all_paths import get_all_paths 
+
+from get_all_paths import get_all_paths
 
 modules_dict = dict([])
 
 def get_imports(path,mainpath):
     print(path)
-    with open(path) as fh:        
+    with open(path) as fh:
        root = ast.parse(fh.read(), path) #obtem o código fonte do caminho especificado
 
     for node in ast.iter_child_nodes(root): #percorre os nós (Import,ImportFrom,ClassDef, FunctionDef, Assign, Expr, etc)
@@ -22,30 +23,30 @@ def get_imports(path,mainpath):
     #print(json.loads(modules_json)[14]['attributes'])  #module attributes
 
     final_json = {"dir": path.removeprefix(mainpath), "modules": modules_json}
-    
+
     print(final_json)
-    
+
     return final_json
 
-def get_import_node(node):   
-    if isinstance(node, ast.Import):     
-        module = []       
+def get_import_node(node):
+    if isinstance(node, ast.Import):
+        module = []
         for n in node.names:
             #print("Module:", n.name)
             modules_dict[ str(n.name)] = []
-    elif isinstance(node, ast.ImportFrom):  
+    elif isinstance(node, ast.ImportFrom):
         module = node.module
         attr = []
         for n in node.names:
             #print("Module:",module, " Attribute:", n.name)
             if (str(module) in modules_dict):
-                attr = modules_dict[ str(module)]           
+                attr = modules_dict[ str(module)]
             attr.append(n.name)
             modules_dict[ str(module)] = attr
             attr = []
 
     elif (isinstance(node, ast.FunctionDef) or isinstance(node, ast.AsyncFunctionDef) or isinstance(node, ast.ClassDef)): #se for uma função ou classe
-        for n in ast.iter_child_nodes(node):  #é necessário verificar os nós dentro 
+        for n in ast.iter_child_nodes(node):  #é necessário verificar os nós dentro
             get_import_node(n)
 
 def get_modules(mainpath):

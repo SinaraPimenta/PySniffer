@@ -1,5 +1,7 @@
 import ast
-from get_all_paths import get_all_paths 
+
+from get_all_paths import get_all_paths
+
 
 def findDecorators(node):  #getDecorators inside a function
     res={}

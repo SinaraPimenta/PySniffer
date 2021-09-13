@@ -1,15 +1,15 @@
 [
     {
         "dir": "\\server.py",
-        "modules": "[{\"name\": \"os\", \"attributes\": []}, {\"name\": \"hashlib\", \"attributes\": []}, {\"name\": \"datetime\", \"attributes\": [\"date\"]}]"
+        "modules": "[{\"name\": \"flask\", \"attributes\": [\"Flask\", \"request\", \"send_from_directory\", \"flash\", \"redirect\", \"url_for\", \"render_template\"]}]"
     },
     {
         "dir": "\\src\\main\\classes\\administrador.py",
-        "modules": "[{\"name\": \"sys\", \"attributes\": []}]"
+        "modules": "[]"
     },
     {
         "dir": "\\src\\main\\classes\\cafeicultor.py",
-        "modules": "[{\"name\": \"sys\", \"attributes\": []}]"
+        "modules": "[]"
     },
     {
         "dir": "\\src\\main\\classes\\sacaCafe.py",
@@ -25,11 +25,11 @@
     },
     {
         "dir": "\\src\\main\\entidades\\bancoDeDados.py",
-        "modules": "[{\"name\": \"sys\", \"attributes\": []}]"
+        "modules": "[{\"name\": \"pymongo\", \"attributes\": []}, {\"name\": \"bson.objectid\", \"attributes\": [\"ObjectId\"]}]"
     },
     {
         "dir": "\\src\\main\\entidades\\mediador.py",
-        "modules": "[{\"name\": \"__future__\", \"attributes\": [\"annotations\"]}, {\"name\": \"abc\", \"attributes\": [\"ABC\"]}, {\"name\": \"sys\", \"attributes\": []}]"
+        "modules": "[]"
     },
     {
         "dir": "\\src\\main\\entidades\\singleton.py",
@@ -37,7 +37,7 @@
     },
     {
         "dir": "\\src\\main\\entidades\\webScrapping.py",
-        "modules": "[{\"name\": \"sys\", \"attributes\": []}]"
+        "modules": "[{\"name\": \"bs4\", \"attributes\": [\"BeautifulSoup\"]}, {\"name\": \"requests\", \"attributes\": []}]"
     },
     {
         "dir": "\\src\\main\\entidades\\exception\\exception.py",
@@ -45,14 +45,14 @@
     },
     {
         "dir": "\\src\\unittest\\classes\\testAdministrador.py",
-        "modules": "[{\"name\": \"sys\", \"attributes\": []}, {\"name\": \"unittest\", \"attributes\": [\"TestCase\"]}]"
+        "modules": "[{\"name\": \"pymongo\", \"attributes\": []}]"
     },
     {
         "dir": "\\src\\unittest\\classes\\testCafeicultor.py",
-        "modules": "[{\"name\": \"sys\", \"attributes\": []}, {\"name\": \"unittest\", \"attributes\": [\"TestCase\"]}]"
+        "modules": "[{\"name\": \"bson.objectid\", \"attributes\": [\"ObjectId\"]}, {\"name\": \"pymongo\", \"attributes\": []}]"
     },
     {
         "dir": "\\src\\unittest\\entidades\\testWebScrapping.py",
-        "modules": "[{\"name\": \"sys\", \"attributes\": []}, {\"name\": \"unittest\", \"attributes\": [\"TestCase\"]}, {\"name\": \"unittest.mock\", \"attributes\": [\"patch\", \"Mock\"]}]"
+        "modules": "[{\"name\": \"requests\", \"attributes\": []}, {\"name\": \"nose.tools\", \"attributes\": []}]"
     }
 ]
