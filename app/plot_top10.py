@@ -100,5 +100,6 @@ def plotTop10(lib_list):
     fig = plt.gcf()
     fig.set_size_inches(10, 5, forward=True)
     plt.show()
+    fig.savefig('top10.png', bbox_inches='tight')
     
 plotTop10(example)
