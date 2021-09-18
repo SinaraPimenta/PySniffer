@@ -1,8 +1,8 @@
 example = {
   "lib_list": [
    {
-      "name": "pillow",
-      "amount": 30
+      "name": "pymongo",
+      "amount": 1
     },
     {
       "name": "matplotlib",
@@ -13,8 +13,8 @@ example = {
       "amount": 20
     },
     {
-      "name": "requests",
-      "amount": 18
+      "name": "sklearn",
+      "amount": 5
     },
     {
       "name": "pytest",
@@ -33,8 +33,8 @@ example = {
       "amount": 10
     },
     {
-      "name": "sklearn",
-      "amount": 5
+      "name": "requests",
+      "amount": 18
     },
      {
       "name": "seaborn",
@@ -45,8 +45,8 @@ example = {
       "amount": 1
     },
     {
-      "name": "pymongo",
-      "amount": 1
+      "name": "pillow",
+      "amount": 30
     }
   ]
 }
@@ -57,14 +57,18 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def plotTop10(lib_list):  
+    modules_dict = dict([])
     modules = lib_list['lib_list']
-    libs = []
     amount = []
     
-    for i in range(10):
-        libs.append(modules[i]['name'])
-        amount.append(modules[i]['amount'])
-    
+    for i in range(len(modules)):
+        modules_dict[str(modules[i]['name'])] = modules[i]['amount']        
+
+    libs = sorted(modules_dict, key = modules_dict.get, reverse=True)
+    libs = libs[0:10]
+
+    for i in libs:
+      amount.append(modules_dict[i])
     
     fig = plt.figure()
     ax = fig.add_axes([0,0,1,1])
