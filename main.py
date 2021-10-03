@@ -19,7 +19,7 @@ if mode == 'SAMPLE': #Statistics about projects from github
     #Using pipreqs
     for p in projects:
         path = dir + '/' + p
-        #os.system(f'pipreqs {path} --force') 
+        os.system(f'pipreqs {path} --force') 
 
     #Reading requirements file and generating list
     ext_libs = list.list_projects_libs(dir, projects)
