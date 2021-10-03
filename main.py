@@ -1,7 +1,7 @@
 import app.download_repos as repos
 import app.get_all_paths as paths
 import app.list_libs as list
-import app.dict_to_json as jsonFile
+import json
 import app.plot_top10 as plot
 import os
 
@@ -16,6 +16,10 @@ if mode == 'SAMPLE': #Statistics about projects from github
     projects_dict,total = paths.get_projects(dir)
     projects = projects_dict.keys()
 
+    #Creating json file
+    with open('./returns/files.json', 'w', encoding='utf-8') as f:
+        json.dump(projects_dict, f, ensure_ascii=False, indent=4)
+
     #Using pipreqs
     for p in projects:
         path = dir + '/' + p
@@ -25,7 +29,8 @@ if mode == 'SAMPLE': #Statistics about projects from github
     ext_libs = list.list_projects_libs(dir, projects)
 
     #Creating json file
-    jsonFile.module_amount(ext_libs)
+    with open('./returns/libs.json', 'w', encoding='utf-8') as f:
+        json.dump(ext_libs, f, ensure_ascii=False, indent=4)
 
     #Plotting top 10
     plot.plotTop10(ext_libs)
