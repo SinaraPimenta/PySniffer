@@ -1,69 +1,8 @@
-example = {
-  "lib_list": [
-   {
-      "name": "pymongo",
-      "amount": 1
-    },
-    {
-      "name": "matplotlib",
-      "amount": 23
-    },
-    {
-      "name": "numpy",
-      "amount": 20
-    },
-    {
-      "name": "sklearn",
-      "amount": 5
-    },
-    {
-      "name": "pytest",
-      "amount": 17
-    },
-    {
-      "name": "scipy",
-      "amount": 15
-    },
-    {
-      "name": "beautifulsoup",
-      "amount": 12
-    },
-    {
-      "name": "pandas",
-      "amount": 10
-    },
-    {
-      "name": "requests",
-      "amount": 18
-    },
-     {
-      "name": "seaborn",
-      "amount": 3
-    },
-    {
-      "name": "flask",
-      "amount": 1
-    },
-    {
-      "name": "pillow",
-      "amount": 30
-    }
-  ]
-}
-
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 
-def plotTop10(lib_list):  
-    modules_dict = dict([])
-    modules = lib_list['lib_list']
+def plotTop10(modules_dict):       
     amount = []
-    
-    for i in range(len(modules)):
-        modules_dict[str(modules[i]['name'])] = modules[i]['amount']        
-
     libs = sorted(modules_dict, key = modules_dict.get, reverse=True)
     libs = libs[0:10]
 
@@ -104,6 +43,4 @@ def plotTop10(lib_list):
     fig = plt.gcf()
     fig.set_size_inches(10, 5, forward=True)
     plt.show()
-    fig.savefig('top10.png', bbox_inches='tight')
-    
-plotTop10(example)
+    fig.savefig('./returns/top10.png', bbox_inches='tight')
