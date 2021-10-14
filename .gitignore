@@ -148,3 +148,5 @@ env/
 .coverage
 
 downloaded_repos/*
+venv/
+example/*

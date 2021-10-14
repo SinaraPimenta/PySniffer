@@ -1,18 +1,19 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def plotTop10(modules_dict):       
+
+def plotTop10(modules_dict,file_name):
     amount = []
     libs = sorted(modules_dict, key = modules_dict.get, reverse=True)
     libs = libs[0:10]
 
     for i in libs:
       amount.append(modules_dict[i])
-    
+
     fig = plt.figure()
     ax = fig.add_axes([0,0,1,1])
     bars = ax.bar(libs,amount)
-    
+
     for bar in bars:
       ax.text(
           bar.get_x() + bar.get_width() / 2,
@@ -21,7 +22,7 @@ def plotTop10(modules_dict):
           horizontalalignment='center',
           color='black'
       )
-     
+
     bars[0].set_color('darkred')
     bars[1].set_color('firebrick')
     bars[2].set_color('indianred')
@@ -32,15 +33,15 @@ def plotTop10(modules_dict):
     bars[7].set_color('lightsalmon')
     bars[8].set_color('sandybrown')
     bars[9].set_color('peachpuff')
-      
+
     x_pos = np.arange(len(libs))
     plt.xticks(x_pos, libs, rotation=90,fontsize=15)
-    ax.set_ylabel('Number of projects', labelpad=15, 
+    ax.set_ylabel('Number of projects', labelpad=15,
                   color='#333333',fontsize=15)
     ax.set_title('Most Used Python Libraries', pad=15, color='#333333',
                  weight='bold', fontsize=30)
-    
+
     fig = plt.gcf()
     fig.set_size_inches(10, 5, forward=True)
     plt.show()
-    fig.savefig('./returns/top10.png', bbox_inches='tight')
+    fig.savefig(f'./returns/{file_name}.png', bbox_inches='tight')
