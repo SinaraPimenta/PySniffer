@@ -43,5 +43,4 @@ def plotTop10(modules_dict,file_name):
 
     fig = plt.gcf()
     fig.set_size_inches(10, 5, forward=True)
-    plt.show()
     fig.savefig(f'./returns/{file_name}.png', bbox_inches='tight')

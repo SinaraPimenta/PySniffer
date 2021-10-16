@@ -52,7 +52,7 @@ def analyzing_git_repos():
     #Plotting top 10
     plot.plotTop10(ext_libs,'Top 10 Libs Ext')
     plot.plotTop10(std_libs,'Top 10 Libs Std')
-
+ # escrever onde os arquivos foram gerados
 
 @pysniffer.command("analyzing_my_project")
 def analyzing_my_project():

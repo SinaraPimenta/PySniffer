@@ -1,3 +1,4 @@
+import json
 import os
 
 arr = []
@@ -30,11 +31,14 @@ def read_requirements(path):
                     lib = line.split('==')
                     lib_name = lib[0]
                     if lib_name != '\n':
+                        lib_name = lib_name.replace('\n','')
                         arr_py.append(lib_name)
 
 def count_libs():
     myDict = {}
     myDictPy = {}
+    myDictReturn = []
+    myDictPyReturn = []
 
     for lib in arr:
         if not lib:
@@ -43,6 +47,8 @@ def count_libs():
             myDict[lib] = 1
         else:
             myDict[lib] += 1
+    for lib in myDict.keys():
+        myDictReturn.append({"name":f"{lib}","amount":f"{myDict[lib]}"})
 
     for lib in arr_py:
         if not lib:
@@ -51,6 +57,9 @@ def count_libs():
             myDictPy[lib] = 1
         else:
             myDictPy[lib] += 1
+    for lib in myDictPy.keys():
+        myDictPyReturn.append({"name":f"{lib}","amount":f"{myDictPy[lib]}"})
+
     print(f'{"Lib":<34}' + "  Count")
     for k, v in myDict.items():
         print(f'{k:<34}' + "  " + str(v))
@@ -60,4 +69,4 @@ def count_libs():
     for k, v in myDictPy.items():
         print(f'{k:<34}' + "  " + str(v))
     print("Número de libs python = " + str(len(myDictPy)))
-    return myDict,myDictPy
+    return myDictReturn,myDictPyReturn
