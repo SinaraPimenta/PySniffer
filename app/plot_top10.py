@@ -2,13 +2,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def plotTop10(modules_dict,file_name):
+def plotTop10(modules,file_name):
     amount = []
-    libs = sorted(modules_dict, key = modules_dict.get, reverse=True)
-    libs = libs[0:10]
+    libs = []
+    amount = []
 
-    for i in libs:
-      amount.append(modules_dict[i])
+    for i in range(10):
+        libs.append(modules[i]['name'])
+        amount.append(modules[i]['amount'])
 
     fig = plt.figure()
     ax = fig.add_axes([0,0,1,1])
