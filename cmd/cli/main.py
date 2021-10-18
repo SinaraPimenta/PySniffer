@@ -22,7 +22,8 @@ def download_git_repos():
 @pysniffer.command("analyzing_repos")
 def analyzing_git_repos():
     """Generate projects statistics"""
-    dir = './example' #alterar para ./downloaded_repos
+    dir = './example'
+    #alterar para ./downloaded_repos
     #Cloning repos
     #repos.gets_repos()
 
@@ -44,10 +45,10 @@ def analyzing_git_repos():
 
     #Creating json file
     with open('./returns/libs.json', 'w', encoding='utf-8') as f:
-        json.dump(ext_libs, f, ensure_ascii=False, indent=4)
+       json.dump(ext_libs, f, ensure_ascii=False, indent=4)
 
     with open('./returns/libs_Py.json', 'w', encoding='utf-8') as f:
-        json.dump(std_libs, f, ensure_ascii=False, indent=4)
+       json.dump(std_libs, f, ensure_ascii=False, indent=4)
 
     #Plotting top 10
     plot.plotTop10(ext_libs,'Top 10 Libs Ext')

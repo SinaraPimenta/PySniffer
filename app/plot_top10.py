@@ -5,11 +5,16 @@ import numpy as np
 def plotTop10(modules,file_name):
     amount = []
     libs = []
-    amount = []
+    modules_dict = dict([])
 
-    for i in range(10):
-        libs.append(modules[i]['name'])
-        amount.append(modules[i]['amount'])
+    for i in range(len(modules)):
+        modules_dict[str(modules[i]['name'])] = int(modules[i]['amount'])        
+
+    libs = sorted(modules_dict, key = modules_dict.get, reverse=True)
+    libs = libs[0:10]
+
+    for i in libs:
+      amount.append(modules_dict[i])
 
     fig = plt.figure()
     ax = fig.add_axes([0,0,1,1])
