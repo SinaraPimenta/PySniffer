@@ -16,4 +16,4 @@ redis==3.5.3
 requests==2.23.0
 scipy==1.7.1
 selenium==4.0.0
-SQLAlchemy==1.4.25
+SQLAlchemy==1.4.26
