@@ -485,7 +485,7 @@ def init(args):
     else:
         generate_python_requirements(f'{input_path}/packages_python.txt',python_imports)
         generate_requirements_file(path, imports, symbol)
-        logging.info("Successfully saved requirements file in " + path)
+        logging.info("Successfully saved packages_python and requirements file in " + path)
 
 
 def main():  # pragma: no cover
