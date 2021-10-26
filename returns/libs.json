@@ -1,738 +1,6 @@
 [
     {
-        "name": "requests",
-        "amount": "9"
-    },
-    {
-        "name": "aiohttp_wsgi",
-        "amount": "1"
-    },
-    {
-        "name": "bjoern",
-        "amount": "1"
-    },
-    {
-        "name": "Cheetah",
-        "amount": "2"
-    },
-    {
-        "name": "cheroot",
-        "amount": "2"
-    },
-    {
-        "name": "cherrypy",
-        "amount": "1"
-    },
-    {
-        "name": "ConfigParser",
-        "amount": "3"
-    },
-    {
-        "name": "coverage",
-        "amount": "1"
-    },
-    {
-        "name": "diesel",
-        "amount": "1"
-    },
-    {
-        "name": "eventlet",
-        "amount": "2"
-    },
-    {
-        "name": "flup",
-        "amount": "2"
-    },
-    {
-        "name": "gevent",
-        "amount": "2"
-    },
-    {
-        "name": "gunicorn",
-        "amount": "2"
-    },
-    {
-        "name": "Jinja2",
-        "amount": "4"
-    },
-    {
-        "name": "Mako",
-        "amount": "2"
-    },
-    {
-        "name": "meinheld",
-        "amount": "1"
-    },
-    {
-        "name": "PasteScript",
-        "amount": "1"
-    },
-    {
-        "name": "protobuf",
-        "amount": "5"
-    },
-    {
-        "name": "setuptools",
-        "amount": "19"
-    },
-    {
-        "name": "tornado",
-        "amount": "2"
-    },
-    {
-        "name": "Twisted",
-        "amount": "2"
-    },
-    {
-        "name": "ujson",
-        "amount": "2"
-    },
-    {
-        "name": "uvloop",
-        "amount": "2"
-    },
-    {
-        "name": "waitress",
-        "amount": "2"
-    },
-    {
-        "name": "matplotlib",
-        "amount": "5"
-    },
-    {
-        "name": "mysql_connector_repackaged",
-        "amount": "1"
-    },
-    {
-        "name": "numpy",
-        "amount": "5"
-    },
-    {
-        "name": "psycopg2",
-        "amount": "2"
-    },
-    {
-        "name": "pyaudio",
-        "amount": "2"
-    },
-    {
-        "name": "pydub",
-        "amount": "2"
-    },
-    {
-        "name": "scipy",
-        "amount": "4"
-    },
-    {
-        "name": "caffe2",
-        "amount": "1"
-    },
-    {
-        "name": "cityscapesscripts",
-        "amount": "1"
-    },
-    {
-        "name": "Cython",
-        "amount": "2"
-    },
-    {
-        "name": "future",
-        "amount": "1"
-    },
-    {
-        "name": "h5py",
-        "amount": "1"
-    },
-    {
-        "name": "imageio",
-        "amount": "2"
-    },
-    {
-        "name": "mock",
-        "amount": "5"
-    },
-    {
-        "name": "pycocotools",
-        "amount": "1"
-    },
-    {
-        "name": "PyYAML",
-        "amount": "3"
-    },
-    {
-        "name": "six",
-        "amount": "5"
-    },
-    {
-        "name": "absl",
-        "amount": "1"
-    },
-    {
-        "name": "apache_beam",
-        "amount": "1"
-    },
-    {
-        "name": "attr",
-        "amount": "2"
-    },
-    {
-        "name": "colorama",
-        "amount": "2"
-    },
-    {
-        "name": "librosa",
-        "amount": "1"
-    },
-    {
-        "name": "mido",
-        "amount": "1"
-    },
-    {
-        "name": "mir_eval",
-        "amount": "1"
-    },
-    {
-        "name": "nets",
-        "amount": "1"
-    },
-    {
-        "name": "note_seq",
-        "amount": "1"
-    },
-    {
-        "name": "Pillow",
-        "amount": "4"
-    },
-    {
-        "name": "pretty_midi",
-        "amount": "1"
-    },
-    {
-        "name": "pygtrie",
-        "amount": "1"
-    },
-    {
-        "name": "pytest",
-        "amount": "8"
-    },
-    {
-        "name": "rtmidi",
-        "amount": "1"
-    },
-    {
-        "name": "skimage",
-        "amount": "1"
-    },
-    {
-        "name": "sonnet",
-        "amount": "1"
-    },
-    {
-        "name": "sox",
-        "amount": "1"
-    },
-    {
-        "name": "tensorflow",
-        "amount": "1"
-    },
-    {
-        "name": "tensorflow_datasets",
-        "amount": "1"
-    },
-    {
-        "name": "tensorflow_gan",
-        "amount": "1"
-    },
-    {
-        "name": "tensorflow_probability",
-        "amount": "1"
-    },
-    {
-        "name": "tf_slim",
-        "amount": "1"
-    },
-    {
-        "name": "tqdm",
-        "amount": "2"
-    },
-    {
-        "name": "colour",
-        "amount": "1"
-    },
-    {
-        "name": "docutils",
-        "amount": "2"
-    },
-    {
-        "name": "ipython",
-        "amount": "2"
-    },
-    {
-        "name": "manimpango",
-        "amount": "1"
-    },
-    {
-        "name": "mapbox_earcut",
-        "amount": "1"
-    },
-    {
-        "name": "moderngl",
-        "amount": "1"
-    },
-    {
-        "name": "moderngl_window",
-        "amount": "1"
-    },
-    {
-        "name": "pyglet",
-        "amount": "1"
-    },
-    {
-        "name": "Pygments",
-        "amount": "2"
-    },
-    {
-        "name": "PyOpenGL",
-        "amount": "1"
-    },
-    {
-        "name": "rich",
-        "amount": "1"
-    },
-    {
-        "name": "screeninfo",
-        "amount": "1"
-    },
-    {
-        "name": "validators",
-        "amount": "1"
-    },
-    {
-        "name": "androguard",
-        "amount": "1"
-    },
-    {
-        "name": "asn1crypto",
-        "amount": "1"
-    },
-    {
         "name": "beautifulsoup4",
-        "amount": "2"
-    },
-    {
-        "name": "biplist",
-        "amount": "1"
-    },
-    {
-        "name": "distro",
-        "amount": "1"
-    },
-    {
-        "name": "Django",
-        "amount": "3"
-    },
-    {
-        "name": "frida",
-        "amount": "1"
-    },
-    {
-        "name": "google_play_scraper",
-        "amount": "1"
-    },
-    {
-        "name": "http_tools",
-        "amount": "1"
-    },
-    {
-        "name": "IP2Location",
-        "amount": "1"
-    },
-    {
-        "name": "libsast",
-        "amount": "1"
-    },
-    {
-        "name": "lief",
-        "amount": "1"
-    },
-    {
-        "name": "lxml",
-        "amount": "3"
-    },
-    {
-        "name": "macholib",
-        "amount": "1"
-    },
-    {
-        "name": "mitmproxy",
-        "amount": "2"
-    },
-    {
-        "name": "oscrypto",
-        "amount": "1"
-    },
-    {
-        "name": "pdfkit",
-        "amount": "1"
-    },
-    {
-        "name": "psutil",
-        "amount": "1"
-    },
-    {
-        "name": "pyOpenSSL",
-        "amount": "2"
-    },
-    {
-        "name": "rsa",
-        "amount": "2"
-    },
-    {
-        "name": "shelljob",
-        "amount": "1"
-    },
-    {
-        "name": "whitenoise",
-        "amount": "1"
-    },
-    {
-        "name": "cachy",
-        "amount": "1"
-    },
-    {
-        "name": "cleo",
-        "amount": "1"
-    },
-    {
-        "name": "crashtest",
-        "amount": "1"
-    },
-    {
-        "name": "deepdiff",
-        "amount": "1"
-    },
-    {
-        "name": "entrypoints",
-        "amount": "1"
-    },
-    {
-        "name": "html5lib",
-        "amount": "1"
-    },
-    {
-        "name": "HTMLParser",
-        "amount": "2"
-    },
-    {
-        "name": "httpretty",
-        "amount": "2"
-    },
-    {
-        "name": "importlib_metadata",
-        "amount": "1"
-    },
-    {
-        "name": "jsonschema",
-        "amount": "1"
-    },
-    {
-        "name": "keyring",
-        "amount": "1"
-    },
-    {
-        "name": "packaging",
-        "amount": "1"
-    },
-    {
-        "name": "pexpect",
-        "amount": "1"
-    },
-    {
-        "name": "pkginfo",
-        "amount": "1"
-    },
-    {
-        "name": "pytest_mock",
-        "amount": "1"
-    },
-    {
-        "name": "requests_toolbelt",
-        "amount": "1"
-    },
-    {
-        "name": "shellingham",
-        "amount": "1"
-    },
-    {
-        "name": "tomlkit",
-        "amount": "1"
-    },
-    {
-        "name": "virtualenv",
-        "amount": "1"
-    },
-    {
-        "name": "wheel",
-        "amount": "2"
-    },
-    {
-        "name": "zipp",
-        "amount": "1"
-    },
-    {
-        "name": "cryptography",
-        "amount": "3"
-    },
-    {
-        "name": "libusb1",
-        "amount": "1"
-    },
-    {
-        "name": "progressbar33",
-        "amount": "1"
-    },
-    {
-        "name": "pyasn1",
-        "amount": "1"
-    },
-    {
-        "name": "pycryptodome",
-        "amount": "1"
-    },
-    {
-        "name": "aiohttp",
-        "amount": "2"
-    },
-    {
-        "name": "dateparser",
-        "amount": "1"
-    },
-    {
-        "name": "pytz",
-        "amount": "1"
-    },
-    {
-        "name": "requests_mock",
-        "amount": "1"
-    },
-    {
-        "name": "websockets",
-        "amount": "1"
-    },
-    {
-        "name": "Image",
-        "amount": "1"
-    },
-    {
-        "name": "onelogin",
-        "amount": "1"
-    },
-    {
-        "name": "PyJWT",
-        "amount": "1"
-    },
-    {
-        "name": "python_openid",
-        "amount": "1"
-    },
-    {
-        "name": "South",
-        "amount": "1"
-    },
-    {
-        "name": "unittest2",
-        "amount": "1"
-    },
-    {
-        "name": "aio_pika",
-        "amount": "1"
-    },
-    {
-        "name": "aioredis",
-        "amount": "1"
-    },
-    {
-        "name": "bidict",
-        "amount": "1"
-    },
-    {
-        "name": "Flask",
-        "amount": "1"
-    },
-    {
-        "name": "gevent_websocket",
-        "amount": "1"
-    },
-    {
-        "name": "kafka",
-        "amount": "1"
-    },
-    {
-        "name": "kombu",
-        "amount": "1"
-    },
-    {
-        "name": "msgpack_python",
-        "amount": "1"
-    },
-    {
-        "name": "python_engineio",
-        "amount": "1"
-    },
-    {
-        "name": "redis",
-        "amount": "1"
-    },
-    {
-        "name": "uvicorn",
-        "amount": "1"
-    },
-    {
-        "name": "# Make sure to install those as additional_dependencies in the\n",
-        "amount": "1"
-    },
-    {
-        "name": "# pre-commit hooks for pylint & mypy\n",
-        "amount": "1"
-    },
-    {
-        "name": "certifi\n",
-        "amount": "1"
-    },
-    {
-        "name": "# only telegram.ext: # Keep this line here; used in setup(-raw).py\n",
-        "amount": "1"
-    },
-    {
-        "name": "tornado>=6.1\n",
-        "amount": "1"
-    },
-    {
-        "name": "APScheduler",
-        "amount": "1"
-    },
-    {
-        "name": "pytz>=2018.6\n",
-        "amount": "1"
-    },
-    {
-        "name": "cachetools",
-        "amount": "1"
-    },
-    {
-        "name": "pygame",
-        "amount": "1"
-    },
-    {
-        "name": "urwid",
-        "amount": "1"
-    },
-    {
-        "name": "botocore",
-        "amount": "1"
-    },
-    {
-        "name": "bpython",
-        "amount": "1"
-    },
-    {
-        "name": "brotli",
-        "amount": "1"
-    },
-    {
-        "name": "cssselect",
-        "amount": "1"
-    },
-    {
-        "name": "h2",
-        "amount": "1"
-    },
-    {
-        "name": "hpack",
-        "amount": "1"
-    },
-    {
-        "name": "itemadapter",
-        "amount": "1"
-    },
-    {
-        "name": "itemloaders",
-        "amount": "1"
-    },
-    {
-        "name": "parsel",
-        "amount": "1"
-    },
-    {
-        "name": "protego",
-        "amount": "1"
-    },
-    {
-        "name": "ptpython",
-        "amount": "1"
-    },
-    {
-        "name": "PyDispatcher",
-        "amount": "1"
-    },
-    {
-        "name": "pyftpdlib",
-        "amount": "1"
-    },
-    {
-        "name": "pytest_flake8",
-        "amount": "1"
-    },
-    {
-        "name": "queuelib",
-        "amount": "1"
-    },
-    {
-        "name": "reppy",
-        "amount": "1"
-    },
-    {
-        "name": "robotexclusionrulesparser",
-        "amount": "1"
-    },
-    {
-        "name": "service_identity",
-        "amount": "1"
-    },
-    {
-        "name": "Sphinx",
-        "amount": "1"
-    },
-    {
-        "name": "sphinx_rtd_theme",
-        "amount": "1"
-    },
-    {
-        "name": "sybil",
-        "amount": "1"
-    },
-    {
-        "name": "testfixtures",
-        "amount": "1"
-    },
-    {
-        "name": "w3lib",
-        "amount": "1"
-    },
-    {
-        "name": "zope",
-        "amount": "1"
-    },
-    {
-        "name": "zstandard",
-        "amount": "1"
-    },
-    {
-        "name": "asyncio_redis",
-        "amount": "1"
-    },
-    {
-        "name": "BeautifulSoup",
         "amount": "1"
     },
     {
@@ -740,59 +8,343 @@
         "amount": "1"
     },
     {
-        "name": "ClientForm",
+        "name": "channels",
         "amount": "1"
     },
     {
-        "name": "cx_Oracle",
+        "name": "click",
+        "amount": "2"
+    },
+    {
+        "name": "colorama",
         "amount": "1"
     },
     {
-        "name": "DBUtils",
+        "name": "colorcet",
         "amount": "1"
     },
     {
-        "name": "foo",
+        "name": "cx_Freeze",
         "amount": "1"
     },
     {
-        "name": "Genshi",
+        "name": "docutils",
         "amount": "1"
     },
     {
-        "name": "Markdown",
+        "name": "flaky",
         "amount": "1"
     },
     {
-        "name": "pymssql",
+        "name": "Flask",
+        "amount": "2"
+    },
+    {
+        "name": "h5py",
         "amount": "1"
     },
     {
-        "name": "testpackage",
+        "name": "ipyleaflet",
         "amount": "1"
     },
     {
-        "name": "pyric",
+        "name": "ipyvolume",
         "amount": "1"
     },
     {
-        "name": "roguehostapd",
+        "name": "ipywidgets_bokeh",
         "amount": "1"
     },
     {
-        "name": "scapy",
+        "name": "Jinja2",
         "amount": "1"
     },
     {
-        "name": "fuzzywuzzy",
+        "name": "mock",
         "amount": "1"
     },
     {
-        "name": "urllib3",
+        "name": "nbconvert",
         "amount": "1"
     },
     {
-        "name": "toml",
+        "name": "nbformat",
+        "amount": "1"
+    },
+    {
+        "name": "numba",
+        "amount": "1"
+    },
+    {
+        "name": "numpy",
+        "amount": "3"
+    },
+    {
+        "name": "packaging",
+        "amount": "2"
+    },
+    {
+        "name": "panel",
+        "amount": "1"
+    },
+    {
+        "name": "param",
+        "amount": "1"
+    },
+    {
+        "name": "Pillow",
+        "amount": "2"
+    },
+    {
+        "name": "py",
+        "amount": "1"
+    },
+    {
+        "name": "py2exe",
+        "amount": "1"
+    },
+    {
+        "name": "pyaudio",
+        "amount": "1"
+    },
+    {
+        "name": "pyshp",
+        "amount": "1"
+    },
+    {
+        "name": "pytest",
+        "amount": "3"
+    },
+    {
+        "name": "python_dateutil",
+        "amount": "1"
+    },
+    {
+        "name": "pytz",
+        "amount": "1"
+    },
+    {
+        "name": "PyYAML",
+        "amount": "2"
+    },
+    {
+        "name": "requests",
+        "amount": "2"
+    },
+    {
+        "name": "scikit_learn",
+        "amount": "2"
+    },
+    {
+        "name": "scipy",
+        "amount": "2"
+    },
+    {
+        "name": "setuptools",
+        "amount": "3"
+    },
+    {
+        "name": "sympy",
+        "amount": "1"
+    },
+    {
+        "name": "typing_extensions",
+        "amount": "2"
+    },
+    {
+        "name": "xyzservices",
+        "amount": "1"
+    },
+    {
+        "name": "amqp",
+        "amount": "1"
+    },
+    {
+        "name": "chardet",
+        "amount": "1"
+    },
+    {
+        "name": "easywebdav",
+        "amount": "1"
+    },
+    {
+        "name": "flask_login",
+        "amount": "1"
+    },
+    {
+        "name": "httpbin",
+        "amount": "1"
+    },
+    {
+        "name": "ipython",
+        "amount": "1"
+    },
+    {
+        "name": "kombu",
+        "amount": "1"
+    },
+    {
+        "name": "lxml",
+        "amount": "1"
+    },
+    {
+        "name": "pika",
+        "amount": "1"
+    },
+    {
+        "name": "projects",
+        "amount": "1"
+    },
+    {
+        "name": "pymongo",
+        "amount": "1"
+    },
+    {
+        "name": "pyquery",
+        "amount": "1"
+    },
+    {
+        "name": "recommonmark",
+        "amount": "1"
+    },
+    {
+        "name": "rediscluster",
+        "amount": "1"
+    },
+    {
+        "name": "six",
+        "amount": "2"
+    },
+    {
+        "name": "tblib",
+        "amount": "1"
+    },
+    {
+        "name": "tornado",
+        "amount": "1"
+    },
+    {
+        "name": "umsgpack",
+        "amount": "1"
+    },
+    {
+        "name": "Werkzeug",
+        "amount": "1"
+    },
+    {
+        "name": "wsgidav",
+        "amount": "1"
+    },
+    {
+        "name": "xmlrpclib",
+        "amount": "1"
+    },
+    {
+        "name": "apex",
+        "amount": "1"
+    },
+    {
+        "name": "cloudpickle",
+        "amount": "1"
+    },
+    {
+        "name": "comet_ml",
+        "amount": "1"
+    },
+    {
+        "name": "deprecate",
+        "amount": "1"
+    },
+    {
+        "name": "fsspec",
+        "amount": "1"
+    },
+    {
+        "name": "gym",
+        "amount": "1"
+    },
+    {
+        "name": "hydra-core",
+        "amount": "1"
+    },
+    {
+        "name": "jsonargparse",
+        "amount": "1"
+    },
+    {
+        "name": "matplotlib",
+        "amount": "1"
+    },
+    {
+        "name": "omegaconf",
+        "amount": "1"
+    },
+    {
+        "name": "onnxruntime",
+        "amount": "1"
+    },
+    {
+        "name": "pandas",
+        "amount": "2"
+    },
+    {
+        "name": "rich",
+        "amount": "1"
+    },
+    {
+        "name": "torch",
+        "amount": "1"
+    },
+    {
+        "name": "torchmetrics",
+        "amount": "1"
+    },
+    {
+        "name": "torchtext",
+        "amount": "1"
+    },
+    {
+        "name": "torchvision",
+        "amount": "1"
+    },
+    {
+        "name": "tqdm",
+        "amount": "1"
+    },
+    {
+        "name": "httpx",
+        "amount": "1"
+    },
+    {
+        "name": "importlib_metadata",
+        "amount": "1"
+    },
+    {
+        "name": "importlib_resources",
+        "amount": "1"
+    },
+    {
+        "name": "librosa",
+        "amount": "1"
+    },
+    {
+        "name": "musdb",
+        "amount": "1"
+    },
+    {
+        "name": "museval",
+        "amount": "1"
+    },
+    {
+        "name": "norbert",
+        "amount": "1"
+    },
+    {
+        "name": "tensorflow",
+        "amount": "1"
+    },
+    {
+        "name": "typer",
         "amount": "1"
     }
 ]
