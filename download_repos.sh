@@ -242,7 +242,7 @@ git clone https://github.com/NVIDIA/FastPhotoStyle
 #Platform: Open source platform for the machine learning lifecycle (10.6k stars)
 git clone https://github.com/mlflow/mlflow.git
 #Project: open source clone of the Age of Empires II engine (10.6k stars)
-git clone https://github.com/SFTtech/openage.git  (10.6k stars)
+git clone https://github.com/SFTtech/openage.git  
 #Lib: open-source NLP research library
 git clone https://github.com/allenai/allennlp.git
 #Lib: interactive graphing library for Python (10.5k stars)
