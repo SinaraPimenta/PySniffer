@@ -26,6 +26,7 @@ def plotTop10(modules,file_name,type):
         bar.get_height() + 0.3,
         round(bar.get_height(), 1),
         horizontalalignment='center',
+        size=20,
         color='black'
     )
 
@@ -41,9 +42,9 @@ def plotTop10(modules,file_name,type):
   bars[9].set_color('peachpuff')
 
   x_pos = np.arange(len(libs))
-  plt.xticks(x_pos, libs, rotation=90,fontsize=15)
+  plt.xticks(x_pos, libs, rotation=90,fontsize=25)
   ax.set_ylabel('Number of projects', labelpad=15,
-                color='#333333',fontsize=15)
+                color='#333333',fontsize=25)
   if type == "Std":
     ax.set_title('Most Used Python Libraries', pad=15, color='#333333',
                 weight='bold', fontsize=30)
