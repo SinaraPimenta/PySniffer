@@ -1,1 +1,6806 @@
-[]
+[
+    {
+        "name": "aiodns",
+        "amount": "2"
+    },
+    {
+        "name": "aioredis",
+        "amount": "1"
+    },
+    {
+        "name": "aiosignal",
+        "amount": "1"
+    },
+    {
+        "name": "async_timeout",
+        "amount": "3"
+    },
+    {
+        "name": "asynctest",
+        "amount": "2"
+    },
+    {
+        "name": "brotli",
+        "amount": "4"
+    },
+    {
+        "name": "cchardet",
+        "amount": "1"
+    },
+    {
+        "name": "charset_normalizer",
+        "amount": "3"
+    },
+    {
+        "name": "freezegun",
+        "amount": "9"
+    },
+    {
+        "name": "frozenlist",
+        "amount": "1"
+    },
+    {
+        "name": "gunicorn",
+        "amount": "7"
+    },
+    {
+        "name": "multidict",
+        "amount": "4"
+    },
+    {
+        "name": "proxy",
+        "amount": "1"
+    },
+    {
+        "name": "pytest",
+        "amount": "61"
+    },
+    {
+        "name": "python_on_whales",
+        "amount": "1"
+    },
+    {
+        "name": "re_assert",
+        "amount": "1"
+    },
+    {
+        "name": "setuptools",
+        "amount": "100"
+    },
+    {
+        "name": "sphinxcontrib_programoutput",
+        "amount": "1"
+    },
+    {
+        "name": "tokio",
+        "amount": "1"
+    },
+    {
+        "name": "trustme",
+        "amount": "2"
+    },
+    {
+        "name": "typing_extensions",
+        "amount": "21"
+    },
+    {
+        "name": "uvloop",
+        "amount": "4"
+    },
+    {
+        "name": "yarl",
+        "amount": "3"
+    },
+    {
+        "name": "aiohttp",
+        "amount": "4"
+    },
+    {
+        "name": "aiohttp_jinja2",
+        "amount": "1"
+    },
+    {
+        "name": "alembic",
+        "amount": "4"
+    },
+    {
+        "name": "apache_beam",
+        "amount": "2"
+    },
+    {
+        "name": "argcomplete",
+        "amount": "2"
+    },
+    {
+        "name": "arrow",
+        "amount": "3"
+    },
+    {
+        "name": "attr",
+        "amount": "7"
+    },
+    {
+        "name": "authlib",
+        "amount": "1"
+    },
+    {
+        "name": "autoapi",
+        "amount": "1"
+    },
+    {
+        "name": "beautifulsoup4",
+        "amount": "19"
+    },
+    {
+        "name": "black",
+        "amount": "4"
+    },
+    {
+        "name": "blinker",
+        "amount": "2"
+    },
+    {
+        "name": "boto3",
+        "amount": "16"
+    },
+    {
+        "name": "botocore",
+        "amount": "18"
+    },
+    {
+        "name": "cached_property",
+        "amount": "1"
+    },
+    {
+        "name": "cgroupspy",
+        "amount": "1"
+    },
+    {
+        "name": "click",
+        "amount": "23"
+    },
+    {
+        "name": "clickclick",
+        "amount": "1"
+    },
+    {
+        "name": "colorama",
+        "amount": "22"
+    },
+    {
+        "name": "colorlog",
+        "amount": "2"
+    },
+    {
+        "name": "croniter",
+        "amount": "4"
+    },
+    {
+        "name": "cryptography",
+        "amount": "14"
+    },
+    {
+        "name": "cx_Oracle",
+        "amount": "3"
+    },
+    {
+        "name": "dill",
+        "amount": "3"
+    },
+    {
+        "name": "distributed",
+        "amount": "1"
+    },
+    {
+        "name": "docutils",
+        "amount": "18"
+    },
+    {
+        "name": "elasticsearch_dsl",
+        "amount": "1"
+    },
+    {
+        "name": "es",
+        "amount": "1"
+    },
+    {
+        "name": "facebook_business",
+        "amount": "1"
+    },
+    {
+        "name": "filelock",
+        "amount": "6"
+    },
+    {
+        "name": "Flask",
+        "amount": "20"
+    },
+    {
+        "name": "flask_appbuilder",
+        "amount": "2"
+    },
+    {
+        "name": "flask_babel",
+        "amount": "2"
+    },
+    {
+        "name": "flask_caching",
+        "amount": "2"
+    },
+    {
+        "name": "flask_jwt_extended",
+        "amount": "2"
+    },
+    {
+        "name": "flask_login",
+        "amount": "4"
+    },
+    {
+        "name": "flask_openid",
+        "amount": "1"
+    },
+    {
+        "name": "flask_wtf",
+        "amount": "3"
+    },
+    {
+        "name": "funcsigs",
+        "amount": "1"
+    },
+    {
+        "name": "future",
+        "amount": "4"
+    },
+    {
+        "name": "gevent",
+        "amount": "4"
+    },
+    {
+        "name": "github3.py",
+        "amount": "2"
+    },
+    {
+        "name": "GitPython",
+        "amount": "3"
+    },
+    {
+        "name": "google_api_python_client",
+        "amount": "6"
+    },
+    {
+        "name": "google_auth_httplib2",
+        "amount": "1"
+    },
+    {
+        "name": "graphviz",
+        "amount": "4"
+    },
+    {
+        "name": "hmsclient",
+        "amount": "1"
+    },
+    {
+        "name": "httplib2",
+        "amount": "5"
+    },
+    {
+        "name": "httpx",
+        "amount": "6"
+    },
+    {
+        "name": "hvac",
+        "amount": "1"
+    },
+    {
+        "name": "importlib_metadata",
+        "amount": "8"
+    },
+    {
+        "name": "importlib_resources",
+        "amount": "3"
+    },
+    {
+        "name": "inflection",
+        "amount": "1"
+    },
+    {
+        "name": "influxdb_client",
+        "amount": "3"
+    },
+    {
+        "name": "itsdangerous",
+        "amount": "3"
+    },
+    {
+        "name": "jaydebeapi",
+        "amount": "2"
+    },
+    {
+        "name": "Jinja2",
+        "amount": "25"
+    },
+    {
+        "name": "jmespath",
+        "amount": "2"
+    },
+    {
+        "name": "json_merge_patch",
+        "amount": "1"
+    },
+    {
+        "name": "jsonpath_ng",
+        "amount": "1"
+    },
+    {
+        "name": "jsonschema",
+        "amount": "7"
+    },
+    {
+        "name": "kombu",
+        "amount": "4"
+    },
+    {
+        "name": "kylinpy",
+        "amount": "1"
+    },
+    {
+        "name": "lazy_object_proxy",
+        "amount": "1"
+    },
+    {
+        "name": "lockfile",
+        "amount": "1"
+    },
+    {
+        "name": "lxml",
+        "amount": "14"
+    },
+    {
+        "name": "Markdown",
+        "amount": "6"
+    },
+    {
+        "name": "MarkupSafe",
+        "amount": "5"
+    },
+    {
+        "name": "marshmallow",
+        "amount": "2"
+    },
+    {
+        "name": "marshmallow_oneofschema",
+        "amount": "1"
+    },
+    {
+        "name": "marshmallow_sqlalchemy",
+        "amount": "1"
+    },
+    {
+        "name": "mongomock",
+        "amount": "2"
+    },
+    {
+        "name": "moto",
+        "amount": "7"
+    },
+    {
+        "name": "msrestazure",
+        "amount": "1"
+    },
+    {
+        "name": "MySQL-python",
+        "amount": "4"
+    },
+    {
+        "name": "numpy",
+        "amount": "58"
+    },
+    {
+        "name": "openapi_spec_validator",
+        "amount": "2"
+    },
+    {
+        "name": "oss2",
+        "amount": "1"
+    },
+    {
+        "name": "packaging",
+        "amount": "14"
+    },
+    {
+        "name": "pandas",
+        "amount": "27"
+    },
+    {
+        "name": "pandas_gbq",
+        "amount": "2"
+    },
+    {
+        "name": "parameterized",
+        "amount": "4"
+    },
+    {
+        "name": "paramiko",
+        "amount": "4"
+    },
+    {
+        "name": "pdpyras",
+        "amount": "1"
+    },
+    {
+        "name": "pendulum",
+        "amount": "1"
+    },
+    {
+        "name": "pep562",
+        "amount": "1"
+    },
+    {
+        "name": "pinotdb",
+        "amount": "1"
+    },
+    {
+        "name": "plyvel",
+        "amount": "1"
+    },
+    {
+        "name": "psutil",
+        "amount": "25"
+    },
+    {
+        "name": "psycopg2",
+        "amount": "9"
+    },
+    {
+        "name": "pyarrow",
+        "amount": "4"
+    },
+    {
+        "name": "pydruid",
+        "amount": "3"
+    },
+    {
+        "name": "pyexasol",
+        "amount": "2"
+    },
+    {
+        "name": "PyGithub",
+        "amount": "6"
+    },
+    {
+        "name": "Pygments",
+        "amount": "19"
+    },
+    {
+        "name": "pyhive",
+        "amount": "4"
+    },
+    {
+        "name": "PyJWT",
+        "amount": "8"
+    },
+    {
+        "name": "pymongo",
+        "amount": "9"
+    },
+    {
+        "name": "pymssql",
+        "amount": "3"
+    },
+    {
+        "name": "pymysql",
+        "amount": "3"
+    },
+    {
+        "name": "pyodbc",
+        "amount": "3"
+    },
+    {
+        "name": "pypsrp",
+        "amount": "1"
+    },
+    {
+        "name": "pysftp",
+        "amount": "3"
+    },
+    {
+        "name": "pyspark",
+        "amount": "3"
+    },
+    {
+        "name": "python_daemon",
+        "amount": "2"
+    },
+    {
+        "name": "python_dateutil",
+        "amount": "24"
+    },
+    {
+        "name": "python_ldap",
+        "amount": "1"
+    },
+    {
+        "name": "pytz",
+        "amount": "20"
+    },
+    {
+        "name": "qds_sdk",
+        "amount": "2"
+    },
+    {
+        "name": "redshift_connector",
+        "amount": "1"
+    },
+    {
+        "name": "requests",
+        "amount": "62"
+    },
+    {
+        "name": "requests_gssapi",
+        "amount": "1"
+    },
+    {
+        "name": "requests_kerberos",
+        "amount": "1"
+    },
+    {
+        "name": "requests_mock",
+        "amount": "2"
+    },
+    {
+        "name": "rich",
+        "amount": "4"
+    },
+    {
+        "name": "sasl",
+        "amount": "1"
+    },
+    {
+        "name": "scrapbook",
+        "amount": "1"
+    },
+    {
+        "name": "semver",
+        "amount": "3"
+    },
+    {
+        "name": "sentry_sdk",
+        "amount": "8"
+    },
+    {
+        "name": "setproctitle",
+        "amount": "2"
+    },
+    {
+        "name": "simple_salesforce",
+        "amount": "2"
+    },
+    {
+        "name": "slack_sdk",
+        "amount": "1"
+    },
+    {
+        "name": "snakebite",
+        "amount": "1"
+    },
+    {
+        "name": "Sphinx",
+        "amount": "18"
+    },
+    {
+        "name": "sphinx_airflow_theme",
+        "amount": "1"
+    },
+    {
+        "name": "spython",
+        "amount": "1"
+    },
+    {
+        "name": "sqlalchemy_jsonfield",
+        "amount": "1"
+    },
+    {
+        "name": "sqlparse",
+        "amount": "5"
+    },
+    {
+        "name": "sshtunnel",
+        "amount": "2"
+    },
+    {
+        "name": "swagger_ui_bundle",
+        "amount": "1"
+    },
+    {
+        "name": "tableauserverclient",
+        "amount": "1"
+    },
+    {
+        "name": "tabulate",
+        "amount": "5"
+    },
+    {
+        "name": "tenacity",
+        "amount": "4"
+    },
+    {
+        "name": "termcolor",
+        "amount": "6"
+    },
+    {
+        "name": "thrift",
+        "amount": "4"
+    },
+    {
+        "name": "thrift_sasl",
+        "amount": "1"
+    },
+    {
+        "name": "tornado",
+        "amount": "9"
+    },
+    {
+        "name": "unicode_slugify",
+        "amount": "3"
+    },
+    {
+        "name": "unicodecsv",
+        "amount": "1"
+    },
+    {
+        "name": "urllib3",
+        "amount": "14"
+    },
+    {
+        "name": "uwsgi_metrics",
+        "amount": "1"
+    },
+    {
+        "name": "vertica_python",
+        "amount": "3"
+    },
+    {
+        "name": "watchtower",
+        "amount": "1"
+    },
+    {
+        "name": "wcmatch",
+        "amount": "1"
+    },
+    {
+        "name": "Werkzeug",
+        "amount": "10"
+    },
+    {
+        "name": "WTForms",
+        "amount": "3"
+    },
+    {
+        "name": "yandexcloud",
+        "amount": "1"
+    },
+    {
+        "name": "zdesk",
+        "amount": "1"
+    },
+    {
+        "name": "ansible",
+        "amount": "1"
+    },
+    {
+        "name": "linode_api4",
+        "amount": "1"
+    },
+    {
+        "name": "base58",
+        "amount": "1"
+    },
+    {
+        "name": "datasets",
+        "amount": "1"
+    },
+    {
+        "name": "fairscale",
+        "amount": "1"
+    },
+    {
+        "name": "flaky",
+        "amount": "5"
+    },
+    {
+        "name": "h5py",
+        "amount": "11"
+    },
+    {
+        "name": "huggingface_hub",
+        "amount": "3"
+    },
+    {
+        "name": "lmdb",
+        "amount": "3"
+    },
+    {
+        "name": "matplotlib",
+        "amount": "32"
+    },
+    {
+        "name": "more_itertools",
+        "amount": "2"
+    },
+    {
+        "name": "nltk",
+        "amount": "5"
+    },
+    {
+        "name": "overrides",
+        "amount": "1"
+    },
+    {
+        "name": "pydoc_markdown",
+        "amount": "1"
+    },
+    {
+        "name": "responses",
+        "amount": "9"
+    },
+    {
+        "name": "ruamel.base",
+        "amount": "2"
+    },
+    {
+        "name": "scikit_learn",
+        "amount": "16"
+    },
+    {
+        "name": "scipy",
+        "amount": "40"
+    },
+    {
+        "name": "spacy",
+        "amount": "4"
+    },
+    {
+        "name": "sqlitedict",
+        "amount": "3"
+    },
+    {
+        "name": "tensorboardX",
+        "amount": "4"
+    },
+    {
+        "name": "torch",
+        "amount": "17"
+    },
+    {
+        "name": "torchvision",
+        "amount": "13"
+    },
+    {
+        "name": "transformers",
+        "amount": "4"
+    },
+    {
+        "name": "xxhash",
+        "amount": "1"
+    },
+    {
+        "name": "bottle",
+        "amount": "2"
+    },
+    {
+        "name": "chardet",
+        "amount": "3"
+    },
+    {
+        "name": "dateparser",
+        "amount": "1"
+    },
+    {
+        "name": "Django",
+        "amount": "6"
+    },
+    {
+        "name": "django_jsonfield",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_extensions",
+        "amount": "3"
+    },
+    {
+        "name": "python_crontab",
+        "amount": "2"
+    },
+    {
+        "name": "w3lib",
+        "amount": "3"
+    },
+    {
+        "name": "ipython",
+        "amount": "24"
+    },
+    {
+        "name": "mock",
+        "amount": "24"
+    },
+    {
+        "name": "sets",
+        "amount": "2"
+    },
+    {
+        "name": "face_alignment",
+        "amount": "1"
+    },
+    {
+        "name": "modules",
+        "amount": "1"
+    },
+    {
+        "name": "msgpack_numpy",
+        "amount": "1"
+    },
+    {
+        "name": "msgpack_python",
+        "amount": "4"
+    },
+    {
+        "name": "pyfakewebcam",
+        "amount": "1"
+    },
+    {
+        "name": "PyYAML",
+        "amount": "35"
+    },
+    {
+        "name": "pyzmq",
+        "amount": "4"
+    },
+    {
+        "name": "py2exe",
+        "amount": "7"
+    },
+    {
+        "name": "pyasn1",
+        "amount": "1"
+    },
+    {
+        "name": "rsa",
+        "amount": "4"
+    },
+    {
+        "name": "s3transfer",
+        "amount": "1"
+    },
+    {
+        "name": "six",
+        "amount": "28"
+    },
+    {
+        "name": "cloudpickle",
+        "amount": "8"
+    },
+    {
+        "name": "glob2",
+        "amount": "1"
+    },
+    {
+        "name": "gym",
+        "amount": "4"
+    },
+    {
+        "name": "joblib",
+        "amount": "5"
+    },
+    {
+        "name": "MPI",
+        "amount": "1"
+    },
+    {
+        "name": "mpi4py",
+        "amount": "2"
+    },
+    {
+        "name": "mujoco_py",
+        "amount": "2"
+    },
+    {
+        "name": "retro",
+        "amount": "1"
+    },
+    {
+        "name": "roboschool",
+        "amount": "1"
+    },
+    {
+        "name": "seaborn",
+        "amount": "6"
+    },
+    {
+        "name": "statsmodels",
+        "amount": "5"
+    },
+    {
+        "name": "tensorflow",
+        "amount": "17"
+    },
+    {
+        "name": "tqdm",
+        "amount": "23"
+    },
+    {
+        "name": "audiotools",
+        "amount": "1"
+    },
+    {
+        "name": "confuse",
+        "amount": "1"
+    },
+    {
+        "name": "discogs_client",
+        "amount": "2"
+    },
+    {
+        "name": "flask_cors",
+        "amount": "4"
+    },
+    {
+        "name": "guppy",
+        "amount": "2"
+    },
+    {
+        "name": "jellyfish",
+        "amount": "1"
+    },
+    {
+        "name": "langdetect",
+        "amount": "2"
+    },
+    {
+        "name": "munkres",
+        "amount": "1"
+    },
+    {
+        "name": "musicbrainzngs",
+        "amount": "1"
+    },
+    {
+        "name": "mutagen",
+        "amount": "3"
+    },
+    {
+        "name": "Pillow",
+        "amount": "46"
+    },
+    {
+        "name": "py7zr",
+        "amount": "1"
+    },
+    {
+        "name": "pylast",
+        "amount": "2"
+    },
+    {
+        "name": "pyxdg",
+        "amount": "1"
+    },
+    {
+        "name": "rarfile",
+        "amount": "1"
+    },
+    {
+        "name": "reflink",
+        "amount": "1"
+    },
+    {
+        "name": "requests_oauthlib",
+        "amount": "3"
+    },
+    {
+        "name": "soco",
+        "amount": "2"
+    },
+    {
+        "name": "Unidecode",
+        "amount": "3"
+    },
+    {
+        "name": "tensorflow_hub",
+        "amount": "3"
+    },
+    {
+        "name": "boto",
+        "amount": "3"
+    },
+    {
+        "name": "channels",
+        "amount": "1"
+    },
+    {
+        "name": "colorcet",
+        "amount": "2"
+    },
+    {
+        "name": "cx_Freeze",
+        "amount": "5"
+    },
+    {
+        "name": "ipyleaflet",
+        "amount": "1"
+    },
+    {
+        "name": "ipyvolume",
+        "amount": "1"
+    },
+    {
+        "name": "ipywidgets_bokeh",
+        "amount": "1"
+    },
+    {
+        "name": "nbconvert",
+        "amount": "3"
+    },
+    {
+        "name": "nbformat",
+        "amount": "2"
+    },
+    {
+        "name": "numba",
+        "amount": "4"
+    },
+    {
+        "name": "panel",
+        "amount": "1"
+    },
+    {
+        "name": "param",
+        "amount": "1"
+    },
+    {
+        "name": "py",
+        "amount": "5"
+    },
+    {
+        "name": "pyaudio",
+        "amount": "2"
+    },
+    {
+        "name": "pyshp",
+        "amount": "1"
+    },
+    {
+        "name": "sympy",
+        "amount": "4"
+    },
+    {
+        "name": "xyzservices",
+        "amount": "1"
+    },
+    {
+        "name": "azure_storage",
+        "amount": "7"
+    },
+    {
+        "name": "billiard",
+        "amount": "1"
+    },
+    {
+        "name": "bpython",
+        "amount": "2"
+    },
+    {
+        "name": "click_didyoumean",
+        "amount": "1"
+    },
+    {
+        "name": "click_plugins",
+        "amount": "1"
+    },
+    {
+        "name": "click_repl",
+        "amount": "1"
+    },
+    {
+        "name": "django_celery",
+        "amount": "1"
+    },
+    {
+        "name": "greenlet",
+        "amount": "3"
+    },
+    {
+        "name": "objgraph",
+        "amount": "2"
+    },
+    {
+        "name": "pyArango",
+        "amount": "1"
+    },
+    {
+        "name": "pybloom",
+        "amount": "1"
+    },
+    {
+        "name": "pycouchdb",
+        "amount": "1"
+    },
+    {
+        "name": "pydocumentdb",
+        "amount": "1"
+    },
+    {
+        "name": "pylibmc",
+        "amount": "1"
+    },
+    {
+        "name": "pytest_subtests",
+        "amount": "1"
+    },
+    {
+        "name": "python_memcached",
+        "amount": "1"
+    },
+    {
+        "name": "sphinx_celery",
+        "amount": "1"
+    },
+    {
+        "name": "sphinx_testing",
+        "amount": "1"
+    },
+    {
+        "name": "SQLAlchemy",
+        "amount": "13"
+    },
+    {
+        "name": "tblib",
+        "amount": "2"
+    },
+    {
+        "name": "vine",
+        "amount": "1"
+    },
+    {
+        "name": "apacheconfig",
+        "amount": "1"
+    },
+    {
+        "name": "augeas",
+        "amount": "1"
+    },
+    {
+        "name": "CloudFlare",
+        "amount": "1"
+    },
+    {
+        "name": "ConfigArgParse",
+        "amount": "2"
+    },
+    {
+        "name": "configobj",
+        "amount": "1"
+    },
+    {
+        "name": "distro",
+        "amount": "2"
+    },
+    {
+        "name": "dnspython",
+        "amount": "3"
+    },
+    {
+        "name": "Fabric",
+        "amount": "1"
+    },
+    {
+        "name": "josepy",
+        "amount": "1"
+    },
+    {
+        "name": "lexicon",
+        "amount": "1"
+    },
+    {
+        "name": "oauth2client",
+        "amount": "4"
+    },
+    {
+        "name": "parsedatetime",
+        "amount": "3"
+    },
+    {
+        "name": "pylint",
+        "amount": "2"
+    },
+    {
+        "name": "pyOpenSSL",
+        "amount": "7"
+    },
+    {
+        "name": "pyparsing",
+        "amount": "7"
+    },
+    {
+        "name": "pyrfc3339",
+        "amount": "1"
+    },
+    {
+        "name": "python_digitalocean",
+        "amount": "3"
+    },
+    {
+        "name": "requests_toolbelt",
+        "amount": "3"
+    },
+    {
+        "name": "sphinx_rtd_theme",
+        "amount": "14"
+    },
+    {
+        "name": "chatterbot_corpus",
+        "amount": "1"
+    },
+    {
+        "name": "mathparse",
+        "amount": "1"
+    },
+    {
+        "name": "pint",
+        "amount": "1"
+    },
+    {
+        "name": "pallets_sphinx_themes",
+        "amount": "2"
+    },
+    {
+        "name": "abodepy",
+        "amount": "1"
+    },
+    {
+        "name": "Adafruit_BBIO",
+        "amount": "1"
+    },
+    {
+        "name": "adafruit_dht",
+        "amount": "1"
+    },
+    {
+        "name": "Adafruit_SHT31",
+        "amount": "1"
+    },
+    {
+        "name": "adb_shell",
+        "amount": "1"
+    },
+    {
+        "name": "adext",
+        "amount": "1"
+    },
+    {
+        "name": "adguardhome",
+        "amount": "1"
+    },
+    {
+        "name": "aemet_opendata",
+        "amount": "1"
+    },
+    {
+        "name": "afsapi",
+        "amount": "1"
+    },
+    {
+        "name": "aio_geojson_geonetnz_quakes",
+        "amount": "1"
+    },
+    {
+        "name": "aio_geojson_geonetnz_volcano",
+        "amount": "1"
+    },
+    {
+        "name": "aio_geojson_nsw_rfs_incidents",
+        "amount": "1"
+    },
+    {
+        "name": "aio_georss_gdacs",
+        "amount": "1"
+    },
+    {
+        "name": "aioambient",
+        "amount": "1"
+    },
+    {
+        "name": "aioasuswrt",
+        "amount": "1"
+    },
+    {
+        "name": "aioazuredevops",
+        "amount": "1"
+    },
+    {
+        "name": "aiobotocore",
+        "amount": "1"
+    },
+    {
+        "name": "aiodiscover",
+        "amount": "1"
+    },
+    {
+        "name": "aioeafm",
+        "amount": "1"
+    },
+    {
+        "name": "aioeagle",
+        "amount": "1"
+    },
+    {
+        "name": "aioemonitor",
+        "amount": "1"
+    },
+    {
+        "name": "aioesphomeapi",
+        "amount": "1"
+    },
+    {
+        "name": "aioflo",
+        "amount": "1"
+    },
+    {
+        "name": "aioftp",
+        "amount": "1"
+    },
+    {
+        "name": "aiogithubapi",
+        "amount": "1"
+    },
+    {
+        "name": "aioguardian",
+        "amount": "1"
+    },
+    {
+        "name": "aioharmony",
+        "amount": "1"
+    },
+    {
+        "name": "aiohomekit",
+        "amount": "1"
+    },
+    {
+        "name": "aiohttp_cors",
+        "amount": "1"
+    },
+    {
+        "name": "aiohue",
+        "amount": "1"
+    },
+    {
+        "name": "aioimaplib",
+        "amount": "1"
+    },
+    {
+        "name": "aiokafka",
+        "amount": "1"
+    },
+    {
+        "name": "aiokef",
+        "amount": "1"
+    },
+    {
+        "name": "aiolifx",
+        "amount": "1"
+    },
+    {
+        "name": "aiolifx_effects",
+        "amount": "1"
+    },
+    {
+        "name": "aiolip",
+        "amount": "1"
+    },
+    {
+        "name": "aiolookin",
+        "amount": "1"
+    },
+    {
+        "name": "aiolyric",
+        "amount": "1"
+    },
+    {
+        "name": "aiomodernforms",
+        "amount": "1"
+    },
+    {
+        "name": "aiomusiccast",
+        "amount": "1"
+    },
+    {
+        "name": "aionanoleaf",
+        "amount": "1"
+    },
+    {
+        "name": "aionotify",
+        "amount": "1"
+    },
+    {
+        "name": "aionotion",
+        "amount": "1"
+    },
+    {
+        "name": "aiopulse",
+        "amount": "1"
+    },
+    {
+        "name": "aiopvapi",
+        "amount": "1"
+    },
+    {
+        "name": "aiopvpc",
+        "amount": "1"
+    },
+    {
+        "name": "aiopylgtv",
+        "amount": "1"
+    },
+    {
+        "name": "aiorecollect",
+        "amount": "1"
+    },
+    {
+        "name": "aioridwell",
+        "amount": "1"
+    },
+    {
+        "name": "aioshelly",
+        "amount": "1"
+    },
+    {
+        "name": "aioswitcher",
+        "amount": "1"
+    },
+    {
+        "name": "aiosyncthing",
+        "amount": "1"
+    },
+    {
+        "name": "aiotractive",
+        "amount": "1"
+    },
+    {
+        "name": "aiounifi",
+        "amount": "1"
+    },
+    {
+        "name": "aiovlc",
+        "amount": "1"
+    },
+    {
+        "name": "aiowatttime",
+        "amount": "1"
+    },
+    {
+        "name": "aioymaps",
+        "amount": "1"
+    },
+    {
+        "name": "airtouch4pyapi",
+        "amount": "1"
+    },
+    {
+        "name": "apcaccess",
+        "amount": "1"
+    },
+    {
+        "name": "apns2",
+        "amount": "1"
+    },
+    {
+        "name": "aprslib",
+        "amount": "1"
+    },
+    {
+        "name": "asmog",
+        "amount": "1"
+    },
+    {
+        "name": "astral",
+        "amount": "2"
+    },
+    {
+        "name": "astroid",
+        "amount": "1"
+    },
+    {
+        "name": "async_upnp_client",
+        "amount": "1"
+    },
+    {
+        "name": "asyncpysupla",
+        "amount": "1"
+    },
+    {
+        "name": "atenpdu",
+        "amount": "1"
+    },
+    {
+        "name": "auroranoaa",
+        "amount": "1"
+    },
+    {
+        "name": "aurorapy",
+        "amount": "1"
+    },
+    {
+        "name": "av",
+        "amount": "3"
+    },
+    {
+        "name": "awesomeversion",
+        "amount": "1"
+    },
+    {
+        "name": "backports.statistics",
+        "amount": "3"
+    },
+    {
+        "name": "batinfo",
+        "amount": "2"
+    },
+    {
+        "name": "beacontools",
+        "amount": "1"
+    },
+    {
+        "name": "bellows",
+        "amount": "1"
+    },
+    {
+        "name": "bimmer_connected",
+        "amount": "1"
+    },
+    {
+        "name": "bleak",
+        "amount": "1"
+    },
+    {
+        "name": "blebox_uniapi",
+        "amount": "1"
+    },
+    {
+        "name": "blinkpy",
+        "amount": "1"
+    },
+    {
+        "name": "blinkstick",
+        "amount": "1"
+    },
+    {
+        "name": "bluepy",
+        "amount": "1"
+    },
+    {
+        "name": "bme280spi",
+        "amount": "1"
+    },
+    {
+        "name": "bond_api",
+        "amount": "1"
+    },
+    {
+        "name": "boschshcpy",
+        "amount": "1"
+    },
+    {
+        "name": "bravia_tv",
+        "amount": "1"
+    },
+    {
+        "name": "bt_proximity",
+        "amount": "1"
+    },
+    {
+        "name": "bthomehub5_devicelist",
+        "amount": "1"
+    },
+    {
+        "name": "btlewrap",
+        "amount": "1"
+    },
+    {
+        "name": "btsmarthub_devicelist",
+        "amount": "1"
+    },
+    {
+        "name": "certifi",
+        "amount": "5"
+    },
+    {
+        "name": "circuit_webhook",
+        "amount": "1"
+    },
+    {
+        "name": "ciscomobilityexpress",
+        "amount": "1"
+    },
+    {
+        "name": "ciso8601",
+        "amount": "1"
+    },
+    {
+        "name": "clearpasspy",
+        "amount": "1"
+    },
+    {
+        "name": "clx",
+        "amount": "1"
+    },
+    {
+        "name": "CO2Signal",
+        "amount": "1"
+    },
+    {
+        "name": "colorthief",
+        "amount": "1"
+    },
+    {
+        "name": "connect_box",
+        "amount": "1"
+    },
+    {
+        "name": "construct",
+        "amount": "1"
+    },
+    {
+        "name": "crownstone_cloud",
+        "amount": "1"
+    },
+    {
+        "name": "crownstone_core",
+        "amount": "1"
+    },
+    {
+        "name": "crownstone_sse",
+        "amount": "1"
+    },
+    {
+        "name": "crownstone_uart",
+        "amount": "1"
+    },
+    {
+        "name": "datapoint",
+        "amount": "1"
+    },
+    {
+        "name": "defusedxml",
+        "amount": "5"
+    },
+    {
+        "name": "deluge_client",
+        "amount": "1"
+    },
+    {
+        "name": "devolo_home_control_api",
+        "amount": "1"
+    },
+    {
+        "name": "devolo_plc_api",
+        "amount": "1"
+    },
+    {
+        "name": "dlipower",
+        "amount": "1"
+    },
+    {
+        "name": "doorbirdpy",
+        "amount": "1"
+    },
+    {
+        "name": "dsmr_parser",
+        "amount": "1"
+    },
+    {
+        "name": "dwdwfsapi",
+        "amount": "1"
+    },
+    {
+        "name": "dweepy",
+        "amount": "1"
+    },
+    {
+        "name": "ebusdpy",
+        "amount": "1"
+    },
+    {
+        "name": "ecoaliface",
+        "amount": "1"
+    },
+    {
+        "name": "eebrightbox",
+        "amount": "1"
+    },
+    {
+        "name": "elkm1_lib",
+        "amount": "1"
+    },
+    {
+        "name": "emoji",
+        "amount": "2"
+    },
+    {
+        "name": "enturclient",
+        "amount": "1"
+    },
+    {
+        "name": "env_canada",
+        "amount": "1"
+    },
+    {
+        "name": "envoy_reader",
+        "amount": "1"
+    },
+    {
+        "name": "epson_projector",
+        "amount": "1"
+    },
+    {
+        "name": "eternalegypt",
+        "amount": "1"
+    },
+    {
+        "name": "evdev",
+        "amount": "2"
+    },
+    {
+        "name": "faadelays",
+        "amount": "1"
+    },
+    {
+        "name": "face_recognition",
+        "amount": "1"
+    },
+    {
+        "name": "feedparser",
+        "amount": "3"
+    },
+    {
+        "name": "fiblary3",
+        "amount": "1"
+    },
+    {
+        "name": "fixerio",
+        "amount": "1"
+    },
+    {
+        "name": "flipr_api",
+        "amount": "1"
+    },
+    {
+        "name": "fnvhash",
+        "amount": "1"
+    },
+    {
+        "name": "foobot_async",
+        "amount": "1"
+    },
+    {
+        "name": "fortiosapi",
+        "amount": "1"
+    },
+    {
+        "name": "freebox_api",
+        "amount": "1"
+    },
+    {
+        "name": "freesms",
+        "amount": "1"
+    },
+    {
+        "name": "fritzconnection",
+        "amount": "1"
+    },
+    {
+        "name": "geojson_client",
+        "amount": "1"
+    },
+    {
+        "name": "geopy",
+        "amount": "5"
+    },
+    {
+        "name": "georss_client",
+        "amount": "1"
+    },
+    {
+        "name": "georss_generic_client",
+        "amount": "1"
+    },
+    {
+        "name": "georss_ign_sismologia_client",
+        "amount": "1"
+    },
+    {
+        "name": "georss_qld_bushfire_alert_client",
+        "amount": "1"
+    },
+    {
+        "name": "getmac",
+        "amount": "1"
+    },
+    {
+        "name": "gitlab",
+        "amount": "1"
+    },
+    {
+        "name": "gitterpy",
+        "amount": "1"
+    },
+    {
+        "name": "glances_api",
+        "amount": "1"
+    },
+    {
+        "name": "google_nest_sdm",
+        "amount": "1"
+    },
+    {
+        "name": "googlemaps",
+        "amount": "1"
+    },
+    {
+        "name": "gpiozero",
+        "amount": "1"
+    },
+    {
+        "name": "gps3",
+        "amount": "1"
+    },
+    {
+        "name": "greeclimate",
+        "amount": "1"
+    },
+    {
+        "name": "greenwavereality",
+        "amount": "1"
+    },
+    {
+        "name": "growattServer",
+        "amount": "1"
+    },
+    {
+        "name": "gtts",
+        "amount": "1"
+    },
+    {
+        "name": "habitipy",
+        "amount": "1"
+    },
+    {
+        "name": "hangups",
+        "amount": "1"
+    },
+    {
+        "name": "hass_nabucasa",
+        "amount": "1"
+    },
+    {
+        "name": "hass_splunk",
+        "amount": "1"
+    },
+    {
+        "name": "hatasmota",
+        "amount": "1"
+    },
+    {
+        "name": "hdate",
+        "amount": "1"
+    },
+    {
+        "name": "heatmiserV3",
+        "amount": "1"
+    },
+    {
+        "name": "herepy",
+        "amount": "1"
+    },
+    {
+        "name": "hkavr",
+        "amount": "1"
+    },
+    {
+        "name": "hole",
+        "amount": "1"
+    },
+    {
+        "name": "holidays",
+        "amount": "3"
+    },
+    {
+        "name": "homeconnect",
+        "amount": "1"
+    },
+    {
+        "name": "homematicip",
+        "amount": "1"
+    },
+    {
+        "name": "homepluscontrol",
+        "amount": "1"
+    },
+    {
+        "name": "horimote",
+        "amount": "1"
+    },
+    {
+        "name": "httpcore",
+        "amount": "2"
+    },
+    {
+        "name": "huawei_lte_api",
+        "amount": "1"
+    },
+    {
+        "name": "hydrawiser",
+        "amount": "1"
+    },
+    {
+        "name": "i2csense",
+        "amount": "1"
+    },
+    {
+        "name": "ibm_cloud_sdk_core",
+        "amount": "1"
+    },
+    {
+        "name": "ibm_watson",
+        "amount": "1"
+    },
+    {
+        "name": "ibmiotf",
+        "amount": "1"
+    },
+    {
+        "name": "icmplib",
+        "amount": "1"
+    },
+    {
+        "name": "ifaddr",
+        "amount": "1"
+    },
+    {
+        "name": "ihcsdk",
+        "amount": "1"
+    },
+    {
+        "name": "iotawattpy",
+        "amount": "1"
+    },
+    {
+        "name": "ismartgate",
+        "amount": "1"
+    },
+    {
+        "name": "jose",
+        "amount": "2"
+    },
+    {
+        "name": "jsonpath",
+        "amount": "1"
+    },
+    {
+        "name": "jsonpickle",
+        "amount": "2"
+    },
+    {
+        "name": "jsonrpc_async",
+        "amount": "1"
+    },
+    {
+        "name": "jsonrpc_base",
+        "amount": "1"
+    },
+    {
+        "name": "kaiterra_async_client",
+        "amount": "1"
+    },
+    {
+        "name": "kasa",
+        "amount": "1"
+    },
+    {
+        "name": "keba_kecontact",
+        "amount": "1"
+    },
+    {
+        "name": "krakenex",
+        "amount": "1"
+    },
+    {
+        "name": "lakeside",
+        "amount": "1"
+    },
+    {
+        "name": "libpyfoscam",
+        "amount": "1"
+    },
+    {
+        "name": "libpyvivotek",
+        "amount": "1"
+    },
+    {
+        "name": "librouteros",
+        "amount": "1"
+    },
+    {
+        "name": "libsoundtouch",
+        "amount": "1"
+    },
+    {
+        "name": "lightify",
+        "amount": "1"
+    },
+    {
+        "name": "lmnotify",
+        "amount": "1"
+    },
+    {
+        "name": "locationsharinglib",
+        "amount": "1"
+    },
+    {
+        "name": "london_tube_status",
+        "amount": "1"
+    },
+    {
+        "name": "lupupy",
+        "amount": "1"
+    },
+    {
+        "name": "lw12",
+        "amount": "1"
+    },
+    {
+        "name": "mac_vendor_lookup",
+        "amount": "1"
+    },
+    {
+        "name": "matrix_client",
+        "amount": "1"
+    },
+    {
+        "name": "mbddns",
+        "amount": "1"
+    },
+    {
+        "name": "mcstatus",
+        "amount": "1"
+    },
+    {
+        "name": "messagebird",
+        "amount": "1"
+    },
+    {
+        "name": "meteoalertapi",
+        "amount": "1"
+    },
+    {
+        "name": "meteofrance_api",
+        "amount": "1"
+    },
+    {
+        "name": "mficlient",
+        "amount": "1"
+    },
+    {
+        "name": "micloud",
+        "amount": "1"
+    },
+    {
+        "name": "motionblinds",
+        "amount": "1"
+    },
+    {
+        "name": "motioneye_client",
+        "amount": "1"
+    },
+    {
+        "name": "mullvad_api",
+        "amount": "1"
+    },
+    {
+        "name": "my_pypi_package",
+        "amount": "1"
+    },
+    {
+        "name": "mycroftapi",
+        "amount": "1"
+    },
+    {
+        "name": "nacl",
+        "amount": "2"
+    },
+    {
+        "name": "nad_receiver",
+        "amount": "1"
+    },
+    {
+        "name": "ndms2_client",
+        "amount": "1"
+    },
+    {
+        "name": "nessclient",
+        "amount": "1"
+    },
+    {
+        "name": "netdisco",
+        "amount": "1"
+    },
+    {
+        "name": "nettigo_air_monitor",
+        "amount": "1"
+    },
+    {
+        "name": "neurio",
+        "amount": "1"
+    },
+    {
+        "name": "nextcloudmonitor",
+        "amount": "1"
+    },
+    {
+        "name": "niluclient",
+        "amount": "1"
+    },
+    {
+        "name": "nmap",
+        "amount": "1"
+    },
+    {
+        "name": "noaa_coops",
+        "amount": "1"
+    },
+    {
+        "name": "notifications_android_tv",
+        "amount": "1"
+    },
+    {
+        "name": "ns_api",
+        "amount": "1"
+    },
+    {
+        "name": "numato_gpio",
+        "amount": "1"
+    },
+    {
+        "name": "oasatelematics",
+        "amount": "1"
+    },
+    {
+        "name": "oauthlib",
+        "amount": "3"
+    },
+    {
+        "name": "object_detection",
+        "amount": "1"
+    },
+    {
+        "name": "oemthermostat",
+        "amount": "1"
+    },
+    {
+        "name": "ondilo",
+        "amount": "1"
+    },
+    {
+        "name": "openerz_api",
+        "amount": "1"
+    },
+    {
+        "name": "openevsewifi",
+        "amount": "1"
+    },
+    {
+        "name": "openhomedevice",
+        "amount": "1"
+    },
+    {
+        "name": "opensensemap_api",
+        "amount": "1"
+    },
+    {
+        "name": "openwrt_luci_rpc",
+        "amount": "1"
+    },
+    {
+        "name": "ovoenergy",
+        "amount": "1"
+    },
+    {
+        "name": "p1monitor",
+        "amount": "1"
+    },
+    {
+        "name": "paho_mqtt",
+        "amount": "2"
+    },
+    {
+        "name": "panacotta",
+        "amount": "1"
+    },
+    {
+        "name": "pdunehd",
+        "amount": "1"
+    },
+    {
+        "name": "pencompy",
+        "amount": "1"
+    },
+    {
+        "name": "pexpect",
+        "amount": "4"
+    },
+    {
+        "name": "phone_modem",
+        "amount": "1"
+    },
+    {
+        "name": "pi1wire",
+        "amount": "1"
+    },
+    {
+        "name": "pifacedigitalio",
+        "amount": "1"
+    },
+    {
+        "name": "pizzapi",
+        "amount": "1"
+    },
+    {
+        "name": "plexapi",
+        "amount": "1"
+    },
+    {
+        "name": "plexauth",
+        "amount": "1"
+    },
+    {
+        "name": "plexwebsocket",
+        "amount": "1"
+    },
+    {
+        "name": "plumlightpad",
+        "amount": "1"
+    },
+    {
+        "name": "pmsensor",
+        "amount": "1"
+    },
+    {
+        "name": "praw",
+        "amount": "1"
+    },
+    {
+        "name": "prayer_times_calculator",
+        "amount": "1"
+    },
+    {
+        "name": "ProgettiHWSW",
+        "amount": "1"
+    },
+    {
+        "name": "prometheus_client",
+        "amount": "3"
+    },
+    {
+        "name": "proxmoxer",
+        "amount": "1"
+    },
+    {
+        "name": "pulsectl",
+        "amount": "1"
+    },
+    {
+        "name": "pushover_complete",
+        "amount": "1"
+    },
+    {
+        "name": "pwmled",
+        "amount": "1"
+    },
+    {
+        "name": "py17track",
+        "amount": "1"
+    },
+    {
+        "name": "py_nextbus",
+        "amount": "1"
+    },
+    {
+        "name": "py_nightscout",
+        "amount": "1"
+    },
+    {
+        "name": "py_vapid",
+        "amount": "1"
+    },
+    {
+        "name": "pyads",
+        "amount": "1"
+    },
+    {
+        "name": "pyaehw4a1",
+        "amount": "1"
+    },
+    {
+        "name": "pyaftership",
+        "amount": "1"
+    },
+    {
+        "name": "pyairnow",
+        "amount": "1"
+    },
+    {
+        "name": "pyairvisual",
+        "amount": "1"
+    },
+    {
+        "name": "pyalmond",
+        "amount": "1"
+    },
+    {
+        "name": "pyarlo",
+        "amount": "1"
+    },
+    {
+        "name": "pyatag",
+        "amount": "1"
+    },
+    {
+        "name": "pyatmo",
+        "amount": "1"
+    },
+    {
+        "name": "pyatome",
+        "amount": "1"
+    },
+    {
+        "name": "pyatv",
+        "amount": "1"
+    },
+    {
+        "name": "pybbox",
+        "amount": "1"
+    },
+    {
+        "name": "pyblackbird",
+        "amount": "1"
+    },
+    {
+        "name": "pyblockchain",
+        "amount": "1"
+    },
+    {
+        "name": "pybotvac",
+        "amount": "1"
+    },
+    {
+        "name": "pycarwings2",
+        "amount": "1"
+    },
+    {
+        "name": "pycec",
+        "amount": "1"
+    },
+    {
+        "name": "pycfdns",
+        "amount": "1"
+    },
+    {
+        "name": "pychannels",
+        "amount": "1"
+    },
+    {
+        "name": "pychromecast",
+        "amount": "1"
+    },
+    {
+        "name": "pycketcasts",
+        "amount": "1"
+    },
+    {
+        "name": "pyclimacell",
+        "amount": "1"
+    },
+    {
+        "name": "pycmus",
+        "amount": "1"
+    },
+    {
+        "name": "pycomfoconnect",
+        "amount": "1"
+    },
+    {
+        "name": "pyControl4",
+        "amount": "1"
+    },
+    {
+        "name": "pycoolmasternet_async",
+        "amount": "1"
+    },
+    {
+        "name": "pycsspeechtts",
+        "amount": "1"
+    },
+    {
+        "name": "pydaikin",
+        "amount": "1"
+    },
+    {
+        "name": "pydanfossair",
+        "amount": "1"
+    },
+    {
+        "name": "pydantic",
+        "amount": "4"
+    },
+    {
+        "name": "pydeconz",
+        "amount": "1"
+    },
+    {
+        "name": "pydelijn",
+        "amount": "1"
+    },
+    {
+        "name": "pydexcom",
+        "amount": "1"
+    },
+    {
+        "name": "PyDispatcher",
+        "amount": "2"
+    },
+    {
+        "name": "pydoods",
+        "amount": "1"
+    },
+    {
+        "name": "pydroid_ipcam",
+        "amount": "1"
+    },
+    {
+        "name": "pyebox",
+        "amount": "1"
+    },
+    {
+        "name": "pyecobee",
+        "amount": "1"
+    },
+    {
+        "name": "pyeconet",
+        "amount": "1"
+    },
+    {
+        "name": "pyedimax",
+        "amount": "1"
+    },
+    {
+        "name": "pyefergy",
+        "amount": "1"
+    },
+    {
+        "name": "pyeight",
+        "amount": "1"
+    },
+    {
+        "name": "pyemby",
+        "amount": "1"
+    },
+    {
+        "name": "pyenvisalink",
+        "amount": "1"
+    },
+    {
+        "name": "pyephem",
+        "amount": "1"
+    },
+    {
+        "name": "pyephember",
+        "amount": "1"
+    },
+    {
+        "name": "pyetherscan",
+        "amount": "1"
+    },
+    {
+        "name": "pyeverlights",
+        "amount": "1"
+    },
+    {
+        "name": "pyevilgenius",
+        "amount": "1"
+    },
+    {
+        "name": "pyezviz",
+        "amount": "1"
+    },
+    {
+        "name": "pyfido",
+        "amount": "1"
+    },
+    {
+        "name": "pyfireservicerota",
+        "amount": "1"
+    },
+    {
+        "name": "pyflic",
+        "amount": "1"
+    },
+    {
+        "name": "pyflick",
+        "amount": "1"
+    },
+    {
+        "name": "pyflume",
+        "amount": "1"
+    },
+    {
+        "name": "pyflunearyou",
+        "amount": "1"
+    },
+    {
+        "name": "pyfnip",
+        "amount": "1"
+    },
+    {
+        "name": "pyforked_daapd",
+        "amount": "1"
+    },
+    {
+        "name": "pyfreedompro",
+        "amount": "1"
+    },
+    {
+        "name": "pyfritzhome",
+        "amount": "1"
+    },
+    {
+        "name": "pyfronius",
+        "amount": "1"
+    },
+    {
+        "name": "pyfttt",
+        "amount": "1"
+    },
+    {
+        "name": "pygatt",
+        "amount": "1"
+    },
+    {
+        "name": "pygtfs",
+        "amount": "1"
+    },
+    {
+        "name": "pygti",
+        "amount": "1"
+    },
+    {
+        "name": "pyhap",
+        "amount": "1"
+    },
+    {
+        "name": "pyhaversion",
+        "amount": "1"
+    },
+    {
+        "name": "pyheos",
+        "amount": "1"
+    },
+    {
+        "name": "pyhik",
+        "amount": "1"
+    },
+    {
+        "name": "pyhomematic",
+        "amount": "1"
+    },
+    {
+        "name": "pyhomeworks",
+        "amount": "1"
+    },
+    {
+        "name": "pyialarm",
+        "amount": "1"
+    },
+    {
+        "name": "pyicloud",
+        "amount": "1"
+    },
+    {
+        "name": "pyinsteon",
+        "amount": "1"
+    },
+    {
+        "name": "pyintesishome",
+        "amount": "1"
+    },
+    {
+        "name": "pyipma",
+        "amount": "1"
+    },
+    {
+        "name": "pyipp",
+        "amount": "1"
+    },
+    {
+        "name": "pyiqvia",
+        "amount": "1"
+    },
+    {
+        "name": "pyirishrail",
+        "amount": "1"
+    },
+    {
+        "name": "pyiss",
+        "amount": "1"
+    },
+    {
+        "name": "pyisy",
+        "amount": "1"
+    },
+    {
+        "name": "pyitachip2ir",
+        "amount": "1"
+    },
+    {
+        "name": "pykeyboard",
+        "amount": "1"
+    },
+    {
+        "name": "pykira",
+        "amount": "1"
+    },
+    {
+        "name": "pykmtronic",
+        "amount": "1"
+    },
+    {
+        "name": "pykodi",
+        "amount": "1"
+    },
+    {
+        "name": "pykrakenapi",
+        "amount": "1"
+    },
+    {
+        "name": "pykulersky",
+        "amount": "1"
+    },
+    {
+        "name": "pykwb",
+        "amount": "1"
+    },
+    {
+        "name": "pylacrosse",
+        "amount": "1"
+    },
+    {
+        "name": "pylaunches",
+        "amount": "1"
+    },
+    {
+        "name": "pylgnetcast",
+        "amount": "1"
+    },
+    {
+        "name": "pylibrespot_java",
+        "amount": "1"
+    },
+    {
+        "name": "pylitejet",
+        "amount": "1"
+    },
+    {
+        "name": "pylitterbot",
+        "amount": "1"
+    },
+    {
+        "name": "pyloopenergy",
+        "amount": "1"
+    },
+    {
+        "name": "pylutron",
+        "amount": "1"
+    },
+    {
+        "name": "pylutron_caseta",
+        "amount": "1"
+    },
+    {
+        "name": "pymailgunner",
+        "amount": "1"
+    },
+    {
+        "name": "PyMata",
+        "amount": "1"
+    },
+    {
+        "name": "pymata_express",
+        "amount": "1"
+    },
+    {
+        "name": "pymazda",
+        "amount": "1"
+    },
+    {
+        "name": "pymediaroom",
+        "amount": "1"
+    },
+    {
+        "name": "pymelcloud",
+        "amount": "1"
+    },
+    {
+        "name": "pymfy",
+        "amount": "1"
+    },
+    {
+        "name": "pymitv",
+        "amount": "1"
+    },
+    {
+        "name": "pymochad",
+        "amount": "1"
+    },
+    {
+        "name": "pymodbus",
+        "amount": "1"
+    },
+    {
+        "name": "pymonoprice",
+        "amount": "1"
+    },
+    {
+        "name": "pymsteams",
+        "amount": "1"
+    },
+    {
+        "name": "pymyq",
+        "amount": "1"
+    },
+    {
+        "name": "pynetgear",
+        "amount": "1"
+    },
+    {
+        "name": "pynetio",
+        "amount": "1"
+    },
+    {
+        "name": "pynuki",
+        "amount": "1"
+    },
+    {
+        "name": "pynut2",
+        "amount": "1"
+    },
+    {
+        "name": "pynws",
+        "amount": "1"
+    },
+    {
+        "name": "pynzbgetapi",
+        "amount": "1"
+    },
+    {
+        "name": "pyobihai",
+        "amount": "1"
+    },
+    {
+        "name": "pyoctoprintapi",
+        "amount": "1"
+    },
+    {
+        "name": "pyombi",
+        "amount": "1"
+    },
+    {
+        "name": "pyopenuv",
+        "amount": "1"
+    },
+    {
+        "name": "pyopnsense",
+        "amount": "1"
+    },
+    {
+        "name": "pyoppleio",
+        "amount": "1"
+    },
+    {
+        "name": "pyotgw",
+        "amount": "1"
+    },
+    {
+        "name": "pyotp",
+        "amount": "1"
+    },
+    {
+        "name": "pyowm",
+        "amount": "1"
+    },
+    {
+        "name": "pyownet",
+        "amount": "1"
+    },
+    {
+        "name": "pypca",
+        "amount": "1"
+    },
+    {
+        "name": "pypck",
+        "amount": "1"
+    },
+    {
+        "name": "pypjlink",
+        "amount": "1"
+    },
+    {
+        "name": "pyplaato",
+        "amount": "1"
+    },
+    {
+        "name": "pypoint",
+        "amount": "1"
+    },
+    {
+        "name": "pyprof2calltree",
+        "amount": "2"
+    },
+    {
+        "name": "pyprosegur",
+        "amount": "1"
+    },
+    {
+        "name": "pyps4_2ndscreen",
+        "amount": "1"
+    },
+    {
+        "name": "pyqrcode",
+        "amount": "1"
+    },
+    {
+        "name": "pyqvrpro",
+        "amount": "1"
+    },
+    {
+        "name": "pyqwikswitch",
+        "amount": "1"
+    },
+    {
+        "name": "pyrail",
+        "amount": "1"
+    },
+    {
+        "name": "pyrainbird",
+        "amount": "1"
+    },
+    {
+        "name": "pyrecswitch",
+        "amount": "1"
+    },
+    {
+        "name": "pyrepetier",
+        "amount": "1"
+    },
+    {
+        "name": "pyripple",
+        "amount": "1"
+    },
+    {
+        "name": "pyrisco",
+        "amount": "1"
+    },
+    {
+        "name": "pyrituals",
+        "amount": "1"
+    },
+    {
+        "name": "pyruckus",
+        "amount": "1"
+    },
+    {
+        "name": "pysabnzbd",
+        "amount": "1"
+    },
+    {
+        "name": "pysaj",
+        "amount": "1"
+    },
+    {
+        "name": "pysdcp",
+        "amount": "1"
+    },
+    {
+        "name": "pysensibo",
+        "amount": "1"
+    },
+    {
+        "name": "pysesame2",
+        "amount": "1"
+    },
+    {
+        "name": "pysher",
+        "amount": "1"
+    },
+    {
+        "name": "pysiaalarm",
+        "amount": "1"
+    },
+    {
+        "name": "pysignalclirestapi",
+        "amount": "1"
+    },
+    {
+        "name": "pyskyqhub",
+        "amount": "1"
+    },
+    {
+        "name": "pysma",
+        "amount": "1"
+    },
+    {
+        "name": "pysmappee",
+        "amount": "1"
+    },
+    {
+        "name": "pysmartapp",
+        "amount": "1"
+    },
+    {
+        "name": "pysmartthings",
+        "amount": "1"
+    },
+    {
+        "name": "pysmarty",
+        "amount": "1"
+    },
+    {
+        "name": "pysnmp",
+        "amount": "2"
+    },
+    {
+        "name": "pyspcwebgw",
+        "amount": "1"
+    },
+    {
+        "name": "pysqueezebox",
+        "amount": "1"
+    },
+    {
+        "name": "pystiebeleltron",
+        "amount": "1"
+    },
+    {
+        "name": "pysuez",
+        "amount": "1"
+    },
+    {
+        "name": "pysyncthru",
+        "amount": "1"
+    },
+    {
+        "name": "PyTado",
+        "amount": "1"
+    },
+    {
+        "name": "pytankerkoenig",
+        "amount": "1"
+    },
+    {
+        "name": "pytautulli",
+        "amount": "1"
+    },
+    {
+        "name": "pytest_socket",
+        "amount": "1"
+    },
+    {
+        "name": "pytfiac",
+        "amount": "1"
+    },
+    {
+        "name": "pythinkingcleaner",
+        "amount": "1"
+    },
+    {
+        "name": "python_awair",
+        "amount": "1"
+    },
+    {
+        "name": "python_bcrypt",
+        "amount": "2"
+    },
+    {
+        "name": "python_picnic_api",
+        "amount": "1"
+    },
+    {
+        "name": "pythonegardia",
+        "amount": "1"
+    },
+    {
+        "name": "pytile",
+        "amount": "1"
+    },
+    {
+        "name": "pytouchline",
+        "amount": "1"
+    },
+    {
+        "name": "pytraccar",
+        "amount": "1"
+    },
+    {
+        "name": "pytradfri",
+        "amount": "1"
+    },
+    {
+        "name": "pytrafikverket",
+        "amount": "1"
+    },
+    {
+        "name": "pyudev",
+        "amount": "1"
+    },
+    {
+        "name": "pyuptimerobot",
+        "amount": "1"
+    },
+    {
+        "name": "pyvera",
+        "amount": "1"
+    },
+    {
+        "name": "pyversasense",
+        "amount": "1"
+    },
+    {
+        "name": "pyvesync",
+        "amount": "1"
+    },
+    {
+        "name": "PyViCare",
+        "amount": "1"
+    },
+    {
+        "name": "pyvizio",
+        "amount": "1"
+    },
+    {
+        "name": "pyvlx",
+        "amount": "1"
+    },
+    {
+        "name": "pyvolumio",
+        "amount": "1"
+    },
+    {
+        "name": "pyW215",
+        "amount": "1"
+    },
+    {
+        "name": "pywebpush",
+        "amount": "1"
+    },
+    {
+        "name": "pywemo",
+        "amount": "1"
+    },
+    {
+        "name": "pywilight",
+        "amount": "1"
+    },
+    {
+        "name": "pyxeoma",
+        "amount": "1"
+    },
+    {
+        "name": "pyzabbix",
+        "amount": "1"
+    },
+    {
+        "name": "pyzbar",
+        "amount": "1"
+    },
+    {
+        "name": "pyzerproc",
+        "amount": "1"
+    },
+    {
+        "name": "qnapstats",
+        "amount": "1"
+    },
+    {
+        "name": "rachiopy",
+        "amount": "1"
+    },
+    {
+        "name": "raincloudy",
+        "amount": "1"
+    },
+    {
+        "name": "raspyrfm_client",
+        "amount": "1"
+    },
+    {
+        "name": "regenmaschine",
+        "amount": "1"
+    },
+    {
+        "name": "renault_api",
+        "amount": "1"
+    },
+    {
+        "name": "respx",
+        "amount": "1"
+    },
+    {
+        "name": "RestrictedPython",
+        "amount": "2"
+    },
+    {
+        "name": "rfk101py",
+        "amount": "1"
+    },
+    {
+        "name": "ring_doorbell",
+        "amount": "1"
+    },
+    {
+        "name": "ritassist",
+        "amount": "1"
+    },
+    {
+        "name": "rjpl",
+        "amount": "1"
+    },
+    {
+        "name": "rocketchat_API",
+        "amount": "2"
+    },
+    {
+        "name": "rokuecp",
+        "amount": "1"
+    },
+    {
+        "name": "roombapy",
+        "amount": "1"
+    },
+    {
+        "name": "roonapi",
+        "amount": "1"
+    },
+    {
+        "name": "rpi_bad_power",
+        "amount": "1"
+    },
+    {
+        "name": "rtmapi",
+        "amount": "1"
+    },
+    {
+        "name": "russound",
+        "amount": "1"
+    },
+    {
+        "name": "rxv",
+        "amount": "1"
+    },
+    {
+        "name": "samsungctl",
+        "amount": "1"
+    },
+    {
+        "name": "samsungtvws",
+        "amount": "1"
+    },
+    {
+        "name": "scapy",
+        "amount": "2"
+    },
+    {
+        "name": "schiene",
+        "amount": "1"
+    },
+    {
+        "name": "screenlogicpy",
+        "amount": "1"
+    },
+    {
+        "name": "sense_energy",
+        "amount": "1"
+    },
+    {
+        "name": "sense_hat",
+        "amount": "1"
+    },
+    {
+        "name": "sharkiqpy",
+        "amount": "1"
+    },
+    {
+        "name": "sharp_aquos_rc",
+        "amount": "1"
+    },
+    {
+        "name": "simplehound",
+        "amount": "1"
+    },
+    {
+        "name": "simplipy",
+        "amount": "1"
+    },
+    {
+        "name": "sisyphus_control",
+        "amount": "1"
+    },
+    {
+        "name": "skybellpy",
+        "amount": "1"
+    },
+    {
+        "name": "sleepyq",
+        "amount": "1"
+    },
+    {
+        "name": "slixmpp",
+        "amount": "1"
+    },
+    {
+        "name": "smbus",
+        "amount": "1"
+    },
+    {
+        "name": "sml",
+        "amount": "1"
+    },
+    {
+        "name": "somecomfort",
+        "amount": "1"
+    },
+    {
+        "name": "somfy_mylink_synergy",
+        "amount": "1"
+    },
+    {
+        "name": "speak2mary",
+        "amount": "1"
+    },
+    {
+        "name": "speedtest",
+        "amount": "1"
+    },
+    {
+        "name": "spiderpy",
+        "amount": "1"
+    },
+    {
+        "name": "spotipy",
+        "amount": "1"
+    },
+    {
+        "name": "srpenergy",
+        "amount": "1"
+    },
+    {
+        "name": "stdlib_list",
+        "amount": "1"
+    },
+    {
+        "name": "steam",
+        "amount": "1"
+    },
+    {
+        "name": "stringcase",
+        "amount": "1"
+    },
+    {
+        "name": "subarulink",
+        "amount": "1"
+    },
+    {
+        "name": "sucks",
+        "amount": "1"
+    },
+    {
+        "name": "sunwatcher",
+        "amount": "1"
+    },
+    {
+        "name": "surepy",
+        "amount": "1"
+    },
+    {
+        "name": "swisshydrodata",
+        "amount": "1"
+    },
+    {
+        "name": "systembridge",
+        "amount": "1"
+    },
+    {
+        "name": "tahoma_api",
+        "amount": "1"
+    },
+    {
+        "name": "temescal",
+        "amount": "1"
+    },
+    {
+        "name": "temperusb",
+        "amount": "1"
+    },
+    {
+        "name": "tesla_powerwall",
+        "amount": "1"
+    },
+    {
+        "name": "toonapi",
+        "amount": "1"
+    },
+    {
+        "name": "total_connect_client",
+        "amount": "1"
+    },
+    {
+        "name": "tp_connected",
+        "amount": "1"
+    },
+    {
+        "name": "transmissionrpc",
+        "amount": "1"
+    },
+    {
+        "name": "travispy",
+        "amount": "1"
+    },
+    {
+        "name": "tuyaha",
+        "amount": "1"
+    },
+    {
+        "name": "twinkly_client",
+        "amount": "1"
+    },
+    {
+        "name": "TwitterAPI",
+        "amount": "1"
+    },
+    {
+        "name": "uEagle",
+        "amount": "1"
+    },
+    {
+        "name": "upb_lib",
+        "amount": "1"
+    },
+    {
+        "name": "upcloud_api",
+        "amount": "1"
+    },
+    {
+        "name": "url_normalize",
+        "amount": "1"
+    },
+    {
+        "name": "uscisstatus",
+        "amount": "1"
+    },
+    {
+        "name": "uvcclient",
+        "amount": "1"
+    },
+    {
+        "name": "vallox_websocket_api",
+        "amount": "1"
+    },
+    {
+        "name": "vehicle",
+        "amount": "1"
+    },
+    {
+        "name": "venstarcolortouch",
+        "amount": "1"
+    },
+    {
+        "name": "VL53L1X2",
+        "amount": "1"
+    },
+    {
+        "name": "voluptuous",
+        "amount": "1"
+    },
+    {
+        "name": "voluptuous_serialize",
+        "amount": "1"
+    },
+    {
+        "name": "wakeonlan",
+        "amount": "1"
+    },
+    {
+        "name": "waqiasync",
+        "amount": "1"
+    },
+    {
+        "name": "watchdog",
+        "amount": "3"
+    },
+    {
+        "name": "WazeRouteCalculator",
+        "amount": "1"
+    },
+    {
+        "name": "webexteamssdk",
+        "amount": "2"
+    },
+    {
+        "name": "websockets",
+        "amount": "3"
+    },
+    {
+        "name": "wirelesstagpy",
+        "amount": "1"
+    },
+    {
+        "name": "withings_api",
+        "amount": "1"
+    },
+    {
+        "name": "wolf_smartset",
+        "amount": "1"
+    },
+    {
+        "name": "wsdiscovery",
+        "amount": "1"
+    },
+    {
+        "name": "xbee_helper",
+        "amount": "1"
+    },
+    {
+        "name": "xboxapi",
+        "amount": "1"
+    },
+    {
+        "name": "xknx",
+        "amount": "1"
+    },
+    {
+        "name": "xmltodict",
+        "amount": "2"
+    },
+    {
+        "name": "xs1_api_client",
+        "amount": "1"
+    },
+    {
+        "name": "yalesmartalarmclient",
+        "amount": "1"
+    },
+    {
+        "name": "yalexs",
+        "amount": "1"
+    },
+    {
+        "name": "youless_api",
+        "amount": "1"
+    },
+    {
+        "name": "youtube_dl",
+        "amount": "1"
+    },
+    {
+        "name": "zeep",
+        "amount": "1"
+    },
+    {
+        "name": "zhong_hong_hvac",
+        "amount": "1"
+    },
+    {
+        "name": "zigpy",
+        "amount": "1"
+    },
+    {
+        "name": "zigpy_deconz",
+        "amount": "1"
+    },
+    {
+        "name": "zigpy_xbee",
+        "amount": "1"
+    },
+    {
+        "name": "zigpy_zigate",
+        "amount": "1"
+    },
+    {
+        "name": "zigpy_znp",
+        "amount": "1"
+    },
+    {
+        "name": "celery",
+        "amount": "1"
+    },
+    {
+        "name": "coloredlogs",
+        "amount": "2"
+    },
+    {
+        "name": "dash_core_components",
+        "amount": "1"
+    },
+    {
+        "name": "dash_dangerously_set_inner_html",
+        "amount": "1"
+    },
+    {
+        "name": "dash_flow_example",
+        "amount": "1"
+    },
+    {
+        "name": "dash_html_components",
+        "amount": "1"
+    },
+    {
+        "name": "diskcache",
+        "amount": "1"
+    },
+    {
+        "name": "fire",
+        "amount": "2"
+    },
+    {
+        "name": "flask_compress",
+        "amount": "2"
+    },
+    {
+        "name": "flask_talisman",
+        "amount": "3"
+    },
+    {
+        "name": "ipdb",
+        "amount": "1"
+    },
+    {
+        "name": "mimesis",
+        "amount": "1"
+    },
+    {
+        "name": "multiprocess",
+        "amount": "2"
+    },
+    {
+        "name": "percy",
+        "amount": "1"
+    },
+    {
+        "name": "plotly",
+        "amount": "5"
+    },
+    {
+        "name": "preconditions",
+        "amount": "1"
+    },
+    {
+        "name": "redis",
+        "amount": "6"
+    },
+    {
+        "name": "webdriver_manager",
+        "amount": "1"
+    },
+    {
+        "name": "psyco",
+        "amount": "1"
+    },
+    {
+        "name": "pycryptodome",
+        "amount": "4"
+    },
+    {
+        "name": "pylzma",
+        "amount": "1"
+    },
+    {
+        "name": "PyQt4",
+        "amount": "4"
+    },
+    {
+        "name": "PyQt5",
+        "amount": "7"
+    },
+    {
+        "name": "caffe2",
+        "amount": "2"
+    },
+    {
+        "name": "cityscapesscripts",
+        "amount": "3"
+    },
+    {
+        "name": "Cython",
+        "amount": "13"
+    },
+    {
+        "name": "imageio",
+        "amount": "6"
+    },
+    {
+        "name": "protobuf",
+        "amount": "15"
+    },
+    {
+        "name": "pycocotools",
+        "amount": "7"
+    },
+    {
+        "name": "fvcore",
+        "amount": "2"
+    },
+    {
+        "name": "hydra-core",
+        "amount": "2"
+    },
+    {
+        "name": "iopath",
+        "amount": "1"
+    },
+    {
+        "name": "mmcv",
+        "amount": "2"
+    },
+    {
+        "name": "mmdet",
+        "amount": "1"
+    },
+    {
+        "name": "omegaconf",
+        "amount": "2"
+    },
+    {
+        "name": "onnx",
+        "amount": "5"
+    },
+    {
+        "name": "pytorch_lightning",
+        "amount": "4"
+    },
+    {
+        "name": "recommonmark",
+        "amount": "4"
+    },
+    {
+        "name": "Shapely",
+        "amount": "2"
+    },
+    {
+        "name": "coreschema",
+        "amount": "1"
+    },
+    {
+        "name": "guardian",
+        "amount": "1"
+    },
+    {
+        "name": "uritemplate",
+        "amount": "1"
+    },
+    {
+        "name": "natsort",
+        "amount": "1"
+    },
+    {
+        "name": "onnxruntime",
+        "amount": "6"
+    },
+    {
+        "name": "pathlib2",
+        "amount": "4"
+    },
+    {
+        "name": "skimage",
+        "amount": "9"
+    },
+    {
+        "name": "alabaster",
+        "amount": "1"
+    },
+    {
+        "name": "decorator",
+        "amount": "4"
+    },
+    {
+        "name": "fabric2",
+        "amount": "1"
+    },
+    {
+        "name": "invocations",
+        "amount": "1"
+    },
+    {
+        "name": "invoke",
+        "amount": "2"
+    },
+    {
+        "name": "pytest_relaxed",
+        "amount": "1"
+    },
+    {
+        "name": "dlib",
+        "amount": "2"
+    },
+    {
+        "name": "networkx",
+        "amount": "6"
+    },
+    {
+        "name": "fastcluster",
+        "amount": "2"
+    },
+    {
+        "name": "ffmpy",
+        "amount": "1"
+    },
+    {
+        "name": "imageio_ffmpeg",
+        "amount": "2"
+    },
+    {
+        "name": "keras",
+        "amount": "4"
+    },
+    {
+        "name": "pip",
+        "amount": "7"
+    },
+    {
+        "name": "plaidml",
+        "amount": "1"
+    },
+    {
+        "name": "pynvml",
+        "amount": "2"
+    },
+    {
+        "name": "pynvx",
+        "amount": "1"
+    },
+    {
+        "name": "face_recognition_models",
+        "amount": "1"
+    },
+    {
+        "name": "picamera",
+        "amount": "2"
+    },
+    {
+        "name": "random2",
+        "amount": "1"
+    },
+    {
+        "name": "text_unidecode",
+        "amount": "1"
+    },
+    {
+        "name": "validators",
+        "amount": "2"
+    },
+    {
+        "name": "moviepy",
+        "amount": "1"
+    },
+    {
+        "name": "anyio",
+        "amount": "1"
+    },
+    {
+        "name": "contextlib2",
+        "amount": "2"
+    },
+    {
+        "name": "couchbase",
+        "amount": "1"
+    },
+    {
+        "name": "databases",
+        "amount": "1"
+    },
+    {
+        "name": "email_validator",
+        "amount": "1"
+    },
+    {
+        "name": "mkdocs",
+        "amount": "1"
+    },
+    {
+        "name": "multipart",
+        "amount": "1"
+    },
+    {
+        "name": "orjson",
+        "amount": "2"
+    },
+    {
+        "name": "passlib",
+        "amount": "2"
+    },
+    {
+        "name": "peewee",
+        "amount": "2"
+    },
+    {
+        "name": "starlette",
+        "amount": "2"
+    },
+    {
+        "name": "strawberry",
+        "amount": "1"
+    },
+    {
+        "name": "typer",
+        "amount": "3"
+    },
+    {
+        "name": "ujson",
+        "amount": "6"
+    },
+    {
+        "name": "uvicorn",
+        "amount": "3"
+    },
+    {
+        "name": "cupy",
+        "amount": "2"
+    },
+    {
+        "name": "lib",
+        "amount": "1"
+    },
+    {
+        "name": "pynvrtc",
+        "amount": "1"
+    },
+    {
+        "name": "segmentation",
+        "amount": "1"
+    },
+    {
+        "name": "allennlp",
+        "amount": "1"
+    },
+    {
+        "name": "apex",
+        "amount": "5"
+    },
+    {
+        "name": "bpemb",
+        "amount": "1"
+    },
+    {
+        "name": "deprecated",
+        "amount": "1"
+    },
+    {
+        "name": "ftfy",
+        "amount": "1"
+    },
+    {
+        "name": "gdown",
+        "amount": "1"
+    },
+    {
+        "name": "gensim",
+        "amount": "2"
+    },
+    {
+        "name": "hyperopt",
+        "amount": "3"
+    },
+    {
+        "name": "konoha",
+        "amount": "1"
+    },
+    {
+        "name": "mpld3",
+        "amount": "1"
+    },
+    {
+        "name": "segtok",
+        "amount": "1"
+    },
+    {
+        "name": "sentence_transformers",
+        "amount": "2"
+    },
+    {
+        "name": "torchcontrib",
+        "amount": "1"
+    },
+    {
+        "name": "asgiref",
+        "amount": "2"
+    },
+    {
+        "name": "python-dotenv",
+        "amount": "1"
+    },
+    {
+        "name": "cachetools",
+        "amount": "3"
+    },
+    {
+        "name": "ccxt",
+        "amount": "1"
+    },
+    {
+        "name": "fastapi",
+        "amount": "1"
+    },
+    {
+        "name": "progressbar33",
+        "amount": "3"
+    },
+    {
+        "name": "pycoingecko",
+        "amount": "1"
+    },
+    {
+        "name": "questionary",
+        "amount": "2"
+    },
+    {
+        "name": "rapidjson",
+        "amount": "2"
+    },
+    {
+        "name": "sdnotify",
+        "amount": "1"
+    },
+    {
+        "name": "systemd",
+        "amount": "1"
+    },
+    {
+        "name": "time_machine",
+        "amount": "1"
+    },
+    {
+        "name": "autograd",
+        "amount": "1"
+    },
+    {
+        "name": "fastText",
+        "amount": "1"
+    },
+    {
+        "name": "m2r",
+        "amount": "2"
+    },
+    {
+        "name": "pyemd",
+        "amount": "1"
+    },
+    {
+        "name": "pygtrie",
+        "amount": "3"
+    },
+    {
+        "name": "pyperclip",
+        "amount": "1"
+    },
+    {
+        "name": "Pyro4",
+        "amount": "1"
+    },
+    {
+        "name": "smart_open",
+        "amount": "2"
+    },
+    {
+        "name": "sparsesvd",
+        "amount": "1"
+    },
+    {
+        "name": "sphinx_gallery",
+        "amount": "3"
+    },
+    {
+        "name": "testfixtures",
+        "amount": "3"
+    },
+    {
+        "name": "theano",
+        "amount": "2"
+    },
+    {
+        "name": "visdom",
+        "amount": "3"
+    },
+    {
+        "name": "wheelhouse_uploader",
+        "amount": "2"
+    },
+    {
+        "name": "beautifultable",
+        "amount": "1"
+    },
+    {
+        "name": "chromedriver_autoinstaller",
+        "amount": "1"
+    },
+    {
+        "name": "imagehash",
+        "amount": "1"
+    },
+    {
+        "name": "selenium",
+        "amount": "4"
+    },
+    {
+        "name": "wayback",
+        "amount": "1"
+    },
+    {
+        "name": "bernhard",
+        "amount": "1"
+    },
+    {
+        "name": "cassandra_driver",
+        "amount": "2"
+    },
+    {
+        "name": "chevron",
+        "amount": "1"
+    },
+    {
+        "name": "ConfigParser",
+        "amount": "9"
+    },
+    {
+        "name": "CouchDB",
+        "amount": "1"
+    },
+    {
+        "name": "docker_py",
+        "amount": "4"
+    },
+    {
+        "name": "dogstatsd_python",
+        "amount": "3"
+    },
+    {
+        "name": "elasticsearch",
+        "amount": "3"
+    },
+    {
+        "name": "graphitesend",
+        "amount": "1"
+    },
+    {
+        "name": "influxdb",
+        "amount": "2"
+    },
+    {
+        "name": "kafka",
+        "amount": "1"
+    },
+    {
+        "name": "netifaces",
+        "amount": "2"
+    },
+    {
+        "name": "pika",
+        "amount": "3"
+    },
+    {
+        "name": "potsdb",
+        "amount": "1"
+    },
+    {
+        "name": "py3nvml",
+        "amount": "1"
+    },
+    {
+        "name": "pygal",
+        "amount": "1"
+    },
+    {
+        "name": "pymdstat",
+        "amount": "1"
+    },
+    {
+        "name": "pySMART",
+        "amount": "1"
+    },
+    {
+        "name": "scandir",
+        "amount": "2"
+    },
+    {
+        "name": "sparklines",
+        "amount": "1"
+    },
+    {
+        "name": "wifi",
+        "amount": "1"
+    },
+    {
+        "name": "xmlrpclib",
+        "amount": "3"
+    },
+    {
+        "name": "zeroconf",
+        "amount": "1"
+    },
+    {
+        "name": "colored",
+        "amount": "1"
+    },
+    {
+        "name": "regex",
+        "amount": "4"
+    },
+    {
+        "name": "Box2D",
+        "amount": "1"
+    },
+    {
+        "name": "lz4",
+        "amount": "1"
+    },
+    {
+        "name": "pygame",
+        "amount": "4"
+    },
+    {
+        "name": "pyglet",
+        "amount": "2"
+    },
+    {
+        "name": "absl",
+        "amount": "4"
+    },
+    {
+        "name": "alnlp",
+        "amount": "1"
+    },
+    {
+        "name": "bert",
+        "amount": "1"
+    },
+    {
+        "name": "grpc",
+        "amount": "2"
+    },
+    {
+        "name": "hanlp_downloader",
+        "amount": "1"
+    },
+    {
+        "name": "params_flow",
+        "amount": "1"
+    },
+    {
+        "name": "penman",
+        "amount": "1"
+    },
+    {
+        "name": "phrasetree",
+        "amount": "1"
+    },
+    {
+        "name": "toposort",
+        "amount": "1"
+    },
+    {
+        "name": "fsspec",
+        "amount": "3"
+    },
+    {
+        "name": "gluoncv",
+        "amount": "2"
+    },
+    {
+        "name": "petastorm",
+        "amount": "1"
+    },
+    {
+        "name": "bugsnag",
+        "amount": "1"
+    },
+    {
+        "name": "pytest_httpbin",
+        "amount": "1"
+    },
+    {
+        "name": "gmpy2",
+        "amount": "1"
+    },
+    {
+        "name": "imagecorruptions",
+        "amount": "2"
+    },
+    {
+        "name": "unittest2",
+        "amount": "2"
+    },
+    {
+        "name": "clarifai",
+        "amount": "1"
+    },
+    {
+        "name": "plyer",
+        "amount": "1"
+    },
+    {
+        "name": "pyvirtualdisplay",
+        "amount": "1"
+    },
+    {
+        "name": "telegram",
+        "amount": "1"
+    },
+    {
+        "name": "webdriverdownloader",
+        "amount": "1"
+    },
+    {
+        "name": "A",
+        "amount": "1"
+    },
+    {
+        "name": "appnope",
+        "amount": "1"
+    },
+    {
+        "name": "B",
+        "amount": "1"
+    },
+    {
+        "name": "backcall",
+        "amount": "1"
+    },
+    {
+        "name": "clr",
+        "amount": "1"
+    },
+    {
+        "name": "coverage",
+        "amount": "2"
+    },
+    {
+        "name": "curio",
+        "amount": "1"
+    },
+    {
+        "name": "cython",
+        "amount": "1"
+    },
+    {
+        "name": "docrepr",
+        "amount": "1"
+    },
+    {
+        "name": "gobject",
+        "amount": "2"
+    },
+    {
+        "name": "ipykernel",
+        "amount": "2"
+    },
+    {
+        "name": "ipyparallel",
+        "amount": "1"
+    },
+    {
+        "name": "jedi",
+        "amount": "1"
+    },
+    {
+        "name": "jupyter_client",
+        "amount": "1"
+    },
+    {
+        "name": "keyring",
+        "amount": "5"
+    },
+    {
+        "name": "matplotlib_inline",
+        "amount": "1"
+    },
+    {
+        "name": "nose",
+        "amount": "2"
+    },
+    {
+        "name": "notebook",
+        "amount": "1"
+    },
+    {
+        "name": "pickleshare",
+        "amount": "1"
+    },
+    {
+        "name": "prompt_toolkit",
+        "amount": "3"
+    },
+    {
+        "name": "pygtk",
+        "amount": "1"
+    },
+    {
+        "name": "PyOpenGL",
+        "amount": "2"
+    },
+    {
+        "name": "PyQt6",
+        "amount": "2"
+    },
+    {
+        "name": "PySide",
+        "amount": "1"
+    },
+    {
+        "name": "PySide2",
+        "amount": "2"
+    },
+    {
+        "name": "PySide6",
+        "amount": "2"
+    },
+    {
+        "name": "pywin32",
+        "amount": "1"
+    },
+    {
+        "name": "requests_cache",
+        "amount": "2"
+    },
+    {
+        "name": "sip",
+        "amount": "4"
+    },
+    {
+        "name": "stack_data",
+        "amount": "1"
+    },
+    {
+        "name": "testpath",
+        "amount": "1"
+    },
+    {
+        "name": "trio",
+        "amount": "3"
+    },
+    {
+        "name": "wcwidth",
+        "amount": "2"
+    },
+    {
+        "name": "keras_preprocessing",
+        "amount": "1"
+    },
+    {
+        "name": "memory_profiler",
+        "amount": "3"
+    },
+    {
+        "name": "portpicker",
+        "amount": "1"
+    },
+    {
+        "name": "pydot",
+        "amount": "1"
+    },
+    {
+        "name": "pydot_ng",
+        "amount": "1"
+    },
+    {
+        "name": "pydotplus",
+        "amount": "1"
+    },
+    {
+        "name": "tensorboard",
+        "amount": "2"
+    },
+    {
+        "name": "tensorflow_estimator",
+        "amount": "1"
+    },
+    {
+        "name": "tensorflow_text",
+        "amount": "2"
+    },
+    {
+        "name": "wrapt",
+        "amount": "1"
+    },
+    {
+        "name": "AppKit",
+        "amount": "2"
+    },
+    {
+        "name": "ffmpeg",
+        "amount": "1"
+    },
+    {
+        "name": "ffpyplayer",
+        "amount": "1"
+    },
+    {
+        "name": "Image",
+        "amount": "2"
+    },
+    {
+        "name": "ios",
+        "amount": "1"
+    },
+    {
+        "name": "jnius",
+        "amount": "2"
+    },
+    {
+        "name": "Leap",
+        "amount": "1"
+    },
+    {
+        "name": "oscpy",
+        "amount": "1"
+    },
+    {
+        "name": "pyenchant",
+        "amount": "1"
+    },
+    {
+        "name": "PyInstaller",
+        "amount": "2"
+    },
+    {
+        "name": "pyobjus",
+        "amount": "1"
+    },
+    {
+        "name": "pytest_asyncio",
+        "amount": "1"
+    },
+    {
+        "name": "pytest_trio",
+        "amount": "1"
+    },
+    {
+        "name": "testsuite",
+        "amount": "1"
+    },
+    {
+        "name": "win32gui",
+        "amount": "1"
+    },
+    {
+        "name": "airspeed",
+        "amount": "1"
+    },
+    {
+        "name": "amazon_kclpy",
+        "amount": "1"
+    },
+    {
+        "name": "aws-sam-translator",
+        "amount": "1"
+    },
+    {
+        "name": "cbor2",
+        "amount": "1"
+    },
+    {
+        "name": "debugpy",
+        "amount": "1"
+    },
+    {
+        "name": "h11",
+        "amount": "1"
+    },
+    {
+        "name": "hypercorn",
+        "amount": "1"
+    },
+    {
+        "name": "jsonpatch",
+        "amount": "1"
+    },
+    {
+        "name": "jsonpath_rw",
+        "amount": "1"
+    },
+    {
+        "name": "jsonpointer",
+        "amount": "1"
+    },
+    {
+        "name": "localstack_client",
+        "amount": "1"
+    },
+    {
+        "name": "localstack_ext",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_apigateway",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_cloudformation",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_dynamodb",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_es",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_events",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_iam",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_kinesis",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_kms",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_lambda",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_logs",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_s3",
+        "amount": "2"
+    },
+    {
+        "name": "mypy_boto3_secretsmanager",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_ses",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_sns",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_sqs",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_ssm",
+        "amount": "1"
+    },
+    {
+        "name": "mypy_boto3_stepfunctions",
+        "amount": "1"
+    },
+    {
+        "name": "pproxy",
+        "amount": "1"
+    },
+    {
+        "name": "pypandoc",
+        "amount": "2"
+    },
+    {
+        "name": "quart",
+        "amount": "1"
+    },
+    {
+        "name": "readerwriterlock",
+        "amount": "1"
+    },
+    {
+        "name": "requests_aws4auth",
+        "amount": "1"
+    },
+    {
+        "name": "stevedore",
+        "amount": "1"
+    },
+    {
+        "name": "archivist",
+        "amount": "1"
+    },
+    {
+        "name": "flask_basicauth",
+        "amount": "1"
+    },
+    {
+        "name": "geventhttpclient",
+        "amount": "1"
+    },
+    {
+        "name": "prettytable",
+        "amount": "3"
+    },
+    {
+        "name": "pyquery",
+        "amount": "3"
+    },
+    {
+        "name": "retry",
+        "amount": "1"
+    },
+    {
+        "name": "roundrobin",
+        "amount": "1"
+    },
+    {
+        "name": "aiocontextvars",
+        "amount": "1"
+    },
+    {
+        "name": "win32_setctime",
+        "amount": "1"
+    },
+    {
+        "name": "avro",
+        "amount": "1"
+    },
+    {
+        "name": "datadog",
+        "amount": "1"
+    },
+    {
+        "name": "hypothesis",
+        "amount": "5"
+    },
+    {
+        "name": "mechanize",
+        "amount": "1"
+    },
+    {
+        "name": "mysql_connector_repackaged",
+        "amount": "1"
+    },
+    {
+        "name": "pyftpdlib",
+        "amount": "2"
+    },
+    {
+        "name": "pykube",
+        "amount": "1"
+    },
+    {
+        "name": "requests_unixsocket",
+        "amount": "1"
+    },
+    {
+        "name": "sendgrid",
+        "amount": "1"
+    },
+    {
+        "name": "toml",
+        "amount": "6"
+    },
+    {
+        "name": "docopt",
+        "amount": "2"
+    },
+    {
+        "name": "librosa",
+        "amount": "3"
+    },
+    {
+        "name": "mido",
+        "amount": "1"
+    },
+    {
+        "name": "mir_eval",
+        "amount": "1"
+    },
+    {
+        "name": "nets",
+        "amount": "1"
+    },
+    {
+        "name": "note_seq",
+        "amount": "1"
+    },
+    {
+        "name": "pretty_midi",
+        "amount": "1"
+    },
+    {
+        "name": "rtmidi",
+        "amount": "1"
+    },
+    {
+        "name": "sonnet",
+        "amount": "1"
+    },
+    {
+        "name": "sox",
+        "amount": "1"
+    },
+    {
+        "name": "tensorflow_datasets",
+        "amount": "3"
+    },
+    {
+        "name": "tensorflow_gan",
+        "amount": "2"
+    },
+    {
+        "name": "tensorflow_probability",
+        "amount": "2"
+    },
+    {
+        "name": "tf_slim",
+        "amount": "2"
+    },
+    {
+        "name": "autobahn_rce",
+        "amount": "1"
+    },
+    {
+        "name": "automat",
+        "amount": "1"
+    },
+    {
+        "name": "hkdf",
+        "amount": "1"
+    },
+    {
+        "name": "humanize",
+        "amount": "2"
+    },
+    {
+        "name": "noise",
+        "amount": "1"
+    },
+    {
+        "name": "spake2",
+        "amount": "1"
+    },
+    {
+        "name": "Twisted",
+        "amount": "4"
+    },
+    {
+        "name": "txtorcon",
+        "amount": "1"
+    },
+    {
+        "name": "zope",
+        "amount": "2"
+    },
+    {
+        "name": "colour",
+        "amount": "1"
+    },
+    {
+        "name": "manimpango",
+        "amount": "1"
+    },
+    {
+        "name": "mapbox_earcut",
+        "amount": "1"
+    },
+    {
+        "name": "moderngl",
+        "amount": "1"
+    },
+    {
+        "name": "moderngl_window",
+        "amount": "1"
+    },
+    {
+        "name": "pydub",
+        "amount": "1"
+    },
+    {
+        "name": "screeninfo",
+        "amount": "1"
+    },
+    {
+        "name": "imgaug",
+        "amount": "1"
+    },
+    {
+        "name": "cairocffi",
+        "amount": "1"
+    },
+    {
+        "name": "colorspacious",
+        "amount": "1"
+    },
+    {
+        "name": "cycler",
+        "amount": "3"
+    },
+    {
+        "name": "fontTools",
+        "amount": "1"
+    },
+    {
+        "name": "kiwisolver",
+        "amount": "1"
+    },
+    {
+        "name": "setuptools_scm",
+        "amount": "2"
+    },
+    {
+        "name": "shiboken2",
+        "amount": "1"
+    },
+    {
+        "name": "shiboken6",
+        "amount": "1"
+    },
+    {
+        "name": "locustio",
+        "amount": "1"
+    },
+    {
+        "name": "opencensus",
+        "amount": "1"
+    },
+    {
+        "name": "python_json_logger",
+        "amount": "1"
+    },
+    {
+        "name": "ghp_import",
+        "amount": "1"
+    },
+    {
+        "name": "lunr",
+        "amount": "1"
+    },
+    {
+        "name": "mergedeep",
+        "amount": "1"
+    },
+    {
+        "name": "ax",
+        "amount": "1"
+    },
+    {
+        "name": "captum",
+        "amount": "1"
+    },
+    {
+        "name": "cudf",
+        "amount": "2"
+    },
+    {
+        "name": "cuml",
+        "amount": "1"
+    },
+    {
+        "name": "databricks_cli",
+        "amount": "1"
+    },
+    {
+        "name": "entrypoints",
+        "amount": "2"
+    },
+    {
+        "name": "GPyOpt",
+        "amount": "1"
+    },
+    {
+        "name": "mxnet",
+        "amount": "2"
+    },
+    {
+        "name": "onnxmltools",
+        "amount": "1"
+    },
+    {
+        "name": "prometheus_flask_exporter",
+        "amount": "1"
+    },
+    {
+        "name": "py4j",
+        "amount": "1"
+    },
+    {
+        "name": "querystring_parser",
+        "amount": "1"
+    },
+    {
+        "name": "skl2onnx",
+        "amount": "1"
+    },
+    {
+        "name": "tf2onnx",
+        "amount": "1"
+    },
+    {
+        "name": "torchmetrics",
+        "amount": "4"
+    },
+    {
+        "name": "torchtext",
+        "amount": "3"
+    },
+    {
+        "name": "albumentations",
+        "amount": "2"
+    },
+    {
+        "name": "instaboostfast",
+        "amount": "1"
+    },
+    {
+        "name": "kwarray",
+        "amount": "1"
+    },
+    {
+        "name": "mmtrack",
+        "amount": "1"
+    },
+    {
+        "name": "model_archiver",
+        "amount": "1"
+    },
+    {
+        "name": "pytorch_sphinx_theme",
+        "amount": "2"
+    },
+    {
+        "name": "tensorrt",
+        "amount": "2"
+    },
+    {
+        "name": "terminaltables",
+        "amount": "2"
+    },
+    {
+        "name": "ts",
+        "amount": "1"
+    },
+    {
+        "name": "xlrd",
+        "amount": "5"
+    },
+    {
+        "name": "xlutils",
+        "amount": "1"
+    },
+    {
+        "name": "androguard",
+        "amount": "1"
+    },
+    {
+        "name": "asn1crypto",
+        "amount": "1"
+    },
+    {
+        "name": "biplist",
+        "amount": "1"
+    },
+    {
+        "name": "frida",
+        "amount": "1"
+    },
+    {
+        "name": "google_play_scraper",
+        "amount": "1"
+    },
+    {
+        "name": "http_tools",
+        "amount": "1"
+    },
+    {
+        "name": "IP2Location",
+        "amount": "1"
+    },
+    {
+        "name": "libsast",
+        "amount": "1"
+    },
+    {
+        "name": "lief",
+        "amount": "1"
+    },
+    {
+        "name": "macholib",
+        "amount": "1"
+    },
+    {
+        "name": "mitmproxy",
+        "amount": "2"
+    },
+    {
+        "name": "oscrypto",
+        "amount": "1"
+    },
+    {
+        "name": "pdfkit",
+        "amount": "1"
+    },
+    {
+        "name": "shelljob",
+        "amount": "1"
+    },
+    {
+        "name": "waitress",
+        "amount": "2"
+    },
+    {
+        "name": "whitenoise",
+        "amount": "1"
+    },
+    {
+        "name": "native",
+        "amount": "1"
+    },
+    {
+        "name": "tomli",
+        "amount": "1"
+    },
+    {
+        "name": "typed_ast",
+        "amount": "1"
+    },
+    {
+        "name": "lasagne",
+        "amount": "1"
+    },
+    {
+        "name": "jieba",
+        "amount": "3"
+    },
+    {
+        "name": "pythainlp",
+        "amount": "2"
+    },
+    {
+        "name": "tinysegmenter",
+        "amount": "1"
+    },
+    {
+        "name": "tldextract",
+        "amount": "1"
+    },
+    {
+        "name": "backoff",
+        "amount": "3"
+    },
+    {
+        "name": "better_apidoc",
+        "amount": "1"
+    },
+    {
+        "name": "bllipparser",
+        "amount": "1"
+    },
+    {
+        "name": "epydoc",
+        "amount": "1"
+    },
+    {
+        "name": "norm",
+        "amount": "1"
+    },
+    {
+        "name": "python_crfsuite",
+        "amount": "1"
+    },
+    {
+        "name": "twython",
+        "amount": "1"
+    },
+    {
+        "name": "adaptdl",
+        "amount": "1"
+    },
+    {
+        "name": "alibabacloud_pai_dlc20201203",
+        "amount": "1"
+    },
+    {
+        "name": "alibabacloud_tea_openapi",
+        "amount": "1"
+    },
+    {
+        "name": "astor",
+        "amount": "1"
+    },
+    {
+        "name": "azureml",
+        "amount": "1"
+    },
+    {
+        "name": "ConfigSpace",
+        "amount": "1"
+    },
+    {
+        "name": "ConfigSpaceNNI",
+        "amount": "1"
+    },
+    {
+        "name": "json_tricks",
+        "amount": "1"
+    },
+    {
+        "name": "jupyter_core",
+        "amount": "1"
+    },
+    {
+        "name": "jupyterlab",
+        "amount": "1"
+    },
+    {
+        "name": "lightgbm",
+        "amount": "2"
+    },
+    {
+        "name": "line_profiler",
+        "amount": "1"
+    },
+    {
+        "name": "nn_meter",
+        "amount": "1"
+    },
+    {
+        "name": "ptflops",
+        "amount": "1"
+    },
+    {
+        "name": "pybnn",
+        "amount": "1"
+    },
+    {
+        "name": "pycuda",
+        "amount": "1"
+    },
+    {
+        "name": "pyhdfs",
+        "amount": "1"
+    },
+    {
+        "name": "pytorchyolo",
+        "amount": "1"
+    },
+    {
+        "name": "schema",
+        "amount": "1"
+    },
+    {
+        "name": "smac",
+        "amount": "1"
+    },
+    {
+        "name": "thop",
+        "amount": "2"
+    },
+    {
+        "name": "tianshou",
+        "amount": "1"
+    },
+    {
+        "name": "timm",
+        "amount": "1"
+    },
+    {
+        "name": "topi",
+        "amount": "1"
+    },
+    {
+        "name": "tvm",
+        "amount": "1"
+    },
+    {
+        "name": "yacs",
+        "amount": "2"
+    },
+    {
+        "name": "pep8",
+        "amount": "1"
+    },
+    {
+        "name": "pycodestyle",
+        "amount": "1"
+    },
+    {
+        "name": "pyobject",
+        "amount": "1"
+    },
+    {
+        "name": "aenum",
+        "amount": "1"
+    },
+    {
+        "name": "atomicwrites",
+        "amount": "1"
+    },
+    {
+        "name": "carla",
+        "amount": "1"
+    },
+    {
+        "name": "casadi",
+        "amount": "1"
+    },
+    {
+        "name": "cffi",
+        "amount": "1"
+    },
+    {
+        "name": "control",
+        "amount": "1"
+    },
+    {
+        "name": "crcmod",
+        "amount": "1"
+    },
+    {
+        "name": "dictdiffer",
+        "amount": "1"
+    },
+    {
+        "name": "ft4222",
+        "amount": "1"
+    },
+    {
+        "name": "hexdump",
+        "amount": "1"
+    },
+    {
+        "name": "inputs",
+        "amount": "1"
+    },
+    {
+        "name": "jsonrpc",
+        "amount": "1"
+    },
+    {
+        "name": "laika",
+        "amount": "1"
+    },
+    {
+        "name": "lru",
+        "amount": "2"
+    },
+    {
+        "name": "pprofile",
+        "amount": "1"
+    },
+    {
+        "name": "pycurl",
+        "amount": "2"
+    },
+    {
+        "name": "pystick",
+        "amount": "1"
+    },
+    {
+        "name": "rednose",
+        "amount": "1"
+    },
+    {
+        "name": "smbus2",
+        "amount": "1"
+    },
+    {
+        "name": "timezonefinder",
+        "amount": "2"
+    },
+    {
+        "name": "websocket_client",
+        "amount": "2"
+    },
+    {
+        "name": "xx",
+        "amount": "1"
+    },
+    {
+        "name": "r2pipe",
+        "amount": "1"
+    },
+    {
+        "name": "cftime",
+        "amount": "1"
+    },
+    {
+        "name": "dask",
+        "amount": "2"
+    },
+    {
+        "name": "fastparquet",
+        "amount": "1"
+    },
+    {
+        "name": "Foundation",
+        "amount": "1"
+    },
+    {
+        "name": "numexpr",
+        "amount": "1"
+    },
+    {
+        "name": "numpydoc",
+        "amount": "2"
+    },
+    {
+        "name": "odfpy",
+        "amount": "1"
+    },
+    {
+        "name": "openpyxl",
+        "amount": "3"
+    },
+    {
+        "name": "pg8000",
+        "amount": "1"
+    },
+    {
+        "name": "pyxlsb",
+        "amount": "1"
+    },
+    {
+        "name": "qtpy",
+        "amount": "1"
+    },
+    {
+        "name": "s3fs",
+        "amount": "1"
+    },
+    {
+        "name": "tables",
+        "amount": "2"
+    },
+    {
+        "name": "traitlets",
+        "amount": "2"
+    },
+    {
+        "name": "xarray",
+        "amount": "2"
+    },
+    {
+        "name": "xlsxwriter",
+        "amount": "3"
+    },
+    {
+        "name": "xlwt",
+        "amount": "1"
+    },
+    {
+        "name": "HTMLParser",
+        "amount": "4"
+    },
+    {
+        "name": "ordereddict",
+        "amount": "2"
+    },
+    {
+        "name": "parver",
+        "amount": "1"
+    },
+    {
+        "name": "simplejson",
+        "amount": "6"
+    },
+    {
+        "name": "towncrier",
+        "amount": "2"
+    },
+    {
+        "name": "unicodedata2",
+        "amount": "1"
+    },
+    {
+        "name": "inflect",
+        "amount": "2"
+    },
+    {
+        "name": "ipywidgets",
+        "amount": "4"
+    },
+    {
+        "name": "retrying",
+        "amount": "1"
+    },
+    {
+        "name": "sphinx_bootstrap_theme",
+        "amount": "1"
+    },
+    {
+        "name": "vincent",
+        "amount": "1"
+    },
+    {
+        "name": "cachy",
+        "amount": "1"
+    },
+    {
+        "name": "cleo",
+        "amount": "1"
+    },
+    {
+        "name": "crashtest",
+        "amount": "1"
+    },
+    {
+        "name": "deepdiff",
+        "amount": "1"
+    },
+    {
+        "name": "html5lib",
+        "amount": "1"
+    },
+    {
+        "name": "httpretty",
+        "amount": "1"
+    },
+    {
+        "name": "pkginfo",
+        "amount": "1"
+    },
+    {
+        "name": "pytest_mock",
+        "amount": "2"
+    },
+    {
+        "name": "shellingham",
+        "amount": "1"
+    },
+    {
+        "name": "tomlkit",
+        "amount": "1"
+    },
+    {
+        "name": "virtualenv",
+        "amount": "1"
+    },
+    {
+        "name": "wheel",
+        "amount": "2"
+    },
+    {
+        "name": "zipp",
+        "amount": "1"
+    },
+    {
+        "name": "bzr_pqm",
+        "amount": "1"
+    },
+    {
+        "name": "colormath",
+        "amount": "1"
+    },
+    {
+        "name": "i3ipc",
+        "amount": "1"
+    },
+    {
+        "name": "pygit2",
+        "amount": "1"
+    },
+    {
+        "name": "python_hglib",
+        "amount": "1"
+    },
+    {
+        "name": "cmdstanpy",
+        "amount": "1"
+    },
+    {
+        "name": "convertdate",
+        "amount": "1"
+    },
+    {
+        "name": "lunarcalendar",
+        "amount": "1"
+    },
+    {
+        "name": "pystan",
+        "amount": "1"
+    },
+    {
+        "name": "amqp",
+        "amount": "2"
+    },
+    {
+        "name": "easywebdav",
+        "amount": "1"
+    },
+    {
+        "name": "httpbin",
+        "amount": "1"
+    },
+    {
+        "name": "projects",
+        "amount": "1"
+    },
+    {
+        "name": "rediscluster",
+        "amount": "2"
+    },
+    {
+        "name": "umsgpack",
+        "amount": "1"
+    },
+    {
+        "name": "wsgidav",
+        "amount": "1"
+    },
+    {
+        "name": "python_Levenshtein",
+        "amount": "1"
+    },
+    {
+        "name": "apscheduler",
+        "amount": "2"
+    },
+    {
+        "name": "dominate",
+        "amount": "1"
+    },
+    {
+        "name": "wandb",
+        "amount": "2"
+    },
+    {
+        "name": "clu",
+        "amount": "1"
+    },
+    {
+        "name": "deepspeed",
+        "amount": "1"
+    },
+    {
+        "name": "modelindex",
+        "amount": "1"
+    },
+    {
+        "name": "comet_ml",
+        "amount": "1"
+    },
+    {
+        "name": "deprecate",
+        "amount": "1"
+    },
+    {
+        "name": "jsonargparse",
+        "amount": "1"
+    },
+    {
+        "name": "ase",
+        "amount": "1"
+    },
+    {
+        "name": "cugraph",
+        "amount": "1"
+    },
+    {
+        "name": "gdist",
+        "amount": "1"
+    },
+    {
+        "name": "ogb",
+        "amount": "1"
+    },
+    {
+        "name": "openmesh",
+        "amount": "1"
+    },
+    {
+        "name": "pytorch_memlab",
+        "amount": "1"
+    },
+    {
+        "name": "rdflib",
+        "amount": "2"
+    },
+    {
+        "name": "rdkit",
+        "amount": "1"
+    },
+    {
+        "name": "schnetpack",
+        "amount": "1"
+    },
+    {
+        "name": "torch_cluster",
+        "amount": "1"
+    },
+    {
+        "name": "torch_scatter",
+        "amount": "1"
+    },
+    {
+        "name": "torch_sparse",
+        "amount": "1"
+    },
+    {
+        "name": "torch_spline_conv",
+        "amount": "1"
+    },
+    {
+        "name": "trimesh",
+        "amount": "1"
+    },
+    {
+        "name": "aio_pika",
+        "amount": "1"
+    },
+    {
+        "name": "aioresponses",
+        "amount": "1"
+    },
+    {
+        "name": "aiormq",
+        "amount": "1"
+    },
+    {
+        "name": "analytics_python",
+        "amount": "1"
+    },
+    {
+        "name": "async_generator",
+        "amount": "1"
+    },
+    {
+        "name": "cachecontrol",
+        "amount": "1"
+    },
+    {
+        "name": "colorclass",
+        "amount": "1"
+    },
+    {
+        "name": "colorhash",
+        "amount": "1"
+    },
+    {
+        "name": "fakeredis",
+        "amount": "1"
+    },
+    {
+        "name": "fbmessenger",
+        "amount": "1"
+    },
+    {
+        "name": "mitie",
+        "amount": "1"
+    },
+    {
+        "name": "pamqp",
+        "amount": "1"
+    },
+    {
+        "name": "pep440_version_utils",
+        "amount": "1"
+    },
+    {
+        "name": "pykwalify",
+        "amount": "1"
+    },
+    {
+        "name": "pyTelegramBotAPI",
+        "amount": "1"
+    },
+    {
+        "name": "pytest_sanic",
+        "amount": "1"
+    },
+    {
+        "name": "randomname",
+        "amount": "1"
+    },
+    {
+        "name": "rasa_sdk",
+        "amount": "1"
+    },
+    {
+        "name": "sanic_cors",
+        "amount": "1"
+    },
+    {
+        "name": "sanic_jwt",
+        "amount": "1"
+    },
+    {
+        "name": "sanic_testing",
+        "amount": "2"
+    },
+    {
+        "name": "sklearn_crfsuite",
+        "amount": "1"
+    },
+    {
+        "name": "tarsafe",
+        "amount": "1"
+    },
+    {
+        "name": "tensorflow_addons",
+        "amount": "2"
+    },
+    {
+        "name": "typeguard",
+        "amount": "1"
+    },
+    {
+        "name": "typing_utils",
+        "amount": "1"
+    },
+    {
+        "name": "audioread",
+        "amount": "1"
+    },
+    {
+        "name": "lws",
+        "amount": "1"
+    },
+    {
+        "name": "sounddevice",
+        "amount": "1"
+    },
+    {
+        "name": "soundfile",
+        "amount": "1"
+    },
+    {
+        "name": "umap",
+        "amount": "1"
+    },
+    {
+        "name": "webrtcvad",
+        "amount": "1"
+    },
+    {
+        "name": "atsd_client",
+        "amount": "1"
+    },
+    {
+        "name": "disposable_email_domains",
+        "amount": "2"
+    },
+    {
+        "name": "dql",
+        "amount": "1"
+    },
+    {
+        "name": "dynamo3",
+        "amount": "1"
+    },
+    {
+        "name": "flask_limiter",
+        "amount": "1"
+    },
+    {
+        "name": "flask_mail",
+        "amount": "1"
+    },
+    {
+        "name": "flask_migrate",
+        "amount": "2"
+    },
+    {
+        "name": "flask_oauthlib",
+        "amount": "1"
+    },
+    {
+        "name": "flask_restful",
+        "amount": "1"
+    },
+    {
+        "name": "flask_sqlalchemy",
+        "amount": "2"
+    },
+    {
+        "name": "funcy",
+        "amount": "1"
+    },
+    {
+        "name": "gspread",
+        "amount": "1"
+    },
+    {
+        "name": "ibm_db",
+        "amount": "1"
+    },
+    {
+        "name": "impyla",
+        "amount": "1"
+    },
+    {
+        "name": "ldap3",
+        "amount": "1"
+    },
+    {
+        "name": "maxminddb",
+        "amount": "2"
+    },
+    {
+        "name": "memsql",
+        "amount": "1"
+    },
+    {
+        "name": "phoenixdb",
+        "amount": "1"
+    },
+    {
+        "name": "ptpython",
+        "amount": "2"
+    },
+    {
+        "name": "ptvsd",
+        "amount": "1"
+    },
+    {
+        "name": "pyathena",
+        "amount": "1"
+    },
+    {
+        "name": "pydgraph",
+        "amount": "1"
+    },
+    {
+        "name": "pymapd",
+        "amount": "1"
+    },
+    {
+        "name": "pypd",
+        "amount": "1"
+    },
+    {
+        "name": "pysaml2",
+        "amount": "1"
+    },
+    {
+        "name": "pystache",
+        "amount": "1"
+    },
+    {
+        "name": "requests_aws_sign",
+        "amount": "1"
+    },
+    {
+        "name": "rq_scheduler",
+        "amount": "1"
+    },
+    {
+        "name": "sqlalchemy_searchable",
+        "amount": "1"
+    },
+    {
+        "name": "sqlalchemy_utils",
+        "amount": "2"
+    },
+    {
+        "name": "supervisor_checks",
+        "amount": "1"
+    },
+    {
+        "name": "user_agents",
+        "amount": "1"
+    },
+    {
+        "name": "idna",
+        "amount": "1"
+    },
+    {
+        "name": "fake_useragent",
+        "amount": "2"
+    },
+    {
+        "name": "parse",
+        "amount": "1"
+    },
+    {
+        "name": "pyppeteer",
+        "amount": "1"
+    },
+    {
+        "name": "requests_file",
+        "amount": "1"
+    },
+    {
+        "name": "commonmark",
+        "amount": "1"
+    },
+    {
+        "name": "aiofiles",
+        "amount": "1"
+    },
+    {
+        "name": "aiotask_context",
+        "amount": "1"
+    },
+    {
+        "name": "asyncpg",
+        "amount": "1"
+    },
+    {
+        "name": "httptools",
+        "amount": "1"
+    },
+    {
+        "name": "logdna",
+        "amount": "1"
+    },
+    {
+        "name": "raygun4py",
+        "amount": "1"
+    },
+    {
+        "name": "rollbar",
+        "amount": "1"
+    },
+    {
+        "name": "sanic_routing",
+        "amount": "1"
+    },
+    {
+        "name": "annoy",
+        "amount": "1"
+    },
+    {
+        "name": "bhtsne",
+        "amount": "1"
+    },
+    {
+        "name": "catboost",
+        "amount": "1"
+    },
+    {
+        "name": "fbpca",
+        "amount": "1"
+    },
+    {
+        "name": "glmnet",
+        "amount": "1"
+    },
+    {
+        "name": "histogram",
+        "amount": "1"
+    },
+    {
+        "name": "lightning",
+        "amount": "1"
+    },
+    {
+        "name": "murmurhash",
+        "amount": "1"
+    },
+    {
+        "name": "nmslib",
+        "amount": "1"
+    },
+    {
+        "name": "pyamg",
+        "amount": "1"
+    },
+    {
+        "name": "threadpoolctl",
+        "amount": "1"
+    },
+    {
+        "name": "xgboost",
+        "amount": "1"
+    },
+    {
+        "name": "cssselect",
+        "amount": "1"
+    },
+    {
+        "name": "h2",
+        "amount": "1"
+    },
+    {
+        "name": "hpack",
+        "amount": "1"
+    },
+    {
+        "name": "itemadapter",
+        "amount": "1"
+    },
+    {
+        "name": "itemloaders",
+        "amount": "1"
+    },
+    {
+        "name": "parsel",
+        "amount": "1"
+    },
+    {
+        "name": "protego",
+        "amount": "1"
+    },
+    {
+        "name": "pytest_flake8",
+        "amount": "1"
+    },
+    {
+        "name": "queuelib",
+        "amount": "1"
+    },
+    {
+        "name": "reppy",
+        "amount": "1"
+    },
+    {
+        "name": "robotexclusionrulesparser",
+        "amount": "1"
+    },
+    {
+        "name": "service_identity",
+        "amount": "1"
+    },
+    {
+        "name": "sybil",
+        "amount": "1"
+    },
+    {
+        "name": "zstandard",
+        "amount": "2"
+    },
+    {
+        "name": "confluent_kafka",
+        "amount": "1"
+    },
+    {
+        "name": "django-picklefield",
+        "amount": "1"
+    },
+    {
+        "name": "email_reply_parser",
+        "amount": "1"
+    },
+    {
+        "name": "exam",
+        "amount": "1"
+    },
+    {
+        "name": "flask_oauth",
+        "amount": "1"
+    },
+    {
+        "name": "honcho",
+        "amount": "1"
+    },
+    {
+        "name": "mistune",
+        "amount": "1"
+    },
+    {
+        "name": "mmh3",
+        "amount": "1"
+    },
+    {
+        "name": "openapi_core",
+        "amount": "2"
+    },
+    {
+        "name": "parsimonious",
+        "amount": "1"
+    },
+    {
+        "name": "petname",
+        "amount": "1"
+    },
+    {
+        "name": "phonenumbers",
+        "amount": "1"
+    },
+    {
+        "name": "pytest_benchmark",
+        "amount": "1"
+    },
+    {
+        "name": "pytest_rerunfailures",
+        "amount": "1"
+    },
+    {
+        "name": "rb",
+        "amount": "1"
+    },
+    {
+        "name": "sentry_relay",
+        "amount": "1"
+    },
+    {
+        "name": "snuba_sdk",
+        "amount": "1"
+    },
+    {
+        "name": "structlog",
+        "amount": "1"
+    },
+    {
+        "name": "symbolic",
+        "amount": "1"
+    },
+    {
+        "name": "toronado",
+        "amount": "1"
+    },
+    {
+        "name": "ua_parser",
+        "amount": "1"
+    },
+    {
+        "name": "unidiff",
+        "amount": "1"
+    },
+    {
+        "name": "uWSGI",
+        "amount": "1"
+    },
+    {
+        "name": "requests_futures",
+        "amount": "1"
+    },
+    {
+        "name": "torrequest",
+        "amount": "1"
+    },
+    {
+        "name": "adrest",
+        "amount": "1"
+    },
+    {
+        "name": "align",
+        "amount": "1"
+    },
+    {
+        "name": "attrs",
+        "amount": "1"
+    },
+    {
+        "name": "catalogue",
+        "amount": "1"
+    },
+    {
+        "name": "kb",
+        "amount": "1"
+    },
+    {
+        "name": "langcodes",
+        "amount": "1"
+    },
+    {
+        "name": "ml_datasets",
+        "amount": "1"
+    },
+    {
+        "name": "natto",
+        "amount": "1"
+    },
+    {
+        "name": "ner",
+        "amount": "1"
+    },
+    {
+        "name": "pathy",
+        "amount": "1"
+    },
+    {
+        "name": "pipe",
+        "amount": "1"
+    },
+    {
+        "name": "plac",
+        "amount": "1"
+    },
+    {
+        "name": "preshed",
+        "amount": "1"
+    },
+    {
+        "name": "pymorphy2",
+        "amount": "1"
+    },
+    {
+        "name": "pyvi",
+        "amount": "1"
+    },
+    {
+        "name": "spacy_pkuseg",
+        "amount": "1"
+    },
+    {
+        "name": "spacy_transformers",
+        "amount": "1"
+    },
+    {
+        "name": "span",
+        "amount": "1"
+    },
+    {
+        "name": "srsly",
+        "amount": "1"
+    },
+    {
+        "name": "strings",
+        "amount": "1"
+    },
+    {
+        "name": "sudachipy",
+        "amount": "1"
+    },
+    {
+        "name": "symbols",
+        "amount": "1"
+    },
+    {
+        "name": "thinc",
+        "amount": "1"
+    },
+    {
+        "name": "vectors",
+        "amount": "1"
+    },
+    {
+        "name": "vocab",
+        "amount": "1"
+    },
+    {
+        "name": "wasabi",
+        "amount": "1"
+    },
+    {
+        "name": "musdb",
+        "amount": "1"
+    },
+    {
+        "name": "museval",
+        "amount": "1"
+    },
+    {
+        "name": "norbert",
+        "amount": "1"
+    },
+    {
+        "name": "aiohttp_wsgi",
+        "amount": "1"
+    },
+    {
+        "name": "BeautifulSoup",
+        "amount": "1"
+    },
+    {
+        "name": "bjoern",
+        "amount": "1"
+    },
+    {
+        "name": "Carbon",
+        "amount": "1"
+    },
+    {
+        "name": "Cheetah",
+        "amount": "1"
+    },
+    {
+        "name": "cheroot",
+        "amount": "1"
+    },
+    {
+        "name": "cherrypy",
+        "amount": "1"
+    },
+    {
+        "name": "diesel",
+        "amount": "1"
+    },
+    {
+        "name": "eventlet",
+        "amount": "1"
+    },
+    {
+        "name": "flup",
+        "amount": "1"
+    },
+    {
+        "name": "impacket",
+        "amount": "1"
+    },
+    {
+        "name": "JPype1",
+        "amount": "1"
+    },
+    {
+        "name": "Mako",
+        "amount": "1"
+    },
+    {
+        "name": "meinheld",
+        "amount": "1"
+    },
+    {
+        "name": "mimerpy",
+        "amount": "1"
+    },
+    {
+        "name": "PasteScript",
+        "amount": "1"
+    },
+    {
+        "name": "pymonetdb",
+        "amount": "1"
+    },
+    {
+        "name": "pyreadline",
+        "amount": "1"
+    },
+    {
+        "name": "apispec",
+        "amount": "1"
+    },
+    {
+        "name": "bleach",
+        "amount": "1"
+    },
+    {
+        "name": "cachelib",
+        "amount": "1"
+    },
+    {
+        "name": "cron_descriptor",
+        "amount": "1"
+    },
+    {
+        "name": "deprecation",
+        "amount": "1"
+    },
+    {
+        "name": "flask_testing",
+        "amount": "1"
+    },
+    {
+        "name": "isodate",
+        "amount": "1"
+    },
+    {
+        "name": "marshmallow_enum",
+        "amount": "1"
+    },
+    {
+        "name": "pgsanity",
+        "amount": "1"
+    },
+    {
+        "name": "polyline",
+        "amount": "1"
+    },
+    {
+        "name": "prison",
+        "amount": "1"
+    },
+    {
+        "name": "progress",
+        "amount": "1"
+    },
+    {
+        "name": "prophet",
+        "amount": "1"
+    },
+    {
+        "name": "pybigquery",
+        "amount": "1"
+    },
+    {
+        "name": "pyinstrument",
+        "amount": "1"
+    },
+    {
+        "name": "python_geohash",
+        "amount": "1"
+    },
+    {
+        "name": "wtforms_json",
+        "amount": "1"
+    },
+    {
+        "name": "cleverhans",
+        "amount": "1"
+    },
+    {
+        "name": "dopamine",
+        "amount": "1"
+    },
+    {
+        "name": "gutenberg",
+        "amount": "1"
+    },
+    {
+        "name": "kfac",
+        "amount": "1"
+    },
+    {
+        "name": "mesh_tensorflow",
+        "amount": "1"
+    },
+    {
+        "name": "pypng",
+        "amount": "1"
+    },
+    {
+        "name": "pyrouge",
+        "amount": "1"
+    },
+    {
+        "name": "pyte",
+        "amount": "2"
+    },
+    {
+        "name": "win_unicode_console",
+        "amount": "1"
+    },
+    {
+        "name": "aiopg",
+        "amount": "1"
+    },
+    {
+        "name": "pycares",
+        "amount": "1"
+    },
+    {
+        "name": "thor",
+        "amount": "1"
+    },
+    {
+        "name": "alive_progress",
+        "amount": "1"
+    },
+    {
+        "name": "argopt",
+        "amount": "1"
+    },
+    {
+        "name": "disco",
+        "amount": "1"
+    },
+    {
+        "name": "pymake",
+        "amount": "1"
+    },
+    {
+        "name": "aiohttp_socks",
+        "amount": "1"
+    },
+    {
+        "name": "googletransx",
+        "amount": "1"
+    },
+    {
+        "name": "schedule",
+        "amount": "1"
+    },
+    {
+        "name": "auditwheel",
+        "amount": "1"
+    },
+    {
+        "name": "chartio",
+        "amount": "1"
+    },
+    {
+        "name": "torchdata",
+        "amount": "1"
+    },
+    {
+        "name": "anyascii",
+        "amount": "1"
+    },
+    {
+        "name": "Babel",
+        "amount": "2"
+    },
+    {
+        "name": "django_taggit",
+        "amount": "1"
+    },
+    {
+        "name": "djangorestframework",
+        "amount": "1"
+    },
+    {
+        "name": "draftjs_exporter",
+        "amount": "1"
+    },
+    {
+        "name": "l18n",
+        "amount": "1"
+    },
+    {
+        "name": "local",
+        "amount": "1"
+    },
+    {
+        "name": "polib",
+        "amount": "2"
+    },
+    {
+        "name": "sphinx_wagtail_theme",
+        "amount": "1"
+    },
+    {
+        "name": "tablib",
+        "amount": "1"
+    },
+    {
+        "name": "willow",
+        "amount": "1"
+    },
+    {
+        "name": "pyric",
+        "amount": "1"
+    },
+    {
+        "name": "roguehostapd",
+        "amount": "1"
+    },
+    {
+        "name": "cyrtranslit",
+        "amount": "1"
+    },
+    {
+        "name": "diagram",
+        "amount": "1"
+    },
+    {
+        "name": "geoip2",
+        "amount": "1"
+    },
+    {
+        "name": "grapheme",
+        "amount": "1"
+    },
+    {
+        "name": "pycountry",
+        "amount": "1"
+    },
+    {
+        "name": "pyjq",
+        "amount": "1"
+    },
+    {
+        "name": "pylru",
+        "amount": "1"
+    },
+    {
+        "name": "coremltools",
+        "amount": "1"
+    },
+    {
+        "name": "pafy",
+        "amount": "1"
+    },
+    {
+        "name": "tensorflowjs",
+        "amount": "1"
+    },
+    {
+        "name": "tflite_runtime",
+        "amount": "1"
+    },
+    {
+        "name": "console",
+        "amount": "1"
+    },
+    {
+        "name": "gui",
+        "amount": "1"
+    },
+    {
+        "name": "SocksiPy_branch",
+        "amount": "1"
+    },
+    {
+        "name": "PyHamcrest",
+        "amount": "1"
+    },
+    {
+        "name": "pycryptodomex",
+        "amount": "2"
+    },
+    {
+        "name": "xattr",
+        "amount": "2"
+    },
+    {
+        "name": "durationpy",
+        "amount": "1"
+    },
+    {
+        "name": "hjson",
+        "amount": "1"
+    },
+    {
+        "name": "kappa",
+        "amount": "1"
+    },
+    {
+        "name": "troposphere",
+        "amount": "1"
+    },
+    {
+        "name": "bottleneck",
+        "amount": "1"
+    },
+    {
+        "name": "datashape",
+        "amount": "1"
+    },
+    {
+        "name": "interface",
+        "amount": "1"
+    },
+    {
+        "name": "multipledispatch",
+        "amount": "1"
+    },
+    {
+        "name": "nose_parameterized",
+        "amount": "1"
+    },
+    {
+        "name": "odo",
+        "amount": "1"
+    },
+    {
+        "name": "pandas_datareader",
+        "amount": "1"
+    },
+    {
+        "name": "toolz",
+        "amount": "1"
+    },
+    {
+        "name": "trading_calendars",
+        "amount": "1"
+    },
+    {
+        "name": "ahocorasick",
+        "amount": "1"
+    },
+    {
+        "name": "aioapns",
+        "amount": "1"
+    },
+    {
+        "name": "bitfield",
+        "amount": "1"
+    },
+    {
+        "name": "cairosvg",
+        "amount": "1"
+    },
+    {
+        "name": "cssutils",
+        "amount": "1"
+    },
+    {
+        "name": "django_auth_ldap",
+        "amount": "1"
+    },
+    {
+        "name": "django_cte",
+        "amount": "1"
+    },
+    {
+        "name": "django_otp",
+        "amount": "1"
+    },
+    {
+        "name": "django_scim",
+        "amount": "1"
+    },
+    {
+        "name": "django_sendfile",
+        "amount": "1"
+    },
+    {
+        "name": "django_statsd",
+        "amount": "1"
+    },
+    {
+        "name": "DNS",
+        "amount": "1"
+    },
+    {
+        "name": "fakeldap",
+        "amount": "1"
+    },
+    {
+        "name": "gcm",
+        "amount": "1"
+    },
+    {
+        "name": "gitlint",
+        "amount": "1"
+    },
+    {
+        "name": "html2text",
+        "amount": "1"
+    },
+    {
+        "name": "jsonref",
+        "amount": "1"
+    },
+    {
+        "name": "markdown_include",
+        "amount": "1"
+    },
+    {
+        "name": "onelogin",
+        "amount": "1"
+    },
+    {
+        "name": "openapi_schema_validator",
+        "amount": "1"
+    },
+    {
+        "name": "premailer",
+        "amount": "1"
+    },
+    {
+        "name": "pyoembed",
+        "amount": "1"
+    },
+    {
+        "name": "python_magic",
+        "amount": "1"
+    },
+    {
+        "name": "pyuca",
+        "amount": "1"
+    },
+    {
+        "name": "re2",
+        "amount": "1"
+    },
+    {
+        "name": "scim2_filter_parser",
+        "amount": "1"
+    },
+    {
+        "name": "scrapy",
+        "amount": "1"
+    },
+    {
+        "name": "soupsieve",
+        "amount": "1"
+    },
+    {
+        "name": "sourcemap",
+        "amount": "1"
+    },
+    {
+        "name": "tlds",
+        "amount": "1"
+    },
+    {
+        "name": "zulip_bots",
+        "amount": "1"
+    },
+    {
+        "name": "zxcvbn",
+        "amount": "1"
+    }
+]

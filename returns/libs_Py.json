@@ -1,1 +1,806 @@
-[]
+[
+    {
+        "name": "warnings",
+        "amount": "84"
+    },
+    {
+        "name": "html",
+        "amount": "29"
+    },
+    {
+        "name": "os",
+        "amount": "122"
+    },
+    {
+        "name": "contextlib",
+        "amount": "87"
+    },
+    {
+        "name": "concurrent",
+        "amount": "28"
+    },
+    {
+        "name": "pprint",
+        "amount": "41"
+    },
+    {
+        "name": "inspect",
+        "amount": "71"
+    },
+    {
+        "name": "random",
+        "amount": "83"
+    },
+    {
+        "name": "socket",
+        "amount": "58"
+    },
+    {
+        "name": "enum",
+        "amount": "47"
+    },
+    {
+        "name": "weakref",
+        "amount": "37"
+    },
+    {
+        "name": "struct",
+        "amount": "43"
+    },
+    {
+        "name": "logging",
+        "amount": "74"
+    },
+    {
+        "name": "tempfile",
+        "amount": "89"
+    },
+    {
+        "name": "time",
+        "amount": "110"
+    },
+    {
+        "name": "unittest",
+        "amount": "80"
+    },
+    {
+        "name": "io",
+        "amount": "87"
+    },
+    {
+        "name": "datetime",
+        "amount": "86"
+    },
+    {
+        "name": "collections",
+        "amount": "97"
+    },
+    {
+        "name": "string",
+        "amount": "53"
+    },
+    {
+        "name": "functools",
+        "amount": "92"
+    },
+    {
+        "name": "typing",
+        "amount": "59"
+    },
+    {
+        "name": "atexit",
+        "amount": "37"
+    },
+    {
+        "name": "re",
+        "amount": "113"
+    },
+    {
+        "name": "dataclasses",
+        "amount": "29"
+    },
+    {
+        "name": "types",
+        "amount": "38"
+    },
+    {
+        "name": "ssl",
+        "amount": "30"
+    },
+    {
+        "name": "uuid",
+        "amount": "54"
+    },
+    {
+        "name": "argparse",
+        "amount": "84"
+    },
+    {
+        "name": "sys",
+        "amount": "121"
+    },
+    {
+        "name": "pickle",
+        "amount": "57"
+    },
+    {
+        "name": "email",
+        "amount": "18"
+    },
+    {
+        "name": "netrc",
+        "amount": "6"
+    },
+    {
+        "name": "urllib",
+        "amount": "80"
+    },
+    {
+        "name": "gc",
+        "amount": "29"
+    },
+    {
+        "name": "traceback",
+        "amount": "64"
+    },
+    {
+        "name": "base64",
+        "amount": "63"
+    },
+    {
+        "name": "importlib",
+        "amount": "74"
+    },
+    {
+        "name": "ipaddress",
+        "amount": "13"
+    },
+    {
+        "name": "platform",
+        "amount": "69"
+    },
+    {
+        "name": "signal",
+        "amount": "52"
+    },
+    {
+        "name": "array",
+        "amount": "14"
+    },
+    {
+        "name": "keyword",
+        "amount": "9"
+    },
+    {
+        "name": "codecs",
+        "amount": "48"
+    },
+    {
+        "name": "zlib",
+        "amount": "33"
+    },
+    {
+        "name": "errno",
+        "amount": "46"
+    },
+    {
+        "name": "gzip",
+        "amount": "43"
+    },
+    {
+        "name": "contextvars",
+        "amount": "7"
+    },
+    {
+        "name": "json",
+        "amount": "90"
+    },
+    {
+        "name": "cgi",
+        "amount": "15"
+    },
+    {
+        "name": "textwrap",
+        "amount": "54"
+    },
+    {
+        "name": "mimetypes",
+        "amount": "26"
+    },
+    {
+        "name": "asyncio",
+        "amount": "26"
+    },
+    {
+        "name": "binascii",
+        "amount": "30"
+    },
+    {
+        "name": "threading",
+        "amount": "76"
+    },
+    {
+        "name": "pathlib",
+        "amount": "70"
+    },
+    {
+        "name": "math",
+        "amount": "72"
+    },
+    {
+        "name": "hashlib",
+        "amount": "72"
+    },
+    {
+        "name": "subprocess",
+        "amount": "98"
+    },
+    {
+        "name": "itertools",
+        "amount": "94"
+    },
+    {
+        "name": "sqlite3",
+        "amount": "25"
+    },
+    {
+        "name": "abc",
+        "amount": "50"
+    },
+    {
+        "name": "configparser",
+        "amount": "31"
+    },
+    {
+        "name": "tty",
+        "amount": "9"
+    },
+    {
+        "name": "statistics",
+        "amount": "7"
+    },
+    {
+        "name": "csv",
+        "amount": "44"
+    },
+    {
+        "name": "stat",
+        "amount": "34"
+    },
+    {
+        "name": "copy",
+        "amount": "87"
+    },
+    {
+        "name": "ftplib",
+        "amount": "5"
+    },
+    {
+        "name": "decimal",
+        "amount": "28"
+    },
+    {
+        "name": "getpass",
+        "amount": "25"
+    },
+    {
+        "name": "select",
+        "amount": "20"
+    },
+    {
+        "name": "locale",
+        "amount": "26"
+    },
+    {
+        "name": "copyreg",
+        "amount": "4"
+    },
+    {
+        "name": "cProfile",
+        "amount": "14"
+    },
+    {
+        "name": "posixpath",
+        "amount": "18"
+    },
+    {
+        "name": "zipfile",
+        "amount": "50"
+    },
+    {
+        "name": "glob",
+        "amount": "59"
+    },
+    {
+        "name": "runpy",
+        "amount": "5"
+    },
+    {
+        "name": "termios",
+        "amount": "15"
+    },
+    {
+        "name": "difflib",
+        "amount": "22"
+    },
+    {
+        "name": "shutil",
+        "amount": "97"
+    },
+    {
+        "name": "ast",
+        "amount": "40"
+    },
+    {
+        "name": "smtplib",
+        "amount": "6"
+    },
+    {
+        "name": "imaplib",
+        "amount": "4"
+    },
+    {
+        "name": "bz2",
+        "amount": "17"
+    },
+    {
+        "name": "filecmp",
+        "amount": "7"
+    },
+    {
+        "name": "builtins",
+        "amount": "22"
+    },
+    {
+        "name": "calendar",
+        "amount": "22"
+    },
+    {
+        "name": "multiprocessing",
+        "amount": "60"
+    },
+    {
+        "name": "queue",
+        "amount": "30"
+    },
+    {
+        "name": "sched",
+        "amount": "1"
+    },
+    {
+        "name": "pwd",
+        "amount": "11"
+    },
+    {
+        "name": "tarfile",
+        "amount": "39"
+    },
+    {
+        "name": "distutils",
+        "amount": "45"
+    },
+    {
+        "name": "numbers",
+        "amount": "31"
+    },
+    {
+        "name": "pkgutil",
+        "amount": "26"
+    },
+    {
+        "name": "mmap",
+        "amount": "6"
+    },
+    {
+        "name": "fnmatch",
+        "amount": "28"
+    },
+    {
+        "name": "ntpath",
+        "amount": "11"
+    },
+    {
+        "name": "pty",
+        "amount": "9"
+    },
+    {
+        "name": "shlex",
+        "amount": "42"
+    },
+    {
+        "name": "xml",
+        "amount": "32"
+    },
+    {
+        "name": "pstats",
+        "amount": "9"
+    },
+    {
+        "name": "__future__",
+        "amount": "64"
+    },
+    {
+        "name": "bisect",
+        "amount": "22"
+    },
+    {
+        "name": "resource",
+        "amount": "9"
+    },
+    {
+        "name": "lzma",
+        "amount": "9"
+    },
+    {
+        "name": "heapq",
+        "amount": "16"
+    },
+    {
+        "name": "unicodedata",
+        "amount": "35"
+    },
+    {
+        "name": "gettext",
+        "amount": "7"
+    },
+    {
+        "name": "ctypes",
+        "amount": "38"
+    },
+    {
+        "name": "msvcrt",
+        "amount": "15"
+    },
+    {
+        "name": "fileinput",
+        "amount": "6"
+    },
+    {
+        "name": "hmac",
+        "amount": "16"
+    },
+    {
+        "name": "fcntl",
+        "amount": "18"
+    },
+    {
+        "name": "operator",
+        "amount": "60"
+    },
+    {
+        "name": "timeit",
+        "amount": "25"
+    },
+    {
+        "name": "imp",
+        "amount": "12"
+    },
+    {
+        "name": "plistlib",
+        "amount": "6"
+    },
+    {
+        "name": "dis",
+        "amount": "1"
+    },
+    {
+        "name": "webbrowser",
+        "amount": "19"
+    },
+    {
+        "name": "http",
+        "amount": "26"
+    },
+    {
+        "name": "optparse",
+        "amount": "14"
+    },
+    {
+        "name": "_thread",
+        "amount": "9"
+    },
+    {
+        "name": "colorsys",
+        "amount": "10"
+    },
+    {
+        "name": "fractions",
+        "amount": "10"
+    },
+    {
+        "name": "pdb",
+        "amount": "11"
+    },
+    {
+        "name": "shelve",
+        "amount": "3"
+    },
+    {
+        "name": "rlcompleter",
+        "amount": "6"
+    },
+    {
+        "name": "readline",
+        "amount": "10"
+    },
+    {
+        "name": "code",
+        "amount": "6"
+    },
+    {
+        "name": "_dummy_thread",
+        "amount": "2"
+    },
+    {
+        "name": "curses",
+        "amount": "9"
+    },
+    {
+        "name": "grp",
+        "amount": "5"
+    },
+    {
+        "name": "socketserver",
+        "amount": "10"
+    },
+    {
+        "name": "tkinter",
+        "amount": "10"
+    },
+    {
+        "name": "faulthandler",
+        "amount": "1"
+    },
+    {
+        "name": "xmlrpc",
+        "amount": "6"
+    },
+    {
+        "name": "reprlib",
+        "amount": "3"
+    },
+    {
+        "name": "zoneinfo",
+        "amount": "1"
+    },
+    {
+        "name": "secrets",
+        "amount": "6"
+    },
+    {
+        "name": "telnetlib",
+        "amount": "1"
+    },
+    {
+        "name": "getopt",
+        "amount": "6"
+    },
+    {
+        "name": "py_compile",
+        "amount": "4"
+    },
+    {
+        "name": "winreg",
+        "amount": "9"
+    },
+    {
+        "name": "pydoc",
+        "amount": "5"
+    },
+    {
+        "name": "_tkinter",
+        "amount": "2"
+    },
+    {
+        "name": "zipimport",
+        "amount": "5"
+    },
+    {
+        "name": "selectors",
+        "amount": "2"
+    },
+    {
+        "name": "encodings",
+        "amount": "4"
+    },
+    {
+        "name": "sysconfig",
+        "amount": "9"
+    },
+    {
+        "name": "mailbox",
+        "amount": "1"
+    },
+    {
+        "name": "xxlimited",
+        "amount": "1"
+    },
+    {
+        "name": "token",
+        "amount": "3"
+    },
+    {
+        "name": "tokenize",
+        "amount": "8"
+    },
+    {
+        "name": "bdb",
+        "amount": "2"
+    },
+    {
+        "name": "doctest",
+        "amount": "16"
+    },
+    {
+        "name": "wave",
+        "amount": "4"
+    },
+    {
+        "name": "site",
+        "amount": "6"
+    },
+    {
+        "name": "idlelib",
+        "amount": "1"
+    },
+    {
+        "name": "linecache",
+        "amount": "5"
+    },
+    {
+        "name": "codeop",
+        "amount": "1"
+    },
+    {
+        "name": "_pickle",
+        "amount": "1"
+    },
+    {
+        "name": "marshal",
+        "amount": "4"
+    },
+    {
+        "name": "imghdr",
+        "amount": "6"
+    },
+    {
+        "name": "compileall",
+        "amount": "2"
+    },
+    {
+        "name": "_sitebuiltins",
+        "amount": "1"
+    },
+    {
+        "name": "pipes",
+        "amount": "3"
+    },
+    {
+        "name": "dummy_threading",
+        "amount": "4"
+    },
+    {
+        "name": "tracemalloc",
+        "amount": "5"
+    },
+    {
+        "name": "wsgiref",
+        "amount": "9"
+    },
+    {
+        "name": "_curses",
+        "amount": "1"
+    },
+    {
+        "name": "_random",
+        "amount": "2"
+    },
+    {
+        "name": "venv",
+        "amount": "1"
+    },
+    {
+        "name": "posix",
+        "amount": "2"
+    },
+    {
+        "name": "ossaudiodev",
+        "amount": "1"
+    },
+    {
+        "name": "profile",
+        "amount": "1"
+    },
+    {
+        "name": "_io",
+        "amount": "1"
+    },
+    {
+        "name": "__main__",
+        "amount": "3"
+    },
+    {
+        "name": "_csv",
+        "amount": "1"
+    },
+    {
+        "name": "test",
+        "amount": "1"
+    },
+    {
+        "name": "_frozen_importlib",
+        "amount": "1"
+    },
+    {
+        "name": "_ssl",
+        "amount": "1"
+    },
+    {
+        "name": "_aix_support",
+        "amount": "1"
+    },
+    {
+        "name": "_string",
+        "amount": "1"
+    },
+    {
+        "name": "_multibytecodec",
+        "amount": "1"
+    },
+    {
+        "name": "sre_constants",
+        "amount": "2"
+    },
+    {
+        "name": "_osx_support",
+        "amount": "1"
+    },
+    {
+        "name": "_imp",
+        "amount": "1"
+    },
+    {
+        "name": "_frozen_importlib_external",
+        "amount": "1"
+    },
+    {
+        "name": "opcode",
+        "amount": "1"
+    },
+    {
+        "name": "smtpd",
+        "amount": "1"
+    },
+    {
+        "name": "asyncore",
+        "amount": "1"
+    },
+    {
+        "name": "crypt",
+        "amount": "1"
+    },
+    {
+        "name": "_markupbase",
+        "amount": "1"
+    },
+    {
+        "name": "winsound",
+        "amount": "1"
+    },
+    {
+        "name": "graphlib",
+        "amount": "1"
+    },
+    {
+        "name": "dbm",
+        "amount": "1"
+    },
+    {
+        "name": "lib2to3",
+        "amount": "2"
+    },
+    {
+        "name": "quopri",
+        "amount": "1"
+    }
+]
