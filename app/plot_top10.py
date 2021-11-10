@@ -47,11 +47,8 @@ def plotTop10(modules,file_name,type):
   if type == "Std":
     ax.set_title('Most Used Python Libraries', pad=15, color='#333333',
                 weight='bold', fontsize=30)
-  elif type == "Ext":
-    ax.set_title('Most Used Python External Libraries', pad=15, color='#333333',
-                weight='bold', fontsize=30)
   else:
-    ax.set_title('Most Used Python Libraries', pad=15, color='#333333',
+    ax.set_title('Most Used Python External Libraries', pad=15, color='#333333',
                 weight='bold', fontsize=30)
 
   fig = plt.gcf()

@@ -225,6 +225,8 @@ git clone https://github.com/lra/mackup.git
 git clone https://github.com/codelucas/newspaper.git
 #CLI for testing internet bandwidth using speedtest.net (11.4k stars)
 git clone https://github.com/sivel/speedtest-cli.git
+#Project: tracks all the scripts and other tools for removing DRM from ebooks
+git clone https://github.com/apprenticeharper/DeDRM_tools.git
 #Tool to increase the resolution of photos (11.3k stars)
 git clone https://github.com/alexjc/neural-enhance.git
 #Project: an open source content management system built on Django (11.3k stars)
