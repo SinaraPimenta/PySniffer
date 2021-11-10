@@ -34,7 +34,7 @@ def download_git_repos():
 @pysniffer.command("analyzing_repos")
 def analyzing_git_repos():
     """Generate projects statistics"""
-    dir = 'C:/Users/mariana.helena/Documents/teste'
+    dir = './downloaded_repos'
 
     print("##################################################################")
     print("              PySniffer - Generate Projects Statistics            ")
