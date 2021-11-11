@@ -140,8 +140,7 @@ def get_all_imports(
         # as an import.
         cleaned_name, _, _ = name.partition('.')
         imports.add(cleaned_name)
-
-    packages = imports - (set(candidates) & imports)
+    packages = imports - (set(candidates) & imports) #ERRO TA AQUI
     logging.debug('Found packages: {0}'.format(packages))
 
     with open(join("stdlib"), "r") as f:
