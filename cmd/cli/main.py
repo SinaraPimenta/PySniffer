@@ -46,6 +46,11 @@ def analyzing_git_repos():
     #Counting files and getting projects list
     projects_dict,total = paths.get_projects(dir)
     projects = projects_dict.keys()
+    projectsReturn = []
+    for p in projects:
+        projectsReturn.append({"project_name":f"{p}","amount_of_pyfiles":f"{projects_dict[p]}"})
+    with open('./returns/files.json', 'w', encoding='utf-8') as f:
+        json.dump(projectsReturn, f, ensure_ascii=False, indent=4)
 
     #Creating json file
     with open('./returns/files.json', 'w', encoding='utf-8') as f:
