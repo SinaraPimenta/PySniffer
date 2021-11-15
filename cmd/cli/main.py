@@ -1,13 +1,11 @@
 import json
 import os
 import sys
-
+sys.path.append('.')
 import app.get_all_paths as paths
 import app.list_libs as list
 import app.plot_top10 as plot
 import click
-
-sys.path.append('.')
 
 
 @click.group()

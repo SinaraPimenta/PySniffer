@@ -1,131 +1,518 @@
-{
-    "aiohttp": 129,
-    "airflow": 3111,
-    "algo": 7,
-    "allennlp": 602,
-    "ArchiveBox": 121,
-    "autojump": 12,
-    "avatarify-python": 9,
-    "aws-cli": 586,
-    "baselines": 150,
-    "beets": 179,
-    "bert": 13,
-    "bokeh": 1214,
-    "celery": 325,
-    "certbot": 362,
-    "ChatterBot": 133,
-    "click": 63,
-    "core": 6990,
-    "dash": 229,
-    "DeDRM_tools": 54,
-    "Depix": 6,
-    "Detectron": 90,
-    "detectron2": 437,
-    "diagrams": 210,
-    "django-rest-framework": 156,
-    "EasyOCR": 25,
-    "fabric": 46,
-    "facenet": 73,
-    "faceswap": 215,
-    "face_recognition": 30,
-    "faker": 578,
-    "fast-style-transfer": 7,
-    "fastapi": 585,
-    "FastPhotoStyle": 12,
-    "flair": 69,
-    "flask": 75,
-    "freqtrade": 219,
-    "gensim": 178,
-    "GHunt": 20,
-    "glances": 114,
-    "Gooey": 130,
-    "gpt-2": 6,
-    "gym": 165,
-    "HanLP": 422,
-    "horovod": 235,
-    "httpbin": 8,
-    "httpie": 81,
-    "imgaug": 148,
-    "InstaPy": 38,
-    "ipython": 353,
-    "jupyter": 3,
-    "keras": 542,
-    "kitty": 213,
-    "kivy": 461,
-    "labelImg": 27,
-    "localstack": 336,
-    "locust": 93,
-    "loguru": 142,
-    "luigi": 254,
-    "mackup": 12,
-    "magenta": 331,
-    "magic-wormhole": 90,
-    "manim": 101,
-    "Mask_RCNN": 11,
-    "matplotlib": 900,
-    "microservices-demo": 11,
-    "mkdocs": 59,
-    "mlflow": 531,
-    "mmdetection": 1036,
-    "Mobile-Security-Framework-MobSF": 112,
-    "mypy": 402,
-    "neural-enhance": 1,
-    "newspaper": 28,
-    "nginx-proxy": 43,
-    "nltk": 353,
-    "nni": 797,
-    "openage": 275,
-    "openpilot": 407,
-    "OSX-KVM": 4,
-    "pandas": 1369,
-    "pipenv": 977,
-    "plotly.py": 11813,
-    "poetry": 301,
-    "powerline": 177,
-    "prophet": 27,
-    "PySnooper": 27,
-    "pyspider": 108,
-    "python-fire": 62,
-    "python-telegram-bot": 310,
-    "pytorch-CycleGAN-and-pix2pix": 36,
-    "pytorch-image-models": 191,
-    "pytorch-lightning": 449,
-    "pytorch_geometric": 712,
-    "rasa": 546,
-    "Real-Time-Voice-Cloning": 59,
-    "redash": 253,
-    "requests": 35,
-    "requests-html": 5,
-    "rich": 176,
-    "saleor": 0,
-    "sanic": 181,
-    "scikit-learn": 887,
-    "scrapy": 329,
-    "sentry": 3383,
-    "sherlock": 10,
-    "spaCy": 732,
-    "speedtest-cli": 3,
-    "spleeter": 29,
-    "sqlmap": 462,
-    "superset": 824,
-    "tensor2tensor": 452,
-    "thefuck": 411,
-    "toml": 1,
-    "tornado": 107,
-    "tqdm": 67,
-    "twint": 24,
-    "ungoogled-chromium": 34,
-    "vision": 266,
-    "wagtail": 1032,
-    "wifiphisher": 33,
-    "wttr.in": 27,
-    "yapf": 53,
-    "yolov5": 32,
-    "you-get": 138,
-    "YouCompleteMe": 54,
-    "youtube-dl": 871,
-    "yt-dlp": 977,
-    "Zappa": 37,
-    "zipline": 288,
-    "zulip": 1246
-}
+[
+    {
+        "project_name": "aiohttp",
+        "amount_of_pyfiles": "129"
+    },
+    {
+        "project_name": "airflow",
+        "amount_of_pyfiles": "3111"
+    },
+    {
+        "project_name": "algo",
+        "amount_of_pyfiles": "7"
+    },
+    {
+        "project_name": "allennlp",
+        "amount_of_pyfiles": "602"
+    },
+    {
+        "project_name": "ArchiveBox",
+        "amount_of_pyfiles": "121"
+    },
+    {
+        "project_name": "autojump",
+        "amount_of_pyfiles": "12"
+    },
+    {
+        "project_name": "avatarify-python",
+        "amount_of_pyfiles": "9"
+    },
+    {
+        "project_name": "aws-cli",
+        "amount_of_pyfiles": "586"
+    },
+    {
+        "project_name": "baselines",
+        "amount_of_pyfiles": "150"
+    },
+    {
+        "project_name": "beets",
+        "amount_of_pyfiles": "179"
+    },
+    {
+        "project_name": "bert",
+        "amount_of_pyfiles": "13"
+    },
+    {
+        "project_name": "bokeh",
+        "amount_of_pyfiles": "1214"
+    },
+    {
+        "project_name": "celery",
+        "amount_of_pyfiles": "325"
+    },
+    {
+        "project_name": "certbot",
+        "amount_of_pyfiles": "362"
+    },
+    {
+        "project_name": "ChatterBot",
+        "amount_of_pyfiles": "133"
+    },
+    {
+        "project_name": "click",
+        "amount_of_pyfiles": "63"
+    },
+    {
+        "project_name": "core",
+        "amount_of_pyfiles": "6990"
+    },
+    {
+        "project_name": "dash",
+        "amount_of_pyfiles": "229"
+    },
+    {
+        "project_name": "DeDRM_tools",
+        "amount_of_pyfiles": "54"
+    },
+    {
+        "project_name": "Depix",
+        "amount_of_pyfiles": "6"
+    },
+    {
+        "project_name": "Detectron",
+        "amount_of_pyfiles": "90"
+    },
+    {
+        "project_name": "detectron2",
+        "amount_of_pyfiles": "437"
+    },
+    {
+        "project_name": "diagrams",
+        "amount_of_pyfiles": "210"
+    },
+    {
+        "project_name": "django-rest-framework",
+        "amount_of_pyfiles": "156"
+    },
+    {
+        "project_name": "EasyOCR",
+        "amount_of_pyfiles": "25"
+    },
+    {
+        "project_name": "fabric",
+        "amount_of_pyfiles": "46"
+    },
+    {
+        "project_name": "facenet",
+        "amount_of_pyfiles": "73"
+    },
+    {
+        "project_name": "faceswap",
+        "amount_of_pyfiles": "215"
+    },
+    {
+        "project_name": "face_recognition",
+        "amount_of_pyfiles": "30"
+    },
+    {
+        "project_name": "faker",
+        "amount_of_pyfiles": "578"
+    },
+    {
+        "project_name": "fast-style-transfer",
+        "amount_of_pyfiles": "7"
+    },
+    {
+        "project_name": "fastapi",
+        "amount_of_pyfiles": "585"
+    },
+    {
+        "project_name": "FastPhotoStyle",
+        "amount_of_pyfiles": "12"
+    },
+    {
+        "project_name": "flair",
+        "amount_of_pyfiles": "69"
+    },
+    {
+        "project_name": "flask",
+        "amount_of_pyfiles": "75"
+    },
+    {
+        "project_name": "freqtrade",
+        "amount_of_pyfiles": "219"
+    },
+    {
+        "project_name": "gensim",
+        "amount_of_pyfiles": "178"
+    },
+    {
+        "project_name": "GHunt",
+        "amount_of_pyfiles": "20"
+    },
+    {
+        "project_name": "glances",
+        "amount_of_pyfiles": "114"
+    },
+    {
+        "project_name": "Gooey",
+        "amount_of_pyfiles": "130"
+    },
+    {
+        "project_name": "gpt-2",
+        "amount_of_pyfiles": "6"
+    },
+    {
+        "project_name": "gym",
+        "amount_of_pyfiles": "165"
+    },
+    {
+        "project_name": "HanLP",
+        "amount_of_pyfiles": "422"
+    },
+    {
+        "project_name": "horovod",
+        "amount_of_pyfiles": "235"
+    },
+    {
+        "project_name": "httpbin",
+        "amount_of_pyfiles": "8"
+    },
+    {
+        "project_name": "httpie",
+        "amount_of_pyfiles": "81"
+    },
+    {
+        "project_name": "imgaug",
+        "amount_of_pyfiles": "148"
+    },
+    {
+        "project_name": "InstaPy",
+        "amount_of_pyfiles": "38"
+    },
+    {
+        "project_name": "ipython",
+        "amount_of_pyfiles": "353"
+    },
+    {
+        "project_name": "jupyter",
+        "amount_of_pyfiles": "3"
+    },
+    {
+        "project_name": "keras",
+        "amount_of_pyfiles": "542"
+    },
+    {
+        "project_name": "kitty",
+        "amount_of_pyfiles": "213"
+    },
+    {
+        "project_name": "kivy",
+        "amount_of_pyfiles": "461"
+    },
+    {
+        "project_name": "labelImg",
+        "amount_of_pyfiles": "27"
+    },
+    {
+        "project_name": "localstack",
+        "amount_of_pyfiles": "336"
+    },
+    {
+        "project_name": "locust",
+        "amount_of_pyfiles": "93"
+    },
+    {
+        "project_name": "loguru",
+        "amount_of_pyfiles": "142"
+    },
+    {
+        "project_name": "luigi",
+        "amount_of_pyfiles": "254"
+    },
+    {
+        "project_name": "mackup",
+        "amount_of_pyfiles": "12"
+    },
+    {
+        "project_name": "magenta",
+        "amount_of_pyfiles": "331"
+    },
+    {
+        "project_name": "magic-wormhole",
+        "amount_of_pyfiles": "90"
+    },
+    {
+        "project_name": "manim",
+        "amount_of_pyfiles": "101"
+    },
+    {
+        "project_name": "Mask_RCNN",
+        "amount_of_pyfiles": "11"
+    },
+    {
+        "project_name": "matplotlib",
+        "amount_of_pyfiles": "900"
+    },
+    {
+        "project_name": "microservices-demo",
+        "amount_of_pyfiles": "11"
+    },
+    {
+        "project_name": "mkdocs",
+        "amount_of_pyfiles": "59"
+    },
+    {
+        "project_name": "mlflow",
+        "amount_of_pyfiles": "531"
+    },
+    {
+        "project_name": "mmdetection",
+        "amount_of_pyfiles": "1036"
+    },
+    {
+        "project_name": "Mobile-Security-Framework-MobSF",
+        "amount_of_pyfiles": "112"
+    },
+    {
+        "project_name": "mypy",
+        "amount_of_pyfiles": "402"
+    },
+    {
+        "project_name": "neural-enhance",
+        "amount_of_pyfiles": "1"
+    },
+    {
+        "project_name": "newspaper",
+        "amount_of_pyfiles": "28"
+    },
+    {
+        "project_name": "nginx-proxy",
+        "amount_of_pyfiles": "43"
+    },
+    {
+        "project_name": "nltk",
+        "amount_of_pyfiles": "353"
+    },
+    {
+        "project_name": "nni",
+        "amount_of_pyfiles": "797"
+    },
+    {
+        "project_name": "openage",
+        "amount_of_pyfiles": "275"
+    },
+    {
+        "project_name": "openpilot",
+        "amount_of_pyfiles": "407"
+    },
+    {
+        "project_name": "OSX-KVM",
+        "amount_of_pyfiles": "4"
+    },
+    {
+        "project_name": "pandas",
+        "amount_of_pyfiles": "1369"
+    },
+    {
+        "project_name": "pipenv",
+        "amount_of_pyfiles": "977"
+    },
+    {
+        "project_name": "plotly.py",
+        "amount_of_pyfiles": "11813"
+    },
+    {
+        "project_name": "poetry",
+        "amount_of_pyfiles": "301"
+    },
+    {
+        "project_name": "powerline",
+        "amount_of_pyfiles": "177"
+    },
+    {
+        "project_name": "prophet",
+        "amount_of_pyfiles": "27"
+    },
+    {
+        "project_name": "PySnooper",
+        "amount_of_pyfiles": "27"
+    },
+    {
+        "project_name": "pyspider",
+        "amount_of_pyfiles": "108"
+    },
+    {
+        "project_name": "python-fire",
+        "amount_of_pyfiles": "62"
+    },
+    {
+        "project_name": "python-telegram-bot",
+        "amount_of_pyfiles": "310"
+    },
+    {
+        "project_name": "pytorch-CycleGAN-and-pix2pix",
+        "amount_of_pyfiles": "36"
+    },
+    {
+        "project_name": "pytorch-image-models",
+        "amount_of_pyfiles": "191"
+    },
+    {
+        "project_name": "pytorch-lightning",
+        "amount_of_pyfiles": "449"
+    },
+    {
+        "project_name": "pytorch_geometric",
+        "amount_of_pyfiles": "712"
+    },
+    {
+        "project_name": "rasa",
+        "amount_of_pyfiles": "546"
+    },
+    {
+        "project_name": "Real-Time-Voice-Cloning",
+        "amount_of_pyfiles": "59"
+    },
+    {
+        "project_name": "redash",
+        "amount_of_pyfiles": "253"
+    },
+    {
+        "project_name": "requests",
+        "amount_of_pyfiles": "35"
+    },
+    {
+        "project_name": "requests-html",
+        "amount_of_pyfiles": "5"
+    },
+    {
+        "project_name": "rich",
+        "amount_of_pyfiles": "176"
+    },
+    {
+        "project_name": "saleor",
+        "amount_of_pyfiles": "0"
+    },
+    {
+        "project_name": "sanic",
+        "amount_of_pyfiles": "181"
+    },
+    {
+        "project_name": "scikit-learn",
+        "amount_of_pyfiles": "887"
+    },
+    {
+        "project_name": "scrapy",
+        "amount_of_pyfiles": "329"
+    },
+    {
+        "project_name": "sentry",
+        "amount_of_pyfiles": "3383"
+    },
+    {
+        "project_name": "sherlock",
+        "amount_of_pyfiles": "10"
+    },
+    {
+        "project_name": "spaCy",
+        "amount_of_pyfiles": "732"
+    },
+    {
+        "project_name": "speedtest-cli",
+        "amount_of_pyfiles": "3"
+    },
+    {
+        "project_name": "spleeter",
+        "amount_of_pyfiles": "29"
+    },
+    {
+        "project_name": "sqlmap",
+        "amount_of_pyfiles": "462"
+    },
+    {
+        "project_name": "superset",
+        "amount_of_pyfiles": "824"
+    },
+    {
+        "project_name": "tensor2tensor",
+        "amount_of_pyfiles": "452"
+    },
+    {
+        "project_name": "thefuck",
+        "amount_of_pyfiles": "411"
+    },
+    {
+        "project_name": "toml",
+        "amount_of_pyfiles": "1"
+    },
+    {
+        "project_name": "tornado",
+        "amount_of_pyfiles": "107"
+    },
+    {
+        "project_name": "tqdm",
+        "amount_of_pyfiles": "67"
+    },
+    {
+        "project_name": "twint",
+        "amount_of_pyfiles": "24"
+    },
+    {
+        "project_name": "ungoogled-chromium",
+        "amount_of_pyfiles": "34"
+    },
+    {
+        "project_name": "vision",
+        "amount_of_pyfiles": "266"
+    },
+    {
+        "project_name": "wagtail",
+        "amount_of_pyfiles": "1032"
+    },
+    {
+        "project_name": "wifiphisher",
+        "amount_of_pyfiles": "33"
+    },
+    {
+        "project_name": "wttr.in",
+        "amount_of_pyfiles": "27"
+    },
+    {
+        "project_name": "yapf",
+        "amount_of_pyfiles": "53"
+    },
+    {
+        "project_name": "yolov5",
+        "amount_of_pyfiles": "32"
+    },
+    {
+        "project_name": "you-get",
+        "amount_of_pyfiles": "138"
+    },
+    {
+        "project_name": "YouCompleteMe",
+        "amount_of_pyfiles": "54"
+    },
+    {
+        "project_name": "youtube-dl",
+        "amount_of_pyfiles": "871"
+    },
+    {
+        "project_name": "yt-dlp",
+        "amount_of_pyfiles": "977"
+    },
+    {
+        "project_name": "Zappa",
+        "amount_of_pyfiles": "37"
+    },
+    {
+        "project_name": "zipline",
+        "amount_of_pyfiles": "288"
+    },
+    {
+        "project_name": "zulip",
+        "amount_of_pyfiles": "1246"
+    }
+]
