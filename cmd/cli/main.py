@@ -52,10 +52,6 @@ def analyzing_git_repos():
     with open('./returns/files.json', 'w', encoding='utf-8') as f:
         json.dump(projectsReturn, f, ensure_ascii=False, indent=4)
 
-    #Creating json file
-    with open('./returns/files.json', 'w', encoding='utf-8') as f:
-        json.dump(projects_dict, f, ensure_ascii=False, indent=4)
-
     #Using pipreqs
     for p in projects:
         path = dir + '/' + p
@@ -74,7 +70,6 @@ def analyzing_git_repos():
     #Plotting top 10
     plot.plotTop10(ext_libs,'Top 10 Libs Ext','Ext')
     plot.plotTop10(std_libs,'Top 10 Libs Std','Std')
-    # escrever onde os arquivos foram gerados
 
 @pysniffer.command("analyzing_my_project")
 @click.option('--dir',
@@ -90,13 +85,11 @@ def analyzing_my_project(dir:str):
     #Counting files and getting projects list
     projects_dict,total = paths.get_projects(dir)
     projects = projects_dict.keys()
-    projectReturn = []
-    for lib in projects_dict.keys():
-        projectReturn.append({"name":f"{lib}","amount":f"{projects_dict[lib]}"})
-    #Creating json file
-    with open('./returns_my_project/files.json', 'w', encoding='utf-8') as f:
-        json.dump(projectReturn, f, ensure_ascii=False, indent=4)
-        
+    projectsReturn = []
+    for p in projects:
+        projectsReturn.append({"project_name":f"{p}","amount_of_pyfiles":f"{projects_dict[p]}"})
+    with open('./returns/files.json', 'w', encoding='utf-8') as f:
+        json.dump(projectsReturn, f, ensure_ascii=False, indent=4)        
 
     #Using pipreqs
     for p in projects:
