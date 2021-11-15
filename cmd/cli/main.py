@@ -90,10 +90,13 @@ def analyzing_my_project(dir:str):
     #Counting files and getting projects list
     projects_dict,total = paths.get_projects(dir)
     projects = projects_dict.keys()
-
+    projectReturn = []
+    for lib in projects_dict.keys():
+        projectReturn.append({"name":f"{lib}","amount":f"{projects_dict[lib]}"})
     #Creating json file
     with open('./returns_my_project/files.json', 'w', encoding='utf-8') as f:
-        json.dump(projects_dict, f, ensure_ascii=False, indent=4)
+        json.dump(projectReturn, f, ensure_ascii=False, indent=4)
+        
 
     #Using pipreqs
     for p in projects:
