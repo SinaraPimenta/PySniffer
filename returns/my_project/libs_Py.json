@@ -1,0 +1,26 @@
+[
+    {
+        "name": "abc",
+        "amount": "1"
+    },
+    {
+        "name": "__future__",
+        "amount": "1"
+    },
+    {
+        "name": "hashlib",
+        "amount": "1"
+    },
+    {
+        "name": "datetime",
+        "amount": "1"
+    },
+    {
+        "name": "os",
+        "amount": "1"
+    },
+    {
+        "name": "sys",
+        "amount": "1"
+    }
+]

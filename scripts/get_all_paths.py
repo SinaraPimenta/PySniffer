@@ -1,3 +1,4 @@
+import json
 import os
 from fnmatch import fnmatch
 
@@ -20,7 +21,12 @@ def get_projects(dirName):
         count = count_files(project_path)
         total += count
         projects_dict[p] = count
-    return projects_dict, total
 
-
-
+    #Creating json file
+    if 'my_repo' in dirName:
+        with open('./returns/my_project/files.json', 'w', encoding='utf-8') as f:
+            json.dump(projects_dict, f, ensure_ascii=False, indent=4)
+    else:
+        with open('./returns/all_projects/files.json', 'w', encoding='utf-8') as f:
+            json.dump(projects_dict, f, ensure_ascii=False, indent=4)
+    return projects_dict

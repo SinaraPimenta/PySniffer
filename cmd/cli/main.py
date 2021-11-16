@@ -2,10 +2,12 @@ import json
 import os
 import sys
 
-import app.get_all_paths as paths
-import app.list_libs as list
-import app.plot_top10 as plot
 import click
+import scripts.get_all_paths as paths
+import scripts.plot_top10 as plot
+from logs import log
+from scripts import list_libs
+from scripts.analyzing_my_repo import analyzing_libraries
 
 sys.path.append('.')
 
@@ -25,92 +27,70 @@ def download_git_repos():
 
 
 @pysniffer.command("run_all_tool")
-def download_git_repos():
+def run_all_tool():
     """Run tool in all projects"""
-    print("aqui")
     download = "sh download_repos.sh"
     os.system(download)
-    #run_tool = "python cmd/cli/main.py analyzing_repos"
-    #os.system(run_tool)
+    run_tool = "python cmd/cli/main.py analyzing_repos"
+    os.system(run_tool)
 
 
 @pysniffer.command("analyzing_repos")
 def analyzing_git_repos():
     """Generate projects statistics"""
-    dir = './downloaded_repos'
+    dir = './downloaded_repos/all_repos'
 
     print("##################################################################")
     print("              PySniffer - Generate Projects Statistics            ")
     print("##################################################################")
 
     #Counting files and getting projects list
-    projects_dict,total = paths.get_projects(dir)
+    projects_dict = paths.get_projects(dir)
     projects = projects_dict.keys()
-
-    #Creating json file
-    with open('./returns/files.json', 'w', encoding='utf-8') as f:
-        json.dump(projects_dict, f, ensure_ascii=False, indent=4)
 
     #Using pipreqs
     for p in projects:
         path = dir + '/' + p
         os.system(f'python pipreqs/pipreqs.py {path} --force')
 
-    #Reading requirements file and generating list
-    ext_libs,std_libs = list.list_projects_libs(dir, projects)
+    #Reading requirements file, generating list and save in a Json
+    list_libs.list_save_projects_libs(dir, projects)
 
-    #Creating json file
-    with open('./returns/libs.json', 'w', encoding='utf-8') as f:
-       json.dump(ext_libs, f, ensure_ascii=False, indent=4)
+    log('i','Returns were generated in returns/all_projects')
 
-    with open('./returns/libs_Py.json', 'w', encoding='utf-8') as f:
-       json.dump(std_libs, f, ensure_ascii=False, indent=4)
-
-    #Plotting top 10
-    plot.plotTop10(ext_libs,'Top 10 Libs Ext','Ext')
-    plot.plotTop10(std_libs,'Top 10 Libs Std','Std')
-    # escrever onde os arquivos foram gerados
 
 @pysniffer.command("analyzing_my_project")
-@click.option('--dir',
+@click.option('--link',
               type=click.STRING,
-              help='What is the directory of your project?')
-def analyzing_my_project(dir:str):
+              help="What is your project's github link?")
+def analyzing_my_project(link:str):
     """Generate statistics for my project"""
-
+    dir = './downloaded_repos/my_repo'
     print("##################################################################")
     print("              PySniffer - Generate My Project Statistics          ")
     print("##################################################################")
 
+    #download repo
+    #download = f"git -C {dir} clone {link} "
+    #os.system(download)
     #Counting files and getting projects list
-    projects_dict,total = paths.get_projects(dir)
+    projects_dict = paths.get_projects(dir)
     projects = projects_dict.keys()
-
-    #Creating json file
-    with open('./returns_my_project/files.json', 'w', encoding='utf-8') as f:
-        json.dump(projects_dict, f, ensure_ascii=False, indent=4)
 
     #Using pipreqs
     for p in projects:
         path = dir + '/' + p
         os.system(f'python pipreqs/pipreqs.py {path} --force')
 
-    #Reading requirements file and generating list
-    ext_libs,std_libs = list.list_projects_libs(dir, projects)
-
-    #Creating json file
-    with open('./returns_my_project/libs.json', 'w', encoding='utf-8') as f:
-       json.dump(ext_libs, f, ensure_ascii=False, indent=4)
-
-    with open('./returns_my_project/libs_Py.json', 'w', encoding='utf-8') as f:
-       json.dump(std_libs, f, ensure_ascii=False, indent=4)
+    #Reading requirements file, generating list and save in a Json
+    list_libs.list_save_projects_libs(dir, projects)
 
 
     #ANALIZAR SE AS BIBLIOTECAS DO PROJETO SE ENCONTRAM ENTRE AS MAIS USADAS
     #OFERECER RETORNO AO USUARIO DAS LIBS QUE APERECE E AS QUE NAO APARECEM ENTRE AS MAIS UTILIZADAS (DATAFRAME)
 
-    #
 
 
 if __name__ == "__main__":
-    pysniffer()
+    #pysniffer()
+    analyzing_libraries()

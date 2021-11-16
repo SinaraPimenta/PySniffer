@@ -1,14 +1,35 @@
 import json
 import os
 
+import scripts.plot_top10 as plot
+
 arr = []
 arr_py = []
 
-def list_projects_libs(dirName, projects):
+def list_save_projects_libs(dirName, projects):
     for p in projects:
         project_path = dirName+'/'+p
         read_requirements(project_path)
-    return count_libs()
+
+    ext_libs,std_libs = count_libs()
+
+    #Creating json file
+    if 'my_repo' in dirName:
+        with open('./returns/my_project/libs.json', 'w', encoding='utf-8') as f:
+            json.dump(ext_libs, f, ensure_ascii=False, indent=4)
+
+        with open('./returns/my_project/libs_Py.json', 'w', encoding='utf-8') as f:
+            json.dump(std_libs, f, ensure_ascii=False, indent=4)
+    else:
+        with open('./returns/all_projects/libs.json', 'w', encoding='utf-8') as f:
+            json.dump(ext_libs, f, ensure_ascii=False, indent=4)
+
+        with open('./returns/all_projects/libs_Py.json', 'w', encoding='utf-8') as f:
+            json.dump(std_libs, f, ensure_ascii=False, indent=4)
+
+        #Plotting top 10
+        plot.plotTop10(ext_libs,'Top 10 Libs Ext','Ext')
+        plot.plotTop10(std_libs,'Top 10 Libs Std','Std')
 
 def list_libs(dirName):
     read_requirements(dirName)
