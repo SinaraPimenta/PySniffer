@@ -9,8 +9,6 @@ from logs import log
 from scripts import list_libs
 from scripts.analyzing_my_repo import analyzing_libraries
 
-sys.path.append('.')
-
 
 @click.group()
 @click.version_option()
@@ -71,8 +69,8 @@ def analyzing_my_project(link:str):
     print("##################################################################")
 
     #download repo
-    #download = f"git -C {dir} clone {link} "
-    #os.system(download)
+    download = f"git -C {dir} clone {link} "
+    os.system(download)
     #Counting files and getting projects list
     projects_dict = paths.get_projects(dir)
     projects = projects_dict.keys()
@@ -92,5 +90,5 @@ def analyzing_my_project(link:str):
 
 
 if __name__ == "__main__":
-    #pysniffer()
-    analyzing_libraries()
+    pysniffer()
+    #analyzing_libraries()
