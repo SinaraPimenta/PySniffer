@@ -24,15 +24,6 @@ def download_git_repos():
     os.system(download)
 
 
-@pysniffer.command("run_all_tool")
-def run_all_tool():
-    """Run tool in all projects"""
-    download = "sh download_repos.sh"
-    os.system(download)
-    run_tool = "python cmd/cli/main.py analyzing_repos"
-    os.system(run_tool)
-
-
 @pysniffer.command("analyzing_repos")
 def analyzing_git_repos():
     """Generate projects statistics"""
@@ -45,7 +36,7 @@ def analyzing_git_repos():
     #Counting files and getting projects list
     projects_dict = paths.get_projects(dir)
     projects = projects_dict.keys()
-
+    #verificar se a pasta nao está vazia e se estiver fazer os downloads
     #Using pipreqs
     for p in projects:
         path = dir + '/' + p
@@ -54,7 +45,7 @@ def analyzing_git_repos():
     #Reading requirements file, generating list and save in a Json
     list_libs.list_save_projects_libs(dir, projects)
 
-    log('i','Returns were generated in returns/all_projects')
+    print('Returns were generated in returns/all_projects')
 
 
 @pysniffer.command("analyzing_my_project")
@@ -68,6 +59,7 @@ def analyzing_my_project(link:str):
     print("              PySniffer - Generate My Project Statistics          ")
     print("##################################################################")
 
+    print("\n1) COLLECTING DATA AND GENERATE RESULTS:")
     #download repo
     download = f"git -C {dir} clone {link} "
     os.system(download)
@@ -83,12 +75,12 @@ def analyzing_my_project(link:str):
     #Reading requirements file, generating list and save in a Json
     list_libs.list_save_projects_libs(dir, projects)
 
+    print('\nReturns were generated in returns/my_project')
 
-    #ANALIZAR SE AS BIBLIOTECAS DO PROJETO SE ENCONTRAM ENTRE AS MAIS USADAS
-    #OFERECER RETORNO AO USUARIO DAS LIBS QUE APERECE E AS QUE NAO APARECEM ENTRE AS MAIS UTILIZADAS (DATAFRAME)
-
+    #Analyze if the project libraries are among the most used
+    print("\n2) ANALYZING MY PROJECT")
+    analyzing_libraries()
 
 
 if __name__ == "__main__":
     pysniffer()
-    #analyzing_libraries()

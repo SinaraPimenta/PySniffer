@@ -84,10 +84,10 @@ def count_libs():
     print(f'{"Lib":<34}' + "  Count")
     for k, v in myDict.items():
         print(f'{k:<34}' + "  " + str(v))
-    print("Número de libs = " + str(len(myDict)))
+    print("Numero de libs = " + str(len(myDict)))
     print('\n')
     print(f'{"Lib":<34}' + "  Count")
     for k, v in myDictPy.items():
         print(f'{k:<34}' + "  " + str(v))
-    print("Número de libs python = " + str(len(myDictPy)))
+    print("Numero de libs python = " + str(len(myDictPy)))
     return myDictReturn,myDictPyReturn
