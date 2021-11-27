@@ -14,7 +14,7 @@ In addition, the tool is intended to allow the comparison of any* Python project
 This comparison is very interesting, once the developer can check and to question if the used packages are the best for a given task.  
 
 *Currently, the tool can only process projects written in Python 3. And these projects cannot contain syntax or indentation errors.
-In addition to these criteria, there is a restriction regardingthe search for modules. If the developer uses the module name in some file or folder, the module is disregarded by the pipreqs tool. Because the name of the modules themselves are the names of the .py scripts. 
+In addition to these criteria, there is a restriction regardingthe search for modules. If the developer uses the module name in some file or folder, the module is disregarded by the [pipreqs](https://github.com/bndr/pipreqs) tool. Because the name of the modules themselves are the names of the .py scripts. 
 
  ### 📊 Results
 <p align="center">
