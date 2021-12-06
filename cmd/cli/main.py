@@ -25,9 +25,8 @@ def download_git_repos():
 
 
 @pysniffer.command("analyzing_repos")
-def analyzing_git_repos():
-    """Generate projects statistics"""
-    dir = './downloaded_repos/all_repos'
+def analyzing_git_repos(dir = './downloaded_repos/all_repos'):
+    """Generate projects statistics"""    
 
     print("##################################################################")
     print("              PySniffer - Generate Projects Statistics            ")

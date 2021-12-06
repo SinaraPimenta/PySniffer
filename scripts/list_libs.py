@@ -31,10 +31,6 @@ def list_save_projects_libs(dirName, projects):
         plot.plotTop10(ext_libs,'Top 10 Libs Ext','Ext')
         plot.plotTop10(std_libs,'Top 10 Libs Std','Std')
 
-def list_libs(dirName):
-    read_requirements(dirName)
-    return arr
-
 def read_requirements(path):
     for filename in os.listdir(path):
         if filename == ("requirements.txt"):

@@ -29,7 +29,12 @@ def get_projects(dirName):
             projectsReturn.append({"project_name":f"{p}","amount_of_pyfiles":f"{projects_dict[p]}"})
         with open('./returns/my_project/files.json', 'w', encoding='utf-8') as f:
             json.dump(projectsReturn, f, ensure_ascii=False, indent=4)
-
+    if 'examples' in dirName:
+        projectsReturn = []
+        for p in projects_dict.keys():
+            projectsReturn.append({"project_name":f"{p}","amount_of_pyfiles":f"{projects_dict[p]}"})
+        with open('./test/returns/all_projects/files.json', 'w', encoding='utf-8') as f:
+            json.dump(projectsReturn, f, ensure_ascii=False, indent=4)
     else:
         projectsReturn = []
         for p in projects_dict.keys():

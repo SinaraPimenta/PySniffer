@@ -1,0 +1,14 @@
+[
+    {
+        "project_name": "repo1",
+        "amount_of_pyfiles": "3"
+    },
+    {
+        "project_name": "repo2",
+        "amount_of_pyfiles": "3"
+    },
+    {
+        "project_name": "repo3",
+        "amount_of_pyfiles": "2"
+    }
+]
