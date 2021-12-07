@@ -1,1 +1,50 @@
-[]
+[
+    {
+        "name": "math",
+        "amount": "3"
+    },
+    {
+        "name": "datetime",
+        "amount": "3"
+    },
+    {
+        "name": "re",
+        "amount": "3"
+    },
+    {
+        "name": "calendar",
+        "amount": "1"
+    },
+    {
+        "name": "http",
+        "amount": "1"
+    },
+    {
+        "name": "json",
+        "amount": "1"
+    },
+    {
+        "name": "email",
+        "amount": "1"
+    },
+    {
+        "name": "xml",
+        "amount": "1"
+    },
+    {
+        "name": "base64",
+        "amount": "1"
+    },
+    {
+        "name": "abc",
+        "amount": "1"
+    },
+    {
+        "name": "cmath",
+        "amount": "1"
+    },
+    {
+        "name": "os",
+        "amount": "1"
+    }
+]

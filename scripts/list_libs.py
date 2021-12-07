@@ -20,6 +20,18 @@ def list_save_projects_libs(dirName, projects):
 
         with open('./returns/my_project/libs_Py.json', 'w', encoding='utf-8') as f:
             json.dump(std_libs, f, ensure_ascii=False, indent=4)
+    elif 'my_example' in dirName:
+        with open('./test/returns/my_project/libs.json', 'w', encoding='utf-8') as f:
+            json.dump(ext_libs, f, ensure_ascii=False, indent=4)
+
+        with open('./test/returns/my_project/libs_Py.json', 'w', encoding='utf-8') as f:
+            json.dump(std_libs, f, ensure_ascii=False, indent=4)
+    elif 'examples' in dirName:
+        with open('./test/returns/all_projects/libs.json', 'w', encoding='utf-8') as f:
+            json.dump(ext_libs, f, ensure_ascii=False, indent=4)
+
+        with open('./test/returns/all_projects/libs_Py.json', 'w', encoding='utf-8') as f:
+            json.dump(std_libs, f, ensure_ascii=False, indent=4)
     else:
         with open('./returns/all_projects/libs.json', 'w', encoding='utf-8') as f:
             json.dump(ext_libs, f, ensure_ascii=False, indent=4)

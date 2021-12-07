@@ -1,1 +1,46 @@
-[]
+[
+    {
+        "name": "Flask",
+        "amount": "3"
+    },
+    {
+        "name": "numpy",
+        "amount": "3"
+    },
+    {
+        "name": "pygame",
+        "amount": "1"
+    },
+    {
+        "name": "pytest",
+        "amount": "3"
+    },
+    {
+        "name": "beautifulsoup4",
+        "amount": "1"
+    },
+    {
+        "name": "pandas",
+        "amount": "1"
+    },
+    {
+        "name": "redis",
+        "amount": "1"
+    },
+    {
+        "name": "Requests",
+        "amount": "1"
+    },
+    {
+        "name": "matplotlib",
+        "amount": "1"
+    },
+    {
+        "name": "pymongo",
+        "amount": "1"
+    },
+    {
+        "name": "scipy",
+        "amount": "1"
+    }
+]

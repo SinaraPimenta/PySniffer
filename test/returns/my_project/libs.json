@@ -1,0 +1,18 @@
+[
+    {
+        "name": "beautifulsoup4",
+        "amount": "1"
+    },
+    {
+        "name": "Flask",
+        "amount": "1"
+    },
+    {
+        "name": "jasmine",
+        "amount": "1"
+    },
+    {
+        "name": "Requests",
+        "amount": "1"
+    }
+]

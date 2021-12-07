@@ -1,20 +1,15 @@
 import unittest
 from unittest import TestCase
-import sys, os
 from scripts import get_all_paths as paths
 from scripts import list_libs as l
+import os
+from scripts import analyzing_my_repo as a
 
 DIR = './test/examples'
+DIR2 = './test/my_example'
 
 class AnalyzingReposTest(TestCase):  
 
-    #@classmethod
-    #def setUpClass(self): 
-        
-        #os.system(f'python pipreqs/pipreqs.py {DIR}/repo1 --force')    
-        #os.system(f'python pipreqs/pipreqs.py {DIR}/repo2 --force')   
-        #os.system(f'python pipreqs/pipreqs.py {DIR}/repo3 --force') 
-        # 
     def setUp(self):
         l.arr_py = []
         l.arr = []
@@ -43,6 +38,19 @@ class AnalyzingReposTest(TestCase):
         expected_py = [{'name': 'math', 'amount': '1'}, {'name': 'datetime', 'amount': '1'}, {'name': 're', 'amount': '1'}, {'name': 'calendar', 'amount': '1'}]  
         self.assertEqual(expected_py,myDictPyReturn)
         self.assertEqual(expected_ext,myDictReturn) 
+
+    def test_my_project(self):
+        res1,res2,res3,res4 = a.analyzing_libraries(dir1='./test/returns/my_project/libs.json' , dir2='./test/returns/all_projects/libs.json', 
+            dir3='./test/returns/my_project/libs_Py.json', dir4='./test/returns/all_projects/libs_Py.json')
+        expected1={'os', 're', 'math'}
+        expected2={'sys'}
+        expected3={'Requests', 'beautifulsoup4', 'Flask'}
+        expected4={'jasmine'}
+        self.assertEqual(expected1,res1)
+        self.assertEqual(expected2,res2) 
+        self.assertEqual(expected3,res3)
+        self.assertEqual(expected4,res4) 
+
 
 if __name__ =="__main__":
     unittest.main()
