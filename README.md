@@ -36,11 +36,6 @@ git clone https://github.com/SinaraPimenta/PySniffer.git
 
 ### 📋 Pre-Requisites
 - python3
-- Create two repositories inside Pysniffer with these structures:
-
-  downloaded_repos/all_repos
-  
-  downloaded_repos/my_project
 
 ### 🔧 Installing dependencies
 
