@@ -1,10 +1,10 @@
 [
     {
-        "name": "time",
+        "name": "sys",
         "amount": "1"
     },
     {
-        "name": "datetime",
+        "name": "abc",
         "amount": "1"
     },
     {
@@ -12,7 +12,15 @@
         "amount": "1"
     },
     {
-        "name": "random",
+        "name": "hashlib",
+        "amount": "1"
+    },
+    {
+        "name": "__future__",
+        "amount": "1"
+    },
+    {
+        "name": "datetime",
         "amount": "1"
     }
 ]
