@@ -36,9 +36,20 @@ git clone https://github.com/SinaraPimenta/PySniffer.git
 
 ### 📋 Pre-Requisites
 - python3
+- Create two repositories inside Pysniffer with these structures:
+
+  downloaded_repos/all_repos
+  
+  downloaded_repos/my_project
 
 ### 🔧 Installing dependencies
- To install the project dependencies it's necessary to type the command in terminal:
+
+ It is recommended to install the dependencies inside a virtualenv.
+ 
+ ```
+virtualenv venv 
+``` 
+ To install the project dependencies it's necessary, after activating virtualenv, to type the command in terminal:
 
 ```
 python setup.py develop 
@@ -60,12 +71,12 @@ python cmd/cli/main.py download_repos
 
 - analysing_repos: obtains which modules are the most used in the downloaded projects;
 ```
-python cmd/cli/main.py analysing_repos
+python cmd/cli/main.py analyzing_repos
 ```
 
 - analysing_my_project: compares the used modules from a given GitHub repository with the results obtained in the previous mode.
 ```
-python cmd/cli/main.py analysing_my_project --link https://github.com/{user}/{repository}.git
+python cmd/cli/main.py analyzing_my_project --link https://github.com/{user}/{repository}.git
 ```
 
 
