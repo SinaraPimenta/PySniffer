@@ -72,7 +72,7 @@ python cmd/cli/main.py analysing_my_project --link https://github.com/{user}/{re
 ## ✒️ Authors
 * **Luana Gribel Ito** - [Luana](https://github.com/luanagribel)
 * **Mariana Helena Inês Moreira** - [Mariana](https://github.com/Mariana-Helena)
-* **Sarah Brandão Souza** - [Sarah](https://github.com/SarahBrandao)
+* **Sarah Brandão** - [Sarah](https://github.com/SarahBrandao)
 * **Sinara Pimenta Medeiros** - [Sinara](https://github.com/SinaraPimenta)
 
 ## 👨‍🏫 Advisor
