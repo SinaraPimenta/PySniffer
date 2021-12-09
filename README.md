@@ -44,7 +44,7 @@ git clone https://github.com/SinaraPimenta/PySniffer.git
  ```
 virtualenv venv 
 ``` 
- To install the project dependencies it's necessary, after activating virtualenv, to type the command in terminal:
+ To install the project dependencies it's necessary, after activate virtualenv, to type the command in terminal:
 
 ```
 python setup.py develop 
