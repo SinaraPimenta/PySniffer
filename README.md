@@ -8,8 +8,8 @@
 
 The project was made for the Undergraduate Thesis on Computer Engineering of Instituto Nacional de Telecomunicações (INATEL).
 
- ### 🎯 Application purpose
-The purpose of the tool is to obtain scientific proof of information posted on blogs and websites about which Python modules/libraries are the most popular or which are the most used.
+ ### 🎯 Application Goal
+The goal of the tool is to extract the most used modules in Python projects hosted on GitHub. Afterwards we can compare this empirically obtained list with the information posted on blogs and websites about which Python modules/libraries are the most popular or which are the most used.
 In addition, the tool is intended to allow the comparison of any* Python project hosted on GitHub with the collected results.
 This comparison is very interesting, once the developer can check and to question if the used packages are the best for a given task.  
 
@@ -38,7 +38,13 @@ git clone https://github.com/SinaraPimenta/PySniffer.git
 - python3
 
 ### 🔧 Installing dependencies
- To install the project dependencies it's necessary to type the command in terminal:
+
+ It is recommended to install the dependencies inside a virtualenv.
+ 
+ ```
+virtualenv venv 
+``` 
+ To install the project dependencies it's necessary, after activating virtualenv, to type the command in terminal:
 
 ```
 python setup.py develop 
@@ -58,21 +64,21 @@ python cmd/cli/main.py [OPTIONS] COMMAND [ARGS]
 python cmd/cli/main.py download_repos
 ```
 
-- analysing_repos: obtains which modules are most used in the downloaded projects;
+- analysing_repos: obtains which modules are the most used in the downloaded projects;
 ```
-python cmd/cli/main.py analysing_repos
+python cmd/cli/main.py analyzing_repos
 ```
 
-- analysing_my_project: comparison from a GitHub repository with the results obtained in the previous mode.
+- analysing_my_project: compares the used modules from a given GitHub repository with the results obtained in the previous mode.
 ```
-python cmd/cli/main.py analysing_my_project --link https://github.com/{user}/{repository}.git
+python cmd/cli/main.py analyzing_my_project --link https://github.com/{user}/{repository}.git
 ```
 
 
 ## ✒️ Authors
 * **Luana Gribel Ito** - [Luana](https://github.com/luanagribel)
 * **Mariana Helena Inês Moreira** - [Mariana](https://github.com/Mariana-Helena)
-* **Sarah Brandão Souza** - [Sarah](https://github.com/SarahBrandao)
+* **Sarah Brandão** - [Sarah](https://github.com/SarahBrandao)
 * **Sinara Pimenta Medeiros** - [Sinara](https://github.com/SinaraPimenta)
 
 ## 👨‍🏫 Advisor

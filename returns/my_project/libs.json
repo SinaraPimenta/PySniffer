@@ -1,14 +1,22 @@
 [
     {
+        "name": "beautifulsoup4",
+        "amount": "1"
+    },
+    {
         "name": "Flask",
         "amount": "1"
     },
     {
-        "name": "paho_mqtt",
+        "name": "nose",
         "amount": "1"
     },
     {
         "name": "pymongo",
+        "amount": "1"
+    },
+    {
+        "name": "requests",
         "amount": "1"
     }
 ]

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p downloaded_repos/all_repos/
+mkdir -p downloaded_repos/my_repo/
 cd downloaded_repos/all_repos/
 
 echo ""
