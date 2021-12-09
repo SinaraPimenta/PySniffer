@@ -160,7 +160,7 @@ git clone https://github.com/kivy/kivy.git
 #Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth (13.6k stars)
 git clone https://github.com/facebook/prophet.git
 #Tool for automated Instagram interactions (13.4k stars)
-git clone https://github.com/timgrossmann/InstaPy.git
+git clone https://github.com/InstaPy/InstaPy.git
 #Package: Faker is a Python package that generates fake data for you (13.2k stars)
 git clone https://github.com/joke2k/faker.git
 #Project: A lightweight approach to removing Google web service dependency (13.2k stars)
